@@ -1,6 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+</head>
+
 <body>
-  <img alt="Book of Moon" src="card_images/Book of Moon.jpg"/>
+  <script type="text/javascript">
+    const common_cards = new Set(["Ballista Squad", "Black Brachios", "Book of Moon", "Breakthrough Skill", "Compulsory Evacuation Device", "Kelbek", "Mecha Phantom Beast Blackfalcon", "Miracle's Wake", "Poseidon Wave", "Tackle Crusader", "Winged Rhynos"]);
+    const rare_cards = new Set(["Dust Knight", "Giant Rat"]);
+    var drafted_cards = new Set([]);
+    var number_drafted = 0;
+
+    function get_random_pack(cardlist, n){
+      var pack_cards = [];
+      var common_cards_array = Array.from(common_cards);
+
+      for (i = 0; i < n; i++) {
+        var pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+        // Reroll the card if it's already in the pack.
+        while (pack_cards.includes(pack_card)) {
+          pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+        }
+        pack_cards.push(pack_card);
+      }
+
+      return pack_cards;
+    }
+
+    function display_card_image(cardname, draft=false){
+      var x = document.createElement("IMG");
+      x.setAttribute("src", "card_images/".concat(cardname).concat(".jpg"));
+      x.setAttribute("alt", cardname);
+      x.setAttribute("height", 312);
+      x.setAttribute("width", 210);
+      if (draft) {
+        x.setAttribute("class", "pack")
+        x.setAttribute("onclick", "draft('".concat(cardname).concat("')"));
+        document.body.insertBefore(x, document.getElementById("break"));
+      }
+      else {
+        document.body.appendChild(x);
+      }
+    }
+
+    function draft(cardname){
+      // Update number of cards drafted
+      number_drafted++;
+      document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/40)")
+
+      drafted_cards.add(cardname);
+      display_card_image(cardname);
+
+      for (pack_card_img of document.getElementsByClassName("pack")) {
+        pack_card_img.setAttribute("hidden", "");
+      }
+
+
+      if (number_drafted < 40) {
+        for (pack_card of get_random_pack(common_cards, 3)) {
+        display_card_image(pack_card, true);
+        }
+      }
+    }
+
+    function download_ydk(decklist){
+      var ydk = "#created by ...\n#main"
+      for (card of decklist) {
+
+      }
+    }
+
+    for (pack_card of get_random_pack(common_cards, 3)) {
+        display_card_image(pack_card, true);
+    }
+
+  </script>
+  <br id="break"></br>
+  <h1 id="deckHeader">Drafted Cards (0/40)</h1>
+
 </body>
+
 </html>
