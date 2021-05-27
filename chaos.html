@@ -12,32 +12,50 @@
       async: false
     });
 
-    const set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders", "magic_ruler", "pharaohs_servant", "labyrinth_of_nightmare", "legacy_of_darkness", "pharaonic_guardian", "magicians_force", "dark_crisis", "invasion_of_chaos", "ancient_sanctuary", "soul_of_the_duelist", "rise_of_destiny", "flaming_eternity"];
+    const set_list =  ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex"];
     var drafted_cards = new Set();
     var number_drafted = 0;
 
-    function get_pack(setname, n){
+    function get_pack(setname, _){
       var setlist = new Array();
+      //var raritylist = new Array();
+      var common_setlist = new Array();
+      var rare_setlist = new Array();
       var set_json;
-      $.getJSON("https://ek488.github.io/ygo_limited/set_jsons/".concat(setname).concat(".json"), function(set) {
+
+      // Change the name to match the format of filenames in /set_jsons/
+      var formatted_setname = setname.toLowerCase().replaceAll(' ', '_').replaceAll("'", "").replaceAll(":", "");
+
+      $.getJSON("https://ek488.github.io/ygo_limited/set_jsons/".concat(formatted_setname).concat(".json"), function(set) {
         set_json = set;
       });
 
       for (card in set_json.data) {
-        setlist.push(set_json.data[card].id);
-      }
-
-      var pack_cards = [];
-        for (i = 0; i < n; i++) {
-          var pack_card = setlist[Math.floor(Math.random() * setlist.length)];
-          // Reroll the card if it's already in the pack.
-          while (pack_cards.includes(pack_card)) {
-            pack_card = setlist[Math.floor(Math.random() * setlist.length)];
+        //setlist.push(set_json.data[card].id);
+        for (s in set_json.data[card].card_sets) {
+          if (set_json.data[card].card_sets[s].set_name == setname) {
+            if (set_json.data[card].card_sets[s].set_rarity == "Common") {
+              common_setlist.push(set_json.data[card].id);
+            }
+            else if (set_json.data[card].card_sets[s].set_rarity == "Rare") {
+              rare_setlist.push(set_json.data[card].id);
+            }
           }
-          pack_cards.push(pack_card);
         }
-        console.log(pack_cards);
-        return pack_cards;
+      }
+      var pack_cards = [];
+      for (i = 0; i < 8; i++) {
+        var pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
+        // Reroll the card if it's already in the pack.
+        while (pack_cards.includes(pack_card)) {
+          pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
+        }
+        pack_cards.push(pack_card);
+      }
+      pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+      //console.log(pack_cards);
+
+      return pack_cards;
     }
 
     function display_card_image(id, draft=false){
