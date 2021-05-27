@@ -3,34 +3,41 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
   <script type="text/javascript">
-    set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders"]
-    var drafted_cards = new Set([]);
+    $.ajaxSetup({
+      async: false
+    });
+
+    const set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders", "magic_ruler", "pharaohs_servant", "labyrinth_of_nightmare", "legacy_of_darkness", "pharaonic_guardian", "magicians_force", "dark_crisis", "invasion_of_chaos", "ancient_sanctuary", "soul_of_the_duelist", "rise_of_destiny", "flaming_eternity"];
+    var drafted_cards = new Set();
     var number_drafted = 0;
 
-    function get_pack(set, n){
-      var cardlist = [];
-      fetch("https://ek488.github.io/ygo_limited/set_jsons/legend_of_blue_eyes_white_dragon.json")
-      .then(response => response.json())
-      .then(data => {for (const card of data.data) {cardlist.push(card.id);}});
-      
-      var pack_cards = [];
-      for (i = 0; i < n; i++) {
-        console.log(cardlist);
-        console.log(cardlist.length);
-        var pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
-        console.log(pack_card);
-        // Reroll the card if it's already in the pack.
-        //while (pack_cards.includes(pack_card)) {
-          //pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
-        //}
-        pack_cards.push(pack_card);
+    function get_pack(setname, n){
+      var setlist = new Array();
+      var set_json;
+      $.getJSON("https://ek488.github.io/ygo_limited/set_jsons/".concat(setname).concat(".json"), function(set) {
+        set_json = set;
+      });
+
+      for (card in set_json.data) {
+        setlist.push(set_json.data[card].id);
       }
 
-      return pack_cards;
+      var pack_cards = [];
+        for (i = 0; i < n; i++) {
+          var pack_card = setlist[Math.floor(Math.random() * setlist.length)];
+          // Reroll the card if it's already in the pack.
+          while (pack_cards.includes(pack_card)) {
+            pack_card = setlist[Math.floor(Math.random() * setlist.length)];
+          }
+          pack_cards.push(pack_card);
+        }
+        console.log(pack_cards);
+        return pack_cards;
     }
 
     function display_card_image(id, draft=false){
@@ -52,7 +59,7 @@
     function draft(id){
       // Update number of cards drafted
       number_drafted++;
-      document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/40)")
+      document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/87)")
 
       drafted_cards.add(id);
       display_card_image(id);
@@ -61,23 +68,17 @@
         pack_card_img.setAttribute("hidden", "");
       }
 
-
       if (number_drafted < 87) {
-        for (set of set_list) {
-          pack_cards = get_pack(set, 9)
+        pack_cards = get_pack(set_list[number_drafted], 9);
           for (pack_card of pack_cards) {
             display_card_image(pack_card, true);
           }
-        }
       }
-    }
+    };
 
-    //const json = require("set_jsons/legend_of_blue_eyes_white_dragon.json");
-    //console.log(json);
-
-    pack_cards = get_pack(set_list[number_drafted], 9)
-      for (pack_card of pack_cards) {
-        display_card_image(pack_card, true);
+    var pack_cards = get_pack(set_list[number_drafted], 9);
+    for (pack_card of pack_cards) {
+      display_card_image(pack_card, true);
     }
 
   </script>
