@@ -7,21 +7,25 @@
 
 <body>
   <script type="text/javascript">
-    var json = require("set_jsons/legend_of_blue_eyes_white_dragon.json");
-    const set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders"]
-    var drafted_cards = new Set([]);
+    set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders"]
     var number_drafted = 0;
 
-    function get_pack(cardlist, n){
+    function get_pack(set, n){
+      var cardlist = [];
+      fetch("https://ek488.github.io/ygo_limited/set_jsons/metal_raiders.json")
+      .then(response => response.json())
+      .then(data => {
+          for (const card of data.data) {
+              cardlist.push(card.id);
+            }
+        });
+
       var pack_cards = [];
-
-      var common_cards_array = Array.from(common_cards);
-
       for (i = 0; i < n; i++) {
-        var pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+        var pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
         // Reroll the card if it's already in the pack.
         while (pack_cards.includes(pack_card)) {
-          pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+          pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
         }
         pack_cards.push(pack_card);
       }
@@ -29,15 +33,15 @@
       return pack_cards;
     }
 
-    function display_card_image(cardname, draft=false){
+    function display_card_image(id, draft=false){
       var x = document.createElement("IMG");
-      x.setAttribute("src", "card_images/".concat(cardname).concat(".jpg"));
-      x.setAttribute("alt", cardname);
+      x.setAttribute("src", "card_images/".concat(id).concat(".jpg"));
+      x.setAttribute("alt", id);
       x.setAttribute("height", 312);
       x.setAttribute("width", 210);
       if (draft) {
         x.setAttribute("class", "pack")
-        x.setAttribute("onclick", "draft('".concat(cardname).concat("')"));
+        x.setAttribute("onclick", "draft('".concat(id).concat("')"));
         document.body.insertBefore(x, document.getElementById("break"));
       }
       else {
@@ -45,13 +49,13 @@
       }
     }
 
-    function draft(cardname){
+    function draft(id){
       // Update number of cards drafted
       number_drafted++;
       document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/40)")
 
-      drafted_cards.add(cardname);
-      display_card_image(cardname);
+      drafted_cards.add(id);
+      display_card_image(id);
 
       for (pack_card_img of document.getElementsByClassName("pack")) {
         pack_card_img.setAttribute("hidden", "");
@@ -59,17 +63,27 @@
 
 
       if (number_drafted < 87) {
-        for (pack_card of get_pack(common_cards, 9)) {
-        display_card_image(pack_card, true);
+        for (set of set_list) {
+          pack_cards = get_pack(set, 9)
+          for (pack_card of pack_cards) {
+            display_card_image(pack_card, true);
+          }
         }
       }
     }
 
-    for (set of get_pack(set_list[number_drafted], 9)) {
-        display_card_image(pack_card, true);
+    //const json = require("set_jsons/legend_of_blue_eyes_white_dragon.json");
+    //console.log(json);
+
+    for (set of set_list) {
+        pack_cards = get_pack(set, 9)
+        for (pack_card of pack_cards) {
+            display_card_image(pack_card, true);
+        }
     }
 
   </script>
+  
   <br id="break"></br>
   <h1 id="deckHeader">Drafted Cards (0/87)</h1>
 

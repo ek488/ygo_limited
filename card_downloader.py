@@ -58,16 +58,4 @@ def download_img_from_id(card_id):
     #for cardname in cardname_set:
         #download_json(cardname)
 
-def download_set_card_images(set_name):
-    set_json = json.load(open(set_name))
-    
-    for card in set_json["data"]:
-        download_img_from_id(card["id"])
-
-download_set_card_images("set_jsons/legend_of_blue_eyes_white_dragon.json")
-
-#download_set_card_images("set_jsons/metal_raiders.json")
-
-set_list = {"legend_of_blue_eyes_white_dragon", "metal_raiders", "magic_ruler", "pharaohs_servant", "labyrinth_of_nightmare", "legacy_of_darkness", "pharaonic_guardian", "magicians_force", "dark_crisis", "invasion_of_chaos", "ancient_sanctuary", "soul_of_the_duelist", "rise_of_destiny", "flaming_eternity"}
-
 #download_imgs(custom_cardname_set)
