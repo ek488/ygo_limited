@@ -16,7 +16,8 @@
       .then(response => response.json())
       .then(data => {
           for (const card of data.data) {
-              cardlist.push(card.id);
+              console.log(card.id)
+              //cardlist.push(card.id);
             }
         });
 
