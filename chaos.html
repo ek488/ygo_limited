@@ -8,26 +8,25 @@
 <body>
   <script type="text/javascript">
     set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders"]
+    var drafted_cards = new Set([]);
     var number_drafted = 0;
 
     function get_pack(set, n){
       var cardlist = [];
-      fetch("https://ek488.github.io/ygo_limited/set_jsons/metal_raiders.json")
+      fetch("https://ek488.github.io/ygo_limited/set_jsons/legend_of_blue_eyes_white_dragon.json")
       .then(response => response.json())
-      .then(data => {
-          for (const card of data.data) {
-              console.log(card.id)
-              //cardlist.push(card.id);
-            }
-        });
-
+      .then(data => {for (const card of data.data) {cardlist.push(card.id);}});
+      
       var pack_cards = [];
       for (i = 0; i < n; i++) {
+        console.log(cardlist);
+        console.log(cardlist.length);
         var pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
+        console.log(pack_card);
         // Reroll the card if it's already in the pack.
-        while (pack_cards.includes(pack_card)) {
-          pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
-        }
+        //while (pack_cards.includes(pack_card)) {
+          //pack_card = cardlist[Math.floor(Math.random() * cardlist.length)];
+        //}
         pack_cards.push(pack_card);
       }
 
@@ -76,11 +75,9 @@
     //const json = require("set_jsons/legend_of_blue_eyes_white_dragon.json");
     //console.log(json);
 
-    for (set of set_list) {
-        pack_cards = get_pack(set, 9)
-        for (pack_card of pack_cards) {
-            display_card_image(pack_card, true);
-        }
+    pack_cards = get_pack(set_list[number_drafted], 9)
+      for (pack_card of pack_cards) {
+        display_card_image(pack_card, true);
     }
 
   </script>
