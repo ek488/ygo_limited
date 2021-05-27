@@ -7,14 +7,14 @@
 
 <body>
   <script type="text/javascript">
-    const common_cards = new Set(["Ballista Squad", "Black Brachios", "Book of Moon", "Breakthrough Skill", "Compulsory Evacuation Device", "Kelbek", "Mecha Phantom Beast Blackfalcon", //"Miracle's Wake", 
-    "Poseidon Wave", "Tackle Crusader", "Winged Rhynos"]);
-    const rare_cards = new Set(["Dust Knight", "Giant Rat"]);
+    var json = require("set_jsons/legend_of_blue_eyes_white_dragon.json");
+    const set_list = ["legend_of_blue_eyes_white_dragon", "metal_raiders"]
     var drafted_cards = new Set([]);
     var number_drafted = 0;
 
-    function get_random_pack(cardlist, n){
+    function get_pack(cardlist, n){
       var pack_cards = [];
+
       var common_cards_array = Array.from(common_cards);
 
       for (i = 0; i < n; i++) {
@@ -31,7 +31,7 @@
 
     function display_card_image(cardname, draft=false){
       var x = document.createElement("IMG");
-      x.setAttribute("src", "old_card_images/".concat(cardname).concat(".jpg"));
+      x.setAttribute("src", "card_images/".concat(cardname).concat(".jpg"));
       x.setAttribute("alt", cardname);
       x.setAttribute("height", 312);
       x.setAttribute("width", 210);
@@ -58,24 +58,20 @@
       }
 
 
-      if (number_drafted < 40) {
-        for (pack_card of get_random_pack(common_cards, 3)) {
+      if (number_drafted < 87) {
+        for (pack_card of get_pack(common_cards, 9)) {
         display_card_image(pack_card, true);
         }
       }
     }
 
-    function download_ydk(decklist){
-      var ydk = "#created by ...\n#main"
-    }
-
-    for (pack_card of get_random_pack(common_cards, 3)) {
+    for (set of get_pack(set_list[number_drafted], 9)) {
         display_card_image(pack_card, true);
     }
 
   </script>
   <br id="break"></br>
-  <h1 id="deckHeader">Drafted Cards (0/40)</h1>
+  <h1 id="deckHeader">Drafted Cards (0/87)</h1>
 
 </body>
 
