@@ -163,7 +163,9 @@
         document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/78)")
 
         drafted_cards.add(chosen_card);
+        chosen_card = null;
         display_card_image(chosen_id);
+        chosen_id = null;
 
         for (pack_card_img of document.getElementsByClassName("pack")) {
           pack_card_img.setAttribute("hidden", "");
@@ -209,7 +211,7 @@
   </script>
   
   <br id="break"></br> <!-- Separates the pack and the drafted cards. -->
-  <button type="button" onclick="draft()">Draft Selected Card</button>
+  <button id="draftbutton" type="button" onclick="draft()">Draft Selected Card</button>
   <h1 id="deckHeader">Drafted Cards (0/78)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
