@@ -12,40 +12,89 @@
       async: false
     });
 
-    const set_list =  ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex"];
+    const sets =  ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex"];
+    //const rarities = new Set(["Common", "Rare", "Super Rare", "Ultra Rare,", "Secret Rare"])
     var drafted_cards = new Set();
     var number_drafted = 0;
+    var chosen_id = null;
+    var chosen_card = null;
+    var cards_in_pack = new Array();
 
-    function get_pack(setname, _){
+    class YGO_Card {
+      constructor(cardname, id, rarity, set, code, isExtra) {
+        this.cardname = cardname;
+        this.id = id;
+        this.rarity = rarity;
+        this.set = set;
+        this.code = code;
+        this.isExtra = isExtra;
+      }
+      // TODO
+      //get id() {
+        //return this.id;
+      //}
+    }
+
+    // TODO: address tokens
+    function get_setlist(setname, rarity){
       var setlist = new Array();
-      //var raritylist = new Array();
-      var common_setlist = new Array();
-      var rare_setlist = new Array();
-      var set_json;
 
-      // Change the name to match the format of filenames in /set_jsons/
+      // Change the name to match the format of filenames in the folder "set_jsons"
       var formatted_setname = setname.toLowerCase().replaceAll(' ', '_').replaceAll("'", "").replaceAll(":", "");
 
-      $.getJSON("https://ek488.github.io/ygo_limited/set_jsons/".concat(formatted_setname).concat(".json"), function(set) {
-        set_json = set;
-      });
+      try {
+        var set_json;
+        // TODO: uncomment when github.io updates
+        //var json_link = "https://ek488.github.io/ygo_limited/set_jsons/".concat(setname).concat("_").concat(rarity).concat(".json");
+        var json_link = "https://raw.githubusercontent.com/ek488/ygo_limited/main/set_jsons/".concat(formatted_setname).concat("_").concat(rarity).concat(".json");
+        $.getJSON(json_link, function(data) {
+          set_json = data;
+        });
 
-      for (card in set_json.data) {
-        //setlist.push(set_json.data[card].id);
-        for (s in set_json.data[card].card_sets) {
-          if (set_json.data[card].card_sets[s].set_name == setname) {
-            if (set_json.data[card].card_sets[s].set_rarity == "Common") {
-              common_setlist.push(set_json.data[card].id);
-            }
-            else if (set_json.data[card].card_sets[s].set_rarity == "Rare") {
-              rare_setlist.push(set_json.data[card].id);
+        for (card in set_json.data) {
+          var code;
+          var sjd = set_json.data[card];
+          var isExtra = false;
+          if (sjd.type == "Fusion Monster" || sjd.type == "Synchro Monster" || sjd.type == "Synchro Tuner Monster" || sjd.type == "Synchro Pendulum Effect Monster" || sjd.type == "XYZ Monster" || sjd.type == "XYZ Pendulum Effect Monster" || sjd.type == "Link Monster" || sjd.type == "Pendulum Effect Fusion Monster") {
+            isExtra = true;
+          }
+          for (s in sjd.card_sets) {
+            if (sjd.card_sets[s].set_name == setname) {
+              code = sjd.card_sets[s].set_code;
             }
           }
+          var ygo_card = new YGO_Card(sjd.name, sjd.id, rarity.toUpperCase().replaceAll("_", " "), setname, code, isExtra);
+          setlist.push(ygo_card);
         }
       }
+      // If the set has no cards of this rarity, return null.
+      catch (_) {
+        setlist = null;
+      }
+
+      return setlist;
+    }
+
+    // TODO: Change _ argument to n, where n is # of cards in pack
+    function get_pack(setname, _){
+      var setlist = new Array();
+
+      // TODO: generalize
+      var common_setlist = get_setlist(setname, "common");
+      var short_print_setlist = get_setlist(setname, "short_print");
+      var super_short_print_setlist = get_setlist(setname, "super_short_print");
+      var rare_setlist = get_setlist(setname, "rare");
+      var super_setlist = get_setlist(setname, "super_rare");
+      var ultra_setlist = get_setlist(setname, "ultra_rare");
+      var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+      var secret_setlist = get_setlist(setname, "secret_rare");
+      var secret_setlist = get_setlist(setname, "ghost_rare");
+      var starlight_setlist = get_setlist(setname, "starlight_rare");
+
       var pack_cards = [];
       for (i = 0; i < 8; i++) {
         var pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
+
         // Reroll the card if it's already in the pack.
         while (pack_cards.includes(pack_card)) {
           pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
@@ -53,56 +102,117 @@
         pack_cards.push(pack_card);
       }
       pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
-      //console.log(pack_cards);
 
       return pack_cards;
     }
 
-    function display_card_image(id, draft=false){
+    function display_card_image(id, is_pack_card=false){
       var x = document.createElement("IMG");
       x.setAttribute("src", "card_images/".concat(id).concat(".jpg"));
       x.setAttribute("alt", id);
-      x.setAttribute("height", 312);
-      x.setAttribute("width", 210);
-      if (draft) {
-        x.setAttribute("class", "pack")
-        x.setAttribute("onclick", "draft('".concat(id).concat("')"));
+      if (is_pack_card) {
+        x.setAttribute("height", 312);
+        x.setAttribute("width", 210);
+        x.setAttribute("class", "pack");
+        x.setAttribute("id", id);
+        x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("')"));
         document.body.insertBefore(x, document.getElementById("break"));
       }
       else {
-        document.body.appendChild(x);
+        x.setAttribute("height", 156);
+        x.setAttribute("width", 105);
+        document.body.insertBefore(x, document.getElementById("download_break"));
       }
     }
 
-    function draft(id){
-      // Update number of cards drafted
-      number_drafted++;
-      document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/87)")
-
-      drafted_cards.add(id);
-      display_card_image(id);
-
+    // Show a border around the last selected card in the pack.
+    // TODO: have border cover image
+    function choose_card(id){
+      // Remove the border from all cards in the pack.
       for (pack_card_img of document.getElementsByClassName("pack")) {
-        pack_card_img.setAttribute("hidden", "");
+        pack_card_img.style.border = "0px";
+        pack_card_img.style.height = "312px";
+        pack_card_img.style.width = "210px";
       }
 
-      if (number_drafted < 87) {
-        pack_cards = get_pack(set_list[number_drafted], 9);
-          for (pack_card of pack_cards) {
-            display_card_image(pack_card, true);
+      // TODO: remove chosen_id, replace with chosen_card.id
+      // If the clicked card had a border already, don't add a border.
+      if (chosen_id != id) {
+        chosen_id = id;
+        for (card in cards_in_pack) {
+          if (cards_in_pack[card].id == id) {
+            chosen_card = cards_in_pack[card];
           }
+        }
+
+        document.getElementById(id).style.border = "8px solid green";
+        document.getElementById(id).style.height = "296px";
+        document.getElementById(id).style.width = "194px";
       }
+      else {
+        chosen_id = null;
+        chosen_card = null;
+      } 
+    }
+
+    // TODO: change hidden to display: none
+    function draft(){
+      if (chosen_id != null) {
+        // Update number of cards drafted
+        number_drafted++;
+        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/78)")
+
+        drafted_cards.add(chosen_card);
+        display_card_image(chosen_id);
+
+        for (pack_card_img of document.getElementsByClassName("pack")) {
+          pack_card_img.setAttribute("hidden", "");
+        }
+
+        if (number_drafted < 78) {
+          cards_in_pack = get_pack(sets[number_drafted], 9);
+          for (pack_card of cards_in_pack) {
+            display_card_image(pack_card.id, true);
+          }
+        }
+      }
+    }
+    
+    function download_ydk(){
+      var deck_cards = Array.from(drafted_cards);
+      var ydk = "#created by ...\n#main"
+      var extra = ""
+
+      for (card in deck_cards) {
+        if (!deck_cards[card].isExtra) {
+          ydk = ydk.concat("\n").concat(deck_cards[card].id);
+        }
+        else {
+          extra = extra.concat("\n").concat(deck_cards[card].id);
+        }
+      }
+      var text = ydk.concat("\n#extra").concat(extra);
+
+      var ydk_download = document.createElement("a");
+      ydk_download.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
+      ydk_download.setAttribute('download', "chaos.ydk")
+      ydk_download.style.display = 'none';
+      document.body.appendChild(ydk_download);
+
+      ydk_download.click();
     };
 
-    var pack_cards = get_pack(set_list[number_drafted], 9);
-    for (pack_card of pack_cards) {
-      display_card_image(pack_card, true);
+    cards_in_pack = get_pack(sets[number_drafted], 9);
+    for (pack_card of cards_in_pack) {
+      display_card_image(pack_card.id, true);
     }
-
   </script>
   
-  <br id="break"></br>
-  <h1 id="deckHeader">Drafted Cards (0/87)</h1>
+  <br id="break"></br> <!-- Separates the pack and the drafted cards. -->
+  <button type="button" onclick="draft()">Draft Selected Card</button>
+  <h1 id="deckHeader">Drafted Cards (0/78)</h1>
+  <br id="download_break"></br>
+  <button type="button" onclick="download_ydk()">Download .ydk file</button>
 
 </body>
 

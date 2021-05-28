@@ -19,5 +19,3 @@ set_set = {"legend_of_blue_eyes_white_dragon", "metal_raiders", "magic_ruler", "
 
 for set in set_set:
     download_set_card_images("set_jsons/" + set + ".json")
-
-#download_set_card_images("set_jsons/magic_ruler.json")
