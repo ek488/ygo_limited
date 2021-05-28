@@ -107,9 +107,7 @@
       
       var pos = sets.indexOf(setname);
       
-      // booster_pack_old
-      if (pos <= 22) {
-        var common_setlist = get_setlist(setname, "common");
+      var common_setlist = get_setlist(setname, "common");
         var short_print_setlist = get_setlist(setname, "short_print");
         var super_short_print_setlist = get_setlist(setname, "super_short_print");
         var temp_common_setlist = common_setlist;
@@ -120,7 +118,8 @@
           temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
         }
 
-
+      // booster_pack_old
+      if (pos <= 22) {
         r = Math.floor(Math.random() * 1380) + 1;
         // TODO: generalize
         if (r <= 929) {
@@ -174,19 +173,223 @@
         }
         return pack_cards;
       }
+      // booster_pack_old_with_ghost_rare
       else if (pos >= 23 && pos <= 56) {
-        // booster_pack_old_with_ghost_rare
+        r = Math.floor(Math.random() * 1380) + 1;
+        // TODO: generalize
+        if (r <= 924) {
+          console.log("8 commons, 1 rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+        }
+        else if (r >= 925 && r <= 1200) {
+          console.log("7 commons, 1 rare, 1 super rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "super_rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 1201 && r <= 1315) {
+          console.log("7 commons, 1 rare, 1 ultra rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "ultra_rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+        }
+        else if (r >= 1316 && r <= 1375) {
+          console.log("7 commons, 1 rare, 1 secret or ultimate rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Secret or Ultimate Rare
+          var secret_setlist = get_setlist(setname, "secret_rare");
+          var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+          var sr_ur_setlist = new Array();
+          if (secret_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+          }
+          if (ultimate_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+          }
+          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+        }
+        else {
+          console.log("7 commons, 1 rare, 1 ghost rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Ghost Rare
+          var ghost_setlist = get_setlist(setname, "ghost_rare");
+          pack_cards.push(ghost_setlist[Math.floor(Math.random() * ghost_setlist.length)]);
+        }
+        return pack_cards;
       }
+      // booster_pack
       else if (pos >= 57 && pos <= 70) {
-        // booster_pack
+        r = Math.floor(Math.random() * 576) + 1;
+        // TODO: generalize
+        if (r <= 432) {
+          console.log("7 commons, 1 rare, 1 super rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "super_rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 10 && r <= 11) {
+          console.log("7 commons, 1 rare, 1 ultra rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "ultra_rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+        }
+        else {
+          console.log("7 commons, 1 rare, 1 secret or ultimate rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Secret or Ultimate Rare
+          var secret_setlist = get_setlist(setname, "secret_rare");
+          var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+          var sr_ur_setlist = new Array();
+          if (secret_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+          }
+          if (ultimate_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+          }
+          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+        }
+        return pack_cards;
       }
+      // booster_pack_with_starlight_rare
       else if (pos >= 71 && pos <= 73) {
-        // booster_pack_with_starlight_rare
+        r = Math.floor(Math.random() * 576) + 1;
+        // TODO: generalize
+        if (r <= 432) {
+          console.log("7 commons, 1 rare, 1 super rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "super_rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 433 && r <= 528) {
+          console.log("7 commons, 1 rare, 1 ultra rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "ultra_rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+        }
+        else if (r >= 529 && r <= 575) {
+          console.log("7 commons, 1 rare, 1 secret or ultimate rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Secret or Ultimate Rare
+          var secret_setlist = get_setlist(setname, "secret_rare");
+          var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+          var sr_ur_setlist = new Array();
+          if (secret_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+          }
+          if (ultimate_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+          }
+          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+        }
+        else {
+          console.log("7 commons, 1 rare, 1 starlight rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Starlight Rare
+          var starlight_setlist = get_setlist(setname, "starlight_rare");
+          pack_cards.push(starlight_setlist[Math.floor(Math.random() * starlight_setlist.length)]);
+        }
+        return pack_cards;
       }
+      // booster_pack_without_rare_with_starlight_rare
       else { //if (pos >= 74 && pos <= 77) {
-        // booster_pack_without_rare_with_starlight_rare
+        r = Math.floor(Math.random() * 576) + 1;
+        // TODO: generalize
+        if (r <= 432) {
+          console.log("8 commons, 1 super rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "super_rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 433 && r <= 528) {
+          console.log("8 commons, 1 ultra rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "ultra_rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+        }
+        else if (r >= 529 && r <= 575) {
+          console.log("8 commons, 1 secret or ultimate rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Secret or Ultimate Rare
+          var secret_setlist = get_setlist(setname, "secret_rare");
+          var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+          var sr_ur_setlist = new Array();
+          if (secret_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+          }
+          if (ultimate_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+          }
+          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+        }
+        else {
+          console.log("8 commons, 1 starlight rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Starlight Rare
+          var starlight_setlist = get_setlist(setname, "starlight_rare");
+          pack_cards.push(starlight_setlist[Math.floor(Math.random() * starlight_setlist.length)]);
+        }
+        return pack_cards;
       }
-
       return pack_cards;
     }
 
