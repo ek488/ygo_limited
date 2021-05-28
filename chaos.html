@@ -38,6 +38,7 @@
     // TODO: address tokens
     function get_setlist(setname, rarity){
       var setlist = new Array();
+      var total_weight;
 
       // Change the name to match the format of filenames in the folder "set_jsons"
       var formatted_setname = setname.toLowerCase().replaceAll(' ', '_').replaceAll("'", "").replaceAll(":", "");
@@ -75,33 +76,116 @@
       return setlist;
     }
 
+    function get_commons(common_setlist, n){
+      var pack_cards = new Array();
+      for (i = 0; i < n; i++) {
+        temp = Math.floor(Math.random() * common_setlist.length);
+        console.log(temp);
+        pack_card = common_setlist[temp];
+        console.log(pack_card);
+        // Reroll the card if it's already in the pack.
+        while (pack_cards.includes(pack_card)) {
+          temp = Math.floor(Math.random() * common_setlist.length);
+          console.log(temp);
+          pack_card = common_setlist[temp];
+          console.log(pack_card);
+        }
+        pack_cards.push(pack_card);
+      }
+      return pack_cards;
+    }
+
     // TODO: Change _ argument to n, where n is # of cards in pack
     function get_pack(setname, _){
       var setlist = new Array();
 
-      // TODO: generalize
-      var common_setlist = get_setlist(setname, "common");
-      var short_print_setlist = get_setlist(setname, "short_print");
-      var super_short_print_setlist = get_setlist(setname, "super_short_print");
-      var rare_setlist = get_setlist(setname, "rare");
-      var super_setlist = get_setlist(setname, "super_rare");
-      var ultra_setlist = get_setlist(setname, "ultra_rare");
-      var ultimate_setlist = get_setlist(setname, "ultimate_rare");
-      var secret_setlist = get_setlist(setname, "secret_rare");
-      var secret_setlist = get_setlist(setname, "ghost_rare");
-      var starlight_setlist = get_setlist(setname, "starlight_rare");
+      //var secret_setlist = get_setlist(setname, "secret_rare");
+      //var ghost_setlist = get_setlist(setname, "ghost_rare");
+      //var starlight_setlist = get_setlist(setname, "starlight_rare");
 
       var pack_cards = [];
-      for (i = 0; i < 8; i++) {
-        var pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
-
-        // Reroll the card if it's already in the pack.
-        while (pack_cards.includes(pack_card)) {
-          pack_card = common_setlist[Math.floor(Math.random() * common_setlist.length)];
+      
+      var pos = sets.indexOf(setname);
+      
+      // booster_pack_old
+      if (pos <= 22) {
+        var common_setlist = get_setlist(setname, "common");
+        var short_print_setlist = get_setlist(setname, "short_print");
+        var super_short_print_setlist = get_setlist(setname, "super_short_print");
+        var temp_common_setlist = common_setlist;
+        if (short_print_setlist != null) {
+          temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
         }
-        pack_cards.push(pack_card);
+        if (super_short_print_setlist != null) {
+          temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
+        }
+
+
+        r = Math.floor(Math.random() * 1380) + 1;
+        // TODO: generalize
+        if (r <= 929) {
+          console.log("8 commons, 1 rare");
+          // 8 Commons
+          pack_cards = get_commons(temp_common_setlist, 8);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+        }
+        else if (r >= 930 && r <= 1205) {
+          console.log("7 commons, 1 rare, 1 super rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "super_rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 1206 && r <= 1320) {
+          console.log("7 commons, 1 rare, 1 ultra rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "ultra_rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+        }
+        else {
+          console.log("7 commons, 1 rare, 1 secret or ultimate rare");
+          // 7 Commons
+          pack_cards = get_commons(temp_common_setlist, 7);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          // 1 Secret or Ultimate Rare
+          var secret_setlist = get_setlist(setname, "secret_rare");
+          var ultimate_setlist = get_setlist(setname, "ultimate_rare");
+          var sr_ur_setlist = new Array();
+          if (secret_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+          }
+          if (ultimate_setlist != null) {
+            sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+          }
+          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+        }
+        return pack_cards;
       }
-      pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+      else if (pos >= 23 && pos <= 56) {
+        // booster_pack_old_with_ghost_rare
+      }
+      else if (pos >= 57 && pos <= 70) {
+        // booster_pack
+      }
+      else if (pos >= 71 && pos <= 73) {
+        // booster_pack_with_starlight_rare
+      }
+      else { //if (pos >= 74 && pos <= 77) {
+        // booster_pack_without_rare_with_starlight_rare
+      }
 
       return pack_cards;
     }
