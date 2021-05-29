@@ -83,7 +83,6 @@
         // Reroll the card if it's already in the pack.
         while (pack_cards.includes(pack_card)) {
           temp = Math.floor(Math.random() * common_setlist.length);
-          console.log(temp);
           pack_card = common_setlist[temp];
         }
         pack_cards.push(pack_card);
