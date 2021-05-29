@@ -381,7 +381,6 @@
         }
         return pack_cards;
       }
-      return pack_cards;
     }
 
     function display_card_image(id, is_pack_card=false){
@@ -519,7 +518,7 @@
       link.setAttribute("download", "chaos_collection.csv");
       document.body.appendChild(link); // Required for FF
       
-      link.click(); // This will download the data file named "my_data.csv".
+      link.click();
     };
   </script>
 
