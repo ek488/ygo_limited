@@ -3,7 +3,8 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
 </head>
 
 <body>
@@ -15,8 +16,8 @@
     const sets =  ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex"];
     var drafted_cards = new Set();
     var number_drafted = 0;
-    var chosen_id = null;
-    var chosen_card = null;
+    var chosen_id = null; // The id of the card to be drafted.
+    var chosen_card = null; // The card to be drafted.
     var cards_in_pack = new Array();
 
     class YGO_Card {
@@ -40,13 +41,15 @@
       var total_weight;
 
       // Change the name to match the format of filenames in the folder "set_jsons"
-      var formatted_setname = setname.toLowerCase().replaceAll(' ', '_').replaceAll("'", "").replaceAll(":", "");
+      var formatted_setname = setname.toLowerCase().replaceAll(' ', '_')
+      .replaceAll("'", "").replaceAll(":", "");
 
       try {
         var set_json;
-        // TODO: uncomment when github.io updates
-        //var json_link = "https://ek488.github.io/ygo_limited/set_jsons/".concat(setname).concat("_").concat(rarity).concat(".json");
-        var json_link = "https://raw.githubusercontent.com/ek488/ygo_limited/main/set_jsons/".concat(formatted_setname).concat("_").concat(rarity.toLowerCase()).concat(".json");
+        var json_link = "https://ek488.github.io/ygo_limited/set_jsons/"
+        .concat(formatted_setname).concat("_").concat(rarity.toLowerCase())
+        .concat(".json");
+
         $.getJSON(json_link, function(data) {
           set_json = data;
         });
@@ -55,7 +58,13 @@
           var code;
           var sjd = set_json.data[card];
           var isExtra = false;
-          if (sjd.type == "Fusion Monster" || sjd.type == "Synchro Monster" || sjd.type == "Synchro Tuner Monster" || sjd.type == "Synchro Pendulum Effect Monster" || sjd.type == "XYZ Monster" || sjd.type == "XYZ Pendulum Effect Monster" || sjd.type == "Link Monster" || sjd.type == "Pendulum Effect Fusion Monster") {
+          if (sjd.type == "Fusion Monster" || sjd.type == "Synchro Monster" || 
+          sjd.type == "Synchro Tuner Monster" || 
+          sjd.type == "Synchro Pendulum Effect Monster" || 
+          sjd.type == "XYZ Monster" || 
+          sjd.type == "XYZ Pendulum Effect Monster" || 
+          sjd.type == "Link Monster" || 
+          sjd.type == "Pendulum Effect Fusion Monster") {
             isExtra = true;
           }
           for (s in sjd.card_sets) {
@@ -63,7 +72,9 @@
               code = sjd.card_sets[s].set_code;
             }
           }
-          var ygo_card = new YGO_Card(sjd.name, sjd.id, rarity.replaceAll("_", " "), setname, code, isExtra);
+          var ygo_card = new YGO_Card(sjd.name, sjd.id, 
+          rarity.replaceAll("_", " "), setname, code, isExtra);
+
           setlist.push(ygo_card);
         }
       }
@@ -90,8 +101,7 @@
       return pack_cards;
     }
 
-    // TODO: Change _ argument to n, where n is # of cards in pack
-    function get_pack(setname, _){
+    function get_pack(setname){
       var setlist = new Array();
 
       var pack_cards = [];
@@ -461,7 +471,7 @@
         }
 
         if (number_drafted < 78) {
-          cards_in_pack = get_pack(sets[number_drafted], 9);
+          cards_in_pack = get_pack(sets[number_drafted]);
           for (pack_card of cards_in_pack) {
             display_card_image(pack_card.id, true);
           }
@@ -531,7 +541,7 @@
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
   <script>
-    cards_in_pack = get_pack(sets[number_drafted], 9);
+    cards_in_pack = get_pack(sets[number_drafted]);
     for (pack_card of cards_in_pack) {
       display_card_image(pack_card.id, true);
     }
@@ -540,7 +550,7 @@
   <p>You can either:</p>
   <ul>
     <li>View your .ydk file on <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>.</li>
-    <li>Add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a> (which is probably easier in the long run.) To import it, go that page and make an account. After that, click the circled icon: <img src="images/import_csv.png"></img></li>
+    <li>Add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a> (which is probably easier in the long run.) To import it, go that page and make an account. After that, click this circled icon: <img src="images/import_csv.png"></img></li>
   </ul>
 </body>
 
