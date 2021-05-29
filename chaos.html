@@ -79,15 +79,12 @@
       var pack_cards = new Array();
       for (i = 0; i < n; i++) {
         temp = Math.floor(Math.random() * common_setlist.length);
-        console.log(temp);
         pack_card = common_setlist[temp];
-        console.log(pack_card);
         // Reroll the card if it's already in the pack.
         while (pack_cards.includes(pack_card)) {
           temp = Math.floor(Math.random() * common_setlist.length);
           console.log(temp);
           pack_card = common_setlist[temp];
-          console.log(pack_card);
         }
         pack_cards.push(pack_card);
       }
@@ -416,7 +413,6 @@
         x.setAttribute("width", 105);
         document.body.insertBefore(x, document.getElementById("download_break"));
       }
-
     }
 
     // Show a border around the last selected card in the pack.
@@ -517,7 +513,6 @@
         let row = rowArray.join(",");
         csvContent += row + "\r\n";
       });
-      console.log(csvContent);
 
       var encodedUri = encodeURI(csvContent);
       var link = document.createElement("a");
