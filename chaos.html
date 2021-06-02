@@ -101,6 +101,11 @@
       return pack_cards;
     }
 
+    function get_rare(setname, rarity){
+      setlist = get_setlist(setname, "Rare");
+      return setlist[Math.floor(Math.random() * setlist.length)];
+    }
+
     function get_pack(setname){
       var setlist = new Array();
 
@@ -128,8 +133,7 @@
           // 8 Commons
           pack_cards = get_commons(temp_common_setlist, 8);
           // 1 Rare
-          var rare_setlist = get_setlist(setname, "Rare");
-          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+          pack_cards.push(get_rare(setname, "Rare"));
         }
         else if (r >= 930 && r <= 1205) {
           console.log("7 commons, 1 rare, 1 super rare");
@@ -170,7 +174,14 @@
           if (ultimate_setlist != null) {
             sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
           }
-          pack_cards.push(sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)]);
+          var pack_card = sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)];
+        
+          // Reroll the ultimate rare if it's the same as the rare.
+          while (pack_cards.includes(pack_card)) {
+            temp = Math.floor(Math.random() * sr_ur_setlist.length);
+            pack_card = sr_ur_setlist[temp];
+          }
+          pack_cards.push(pack_card);
         }
         return pack_cards;
       }
@@ -526,7 +537,7 @@
       var link = document.createElement("a");
       link.setAttribute("href", encodedUri);
       link.setAttribute("download", "chaos_collection.csv");
-      document.body.appendChild(link); // Required for FF
+      document.body.appendChild(link);
       
       link.click();
     };

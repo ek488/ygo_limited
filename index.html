@@ -7,21 +7,23 @@
 
 <body>
   <script type="text/javascript">
-    const common_cards = new Set(["Ballista Squad", "Black Brachios", "Book of Moon", "Breakthrough Skill", "Compulsory Evacuation Device", "Kelbek", "Mecha Phantom Beast Blackfalcon", //"Miracle's Wake", 
-    "Poseidon Wave", "Tackle Crusader", "Winged Rhynos"]);
-    const rare_cards = new Set(["Dust Knight", "Giant Rat"]);
+    const cube_cards = new Set(["Ballista Squad", "Book of Lunar Eclipse", "Book of Moon", "Breakthrough Skill"]);
+    //const common_cards = new Set(["Ballista Squad", "Black Brachios", "Book of Moon", "Breakthrough Skill", "Compulsory Evacuation Device", "Kelbek", "Mecha Phantom Beast Blackfalcon", //"Miracle's Wake", 
+    //"Poseidon Wave", "Tackle Crusader", "Winged Rhynos"]);
+    //const rare_cards = new Set(["Dust Knight", "Giant Rat"]);
     var drafted_cards = new Set([]);
     var number_drafted = 0;
 
     function get_random_pack(cardlist, n){
       var pack_cards = [];
-      var common_cards_array = Array.from(common_cards);
+      var cube_cards_array = Array.from(cube_cards);
+      //var common_cards_array = Array.from(common_cards);
 
       for (i = 0; i < n; i++) {
-        var pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+        var pack_card = cube_cards_array[Math.floor(Math.random() * cube_cards_array.length)];
         // Reroll the card if it's already in the pack.
         while (pack_cards.includes(pack_card)) {
-          pack_card = common_cards_array[Math.floor(Math.random() * common_cards_array.length)];
+          pack_card = cube_cards_array[Math.floor(Math.random() * cube_cards_array.length)];
         }
         pack_cards.push(pack_card);
       }
@@ -59,7 +61,7 @@
 
 
       if (number_drafted < 40) {
-        for (pack_card of get_random_pack(common_cards, 3)) {
+        for (pack_card of get_random_pack(cube_cards, 3)) {
         display_card_image(pack_card, true);
         }
       }
@@ -69,7 +71,7 @@
       var ydk = "#created by ...\n#main"
     }
 
-    for (pack_card of get_random_pack(common_cards, 3)) {
+    for (pack_card of get_random_pack(cube_cards, 3)) {
         display_card_image(pack_card, true);
     }
 
