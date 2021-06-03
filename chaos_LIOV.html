@@ -128,7 +128,7 @@
       }
 
       // booster_pack_old
-      if (pos <= 22) {
+      if (pos >= 3 && pos <= 25) {
         r = Math.floor(Math.random() * 1380) + 1;
         // TODO: generalize
         if (r <= 929) {
@@ -184,7 +184,7 @@
         return pack_cards;
       }
       // booster_pack_old_with_ghost_rare
-      else if (pos >= 23 && pos <= 56) {
+      else if (pos >= 26 && pos <= 59) {
         r = Math.floor(Math.random() * 1380) + 1;
         // TODO: generalize
         if (r <= 924) {
@@ -247,7 +247,7 @@
         return pack_cards;
       }
       // booster_pack
-      else if (pos >= 57 && pos <= 70) {
+      else if (pos >= 60 && pos <= 73) {
         r = Math.floor(Math.random() * 576) + 1;
         // TODO: generalize
         if (r <= 432) {
@@ -294,7 +294,7 @@
         return pack_cards;
       }
       // booster_pack_with_starlight_rare
-      else if (pos >= 71 && pos <= 73) {
+      else if (pos >= 74 && pos <= 76) {
         r = Math.floor(Math.random() * 576) + 1;
         // TODO: generalize
         if (r <= 432) {
@@ -465,7 +465,7 @@
         // Update number of cards drafted
         number_drafted++;
         document.getElementById("setHeader").innerHTML = sets[number_drafted];
-        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/78)");
+        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/82)");
 
         drafted_cards.add(chosen_card);
         chosen_card = null;
@@ -546,7 +546,7 @@
 
   <br id="break"></br>
   <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
-  <h1 id="deckHeader">Drafted Cards (0/78)</h1>
+  <h1 id="deckHeader">Drafted Cards (0/82)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
