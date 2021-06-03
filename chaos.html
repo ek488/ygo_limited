@@ -476,7 +476,7 @@
           pack_card_img.setAttribute("hidden", "");
         }
 
-        if (number_drafted < 78) {
+        if (number_drafted < num_of_sets) {
           cards_in_pack = get_pack(sets[number_drafted]);
           for (pack_card of cards_in_pack) {
             display_card_image(pack_card.id, true);
@@ -519,6 +519,7 @@
       for (card_number in deck_cards){
         card = deck_cards[card_number];
         var cardname = card.cardname;
+        // If CARDNAME has a comma, surround CARDNAME with quotation marks
         if (cardname.includes(",")) {
           cardname = '"'.concat(cardname).concat('"');
         }
