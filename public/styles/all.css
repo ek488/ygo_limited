@@ -17,6 +17,25 @@ nav li {
     display: inline;
   }
 
+#setHeader {
+  text-align: center;
+}
+
+#pack {
+  width: 1150px;
+  height: 664px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pack {
+    margin: 10px;
     cursor: pointer;
+    transition: transform .225s;
+}
+
+.pack:hover {
+  -ms-transform: scale(1.35); /* Internet Explorer 9 */
+  -webkit-transform: scale(1.35); /* Safari 3-8 */
+  transform: scale(1.35); 
 }

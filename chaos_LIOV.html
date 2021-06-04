@@ -418,9 +418,9 @@
         x.setAttribute("class", "pack");
         x.setAttribute("id", id);
         x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("')"));
-        //span.appendChild(x);
+        document.getElementById("pack").appendChild(x);
         //span.appendChild(rarity);
-        document.body.insertBefore(x, document.getElementById("break"));
+        //document.body.insertBefore(x, document.getElementById("break"));
       }
       else {
         x.setAttribute("height", 156);
@@ -542,9 +542,11 @@
     };
   </script>
   <h1 id="setHeader">Legend of Blue Eyes White Dragon</h1>
+  <div id="pack"></div>
 
   <br id="break"></br>
   <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
+
   <h1 id="deckHeader">Drafted Cards (0/82)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
@@ -562,7 +564,7 @@
     <li>Add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a> (which is probably easier in the long run.) To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img></li>
   </ul>
   <!--TODO: Replace with footer partial-->
-  <footer>  
+  <footer>
     <nav>
       <ul>
         <li><a href="https://discord.gg/kvUF4QfCZ9">Chaos Draft Discord</a></li>
