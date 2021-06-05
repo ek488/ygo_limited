@@ -550,20 +550,19 @@
   <h1 id="deckHeader">Drafted Cards (0/82)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
-  <!--<button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>-->
+  <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
   <script>
     cards_in_pack = get_pack(sets[number_drafted]);
     for (pack_card of cards_in_pack) {
       display_card_image(pack_card.id, true);
     }
   </script>
-  <!--<h2>To view your drafted cards later:</h2>
+  <h2>To view your drafted cards later:</h2>
   <p>You can either:</p>
   <ul>
     <li>View your .ydk file on <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>.</li>
     <li>Add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a> (which is probably easier in the long run.) To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img></li>
-  </ul>-->
-  You can view your .ydk file on <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a> or on edopro.
+  </ul>
   <!--TODO: Replace with footer partial-->
   <footer>
     <nav>
