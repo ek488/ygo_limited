@@ -43,13 +43,13 @@
       var setlist = new Array();
       var total_weight;
 
-      // Change the name to match the format of filenames in the folder "set_jsons"
+      // Change the name to match the format of the json filenames"
       var formatted_setname = setname.toLowerCase().replaceAll(' ', '_')
       .replaceAll("'", "").replaceAll(":", "");
 
       try {
         var set_json;
-        var json_link = "https://ek488.github.io/ygo_limited/set_jsons/"
+        var json_link = "https://ek488.github.io/ygo_limited/public/json_files/set_rarity/"
         .concat(formatted_setname).concat("_").concat(rarity.toLowerCase())
         .concat(".json");
 
