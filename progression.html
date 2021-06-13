@@ -523,15 +523,15 @@
       step();
     }
   </script>
-  <button type="button" onclick="select()" value="Select All">Toggle All Sets</button><br/>
-  <button type="button" onclick="select_era('duelMonsters')">Toggle All Duel Monsters Sets</button><br/>
-  <button type="button" onclick="select_era('GX')">Toggle All GX Sets</button><br/>
-  <button type="button" onclick="select_era('5Ds')" >Toggle All 5D's Sets</button><br/>
-  <button type="button" onclick="select_era('ZEXAL')">Toggle All ZEXAL Sets</button><br/>
-  <button type="button" onclick="select_era('ARCV')" >Toggle All ARC-V Sets</button><br/>
-  <button type="button" onclick="select_era('VRAINS')">Toggle All VRAINS Sets</button><br/>
-  <button type="button" onclick="select_era('SEVENS')">Toggle All SEVENS Sets</button><br/>
-  
+  <h1>Select Sets</h1>
+  <button type="button" onclick="select()" value="Select All">Select All Sets</button> 
+  <button type="button" onclick="select_era('duelMonsters')">Select All Duel Monsters Sets</button> 
+  <button type="button" onclick="select_era('GX')">Select All GX Sets</button> 
+  <button type="button" onclick="select_era('5Ds')" >Select All 5D's Sets</button> 
+  <button type="button" onclick="select_era('ZEXAL')">Select All ZEXAL Sets</button> 
+  <button type="button" onclick="select_era('ARCV')" >Select All ARC-V Sets</button> 
+  <button type="button" onclick="select_era('VRAINS')">Select All VRAINS Sets</button> 
+  <button type="button" onclick="select_era('SEVENS')">Select All SEVENS Sets</button><br/><br/>
   <form id="checkboxesForm">
     <script>
       for (var set in sets) {
@@ -540,6 +540,7 @@
     </script>
     <br/>
   </form>
+
   <button type="button" onclick="open_packs()">Open Selected Sets</button>
 
   <h2 id=highestRarity>Only the highest rarity card in each pack is shown.</h2>
