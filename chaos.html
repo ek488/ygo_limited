@@ -15,7 +15,7 @@
       async: false
     });
 
-    const sets = ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex", "Lightning Overdrive"];
+    const sets = ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex", "Lightning Overdrive", "Legendary Duelists", "Legendary Duelists: Ancient Millennium", "Legendary Duelists: White Dragon Abyss", "Legendary Duelists: Sisters of the Rose", "Legendary Duelists: Immortal Destiny", "Legendary Duelists: Magical Hero", "Legendary Duelists: Rage of Ra"];
     const num_of_sets = sets.length;
     var drafted_cards = new Set();
     var number_drafted = 0;
@@ -248,9 +248,9 @@
       }
       // booster_pack
       else if (pos >= 57 && pos <= 70) {
-        r = Math.floor(Math.random() * 576) + 1;
+        r = Math.floor(Math.random() * 12) + 1;
         // TODO: generalize
-        if (r <= 432) {
+        if (r <= 9) {
           console.log("7 commons, 1 rare, 1 super rare");
           // 7 Commons
           pack_cards = get_commons(temp_common_setlist, 7);
@@ -352,7 +352,7 @@
         return pack_cards;
       }
       // booster_pack_without_rare_with_starlight_rare
-      else { //if (pos >= 74 && pos <= 77) {
+      else if (pos >= 74 && pos <= 79) {
         r = Math.floor(Math.random() * 576) + 1;
         // TODO: generalize
         if (r <= 432) {
@@ -394,6 +394,76 @@
           // 1 Starlight Rare
           var starlight_setlist = get_setlist(setname, "Starlight_Rare");
           pack_cards.push(starlight_setlist[Math.floor(Math.random() * starlight_setlist.length)]);
+        }
+        return pack_cards;
+      }
+      // legendary_duelists
+      else if (r >= 80 && r <= 85) {
+        r = Math.floor(Math.random() * 36) + 1;
+        // TODO: generalize
+        if (r <= 24) {
+          console.log("4 commons, 1 rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "Rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+        }
+        else if (r >= 25 && r <= 31) {
+          console.log("4 commons, 1 super rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "Super_Rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else {
+          console.log("4 commons, 1 ultra rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "Ultra_Rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+
+        }
+        return pack_cards;
+      }
+      else {
+        r = Math.floor(Math.random() * 288) + 1;
+        // TODO: generalize
+        if (r <= 192) {
+          console.log("4 commons, 1 rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Rare
+          var rare_setlist = get_setlist(setname, "Rare");
+          pack_cards.push(rare_setlist[Math.floor(Math.random() * rare_setlist.length)]);
+        }
+        else if (r >= 193 && r <= 248) {
+          console.log("4 commons, 1 super rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Super Rare
+          var super_setlist = get_setlist(setname, "Super_Rare");
+          pack_cards.push(super_setlist[Math.floor(Math.random() * super_setlist.length)]);
+        }
+        else if (r >= 249 && r <= 287) {
+          console.log("4 commons, 1 ultra rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Ultra Rare
+          var ultra_setlist = get_setlist(setname, "Ultra_Rare");
+          pack_cards.push(ultra_setlist[Math.floor(Math.random() * ultra_setlist.length)]);
+
+        }
+        else {
+          console.log("4 commons, 1 ghost rare");
+          // 4 Commons
+          pack_cards = get_commons(temp_common_setlist, 4);
+          // 1 Ghost Rare
+          var ghost_setlist = get_setlist(setname, "Ghost_Rare");
+          pack_cards.push(ghost_setlist[Math.floor(Math.random() * ghost_setlist.length)]);
+
         }
         return pack_cards;
       }

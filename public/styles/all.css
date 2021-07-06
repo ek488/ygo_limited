@@ -28,6 +28,10 @@ nav li {
   margin-right: auto;
 }
 
+#draftButton {
+  font-size: 18px;
+}
+
 .pack {
     margin: 10px;
     cursor: pointer;
