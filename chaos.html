@@ -485,8 +485,8 @@
       if (is_pack_card) {
         x.setAttribute("height", 312);
         x.setAttribute("width", 210);
-        x.setAttribute("class", "pack");
-        x.setAttribute("id", id);
+        x.setAttribute("class", "pack ".concat(id));
+        //x.setAttribute("id", id);
         x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("')"));
         document.getElementById("pack").appendChild(x);
         //span.appendChild(rarity);
@@ -500,7 +500,7 @@
     }
 
     // Show a border around the last selected card in the pack.
-    // TODO: have border cover image
+    // TODO: have border cover image instead
     function choose_card(id){
       // Remove the border from all cards in the pack.
       for (pack_card_img of document.getElementsByClassName("pack")) {
@@ -518,10 +518,15 @@
             chosen_card = cards_in_pack[card];
           }
         }
+        for (pack_card_img of document.getElementsByClassName(id)) {
+          pack_card_img.style.border = "8px solid green";
+          pack_card_img.style.height = "296px";
+          pack_card_img.style.width = "194px";
+        }
 
-        document.getElementById(id).style.border = "8px solid green";
-        document.getElementById(id).style.height = "296px";
-        document.getElementById(id).style.width = "194px";
+        //document.getElementById(id).style.border = "8px solid green";
+        //document.getElementById(id).style.height = "296px";
+        //document.getElementById(id).style.width = "194px";
       }
       else {
         chosen_id = null;
@@ -617,7 +622,7 @@
     };
   </script>
 
-  <h1 id="setHeader">Legend of Blue Eyes White Dragon</h1>
+  <h1 id="setHeader"><script>document.write(sets[0])</script></h1>
   <div id="pack"></div>
 
   <br id="break"></br>
