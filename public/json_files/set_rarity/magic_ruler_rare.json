@@ -1,1 +1,2001 @@
-{"data":[{"id":95174353,"name":"Ameba","type":"Effect Monster","desc":"When the control of this face-up card on the field shifts to your opponent, inflict 2000 points of damage to your opponent's Life Points. This effect can only be used once as long as this card remains face-up on the field.","atk":300,"def":350,"level":1,"race":"Aqua","attribute":"WATER","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN008","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.2"},{"set_name":"Magic Ruler","set_code":"MRL-010","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.19"},{"set_name":"Magic Ruler","set_code":"MRL-E010","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.59"},{"set_name":"Spell Ruler","set_code":"SRL-010","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.21"},{"set_name":"Spell Ruler","set_code":"SRL-EN010","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.97"}],"card_images":[{"id":95174353,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95174353.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95174353.jpg"},{"id":95174353,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95174353.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95174353.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.40","ebay_price":"4.99","amazon_price":"1.14","coolstuffinc_price":"0.39"}]},{"id":34124316,"name":"Cyber Jar","type":"Flip Effect Monster","desc":"FLIP: Destroy all monsters on the field, then both players reveal the top 5 cards from their Decks, then Special Summon all revealed Level 4 or lower monsters in face-up Attack Position or face-down Defense Position, also add any remaining cards to their hand. (If either player has less than 5 cards in their Deck, reveal as many as possible.)","atk":900,"def":900,"level":3,"race":"Rock","attribute":"DARK","card_sets":[{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN007","set_rarity":"Mosaic Rare","set_rarity_code":"(MSR)","set_price":"6.85"},{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN007","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"5.53"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN002","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"5.91"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN002","set_rarity":"Starfoil Rare","set_rarity_code":"(SFR)","set_price":"4.95"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN043","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.21"},{"set_name":"Duelist Pack: Kaiba","set_code":"DPKB-EN010","set_rarity":"Ultimate Rare","set_rarity_code":"(UtR)","set_price":"50.66"},{"set_name":"Hobby League 2 participation card A","set_code":"HL2-EN001","set_rarity":"Ultra Parallel Rare","set_rarity_code":"(UPR)","set_price":"24.58"},{"set_name":"Magic Ruler","set_code":"MRL-077","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.62"},{"set_name":"Magic Ruler","set_code":"MRL-E077","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"17.9"},{"set_name":"Spell Ruler","set_code":"SRL-077","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"5.59"},{"set_name":"Spell Ruler","set_code":"SRL-EN077","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"9.19"}],"banlist_info":{"ban_tcg":"Banned","ban_ocg":"Banned","ban_goat":"Limited"},"card_images":[{"id":34124316,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/34124316.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/34124316.jpg"},{"id":34124316,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/34124316.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/34124316.jpg"}],"card_prices":[{"cardmarket_price":"1.32","tcgplayer_price":"2.71","ebay_price":"4.99","amazon_price":"15.50","coolstuffinc_price":"3.99"}]},{"id":70681994,"name":"Dragoness the Wicked Knight","type":"Fusion Monster","desc":"\"Armaill\" + \"One-Eyed Shield Dragon\"","atk":1200,"def":900,"level":3,"race":"Warrior","attribute":"WIND","card_sets":[{"set_name":"Legend of Blue Eyes White Dragon","set_code":"LOB-086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.49"},{"set_name":"Legend of Blue Eyes White Dragon","set_code":"LOB-EN086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.04"},{"set_name":"Magic Ruler","set_code":"MRL-E126","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"10.97"}],"card_images":[{"id":70681994,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70681994.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70681994.jpg"}],"card_prices":[{"cardmarket_price":"0.49","tcgplayer_price":"1.87","ebay_price":"2.39","amazon_price":"1.49","coolstuffinc_price":"2.99"}]},{"id":84834865,"name":"Flying Kamakiri #1","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 WIND monster with 1500 or less ATK from your Deck, in face-up Attack Position.","atk":1400,"def":900,"level":4,"race":"Insect","attribute":"WIND","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN054","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.14"},{"set_name":"Dark Legends","set_code":"DLG1-EN075","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.17"},{"set_name":"Dragunity Legion Structure Deck","set_code":"SDDL-EN015","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.17"},{"set_name":"Duelist League 13 participation cards","set_code":"DL13-EN003","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.1"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN238","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"1.4"},{"set_name":"Magic Ruler","set_code":"MRL-091","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.13"},{"set_name":"Magic Ruler","set_code":"MRL-E091","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.71"},{"set_name":"Retro Pack","set_code":"RP01-EN074","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.32"},{"set_name":"Spell Ruler","set_code":"SRL-091","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.3"},{"set_name":"Spell Ruler","set_code":"SRL-EN091","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.98"},{"set_name":"Structure Deck: Lord of the Storm","set_code":"SD8-EN006","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.11"}],"card_images":[{"id":84834865,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84834865.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84834865.jpg"},{"id":84834865,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84834865.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84834865.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.20","ebay_price":"0.99","amazon_price":"2.40","coolstuffinc_price":"0.39"}]},{"id":95178994,"name":"Giant Germ","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: Inflict 500 damage to your opponent, then you can Special Summon any number of \"Giant Germs\" from your Deck in face-up Attack Position.","atk":1000,"def":100,"level":2,"race":"Fiend","attribute":"DARK","card_sets":[{"set_name":"Champion Pack: Game Five","set_code":"CP05-EN002","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"134.44"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN050","set_rarity":"Common","set_rarity_code":"(C)","set_price":"3.03"},{"set_name":"Dark Legends","set_code":"DLG1-EN071","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.3"},{"set_name":"Duelist League 3 participation cards","set_code":"DL12-EN003","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"9.19"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN234","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.82"},{"set_name":"Magic Ruler","set_code":"MRL-085","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.88"},{"set_name":"Magic Ruler","set_code":"MRL-E085","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"13.05"},{"set_name":"Retro Pack","set_code":"RP01-EN070","set_rarity":"Common","set_rarity_code":"(C)","set_price":"4.51"},{"set_name":"Spell Ruler","set_code":"SRL-085","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.61"},{"set_name":"Spell Ruler","set_code":"SRL-EN085","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.95"}],"card_images":[{"id":95178994,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95178994.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95178994.jpg"},{"id":95178994,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95178994.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95178994.jpg"}],"card_prices":[{"cardmarket_price":"0.40","tcgplayer_price":"0.70","ebay_price":"5.00","amazon_price":"0.69","coolstuffinc_price":"1.99"}]},{"id":97017120,"name":"Giant Rat","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 EARTH monster with 1500 or less ATK from your Deck, in Attack Position.","atk":1400,"def":1450,"level":4,"race":"Beast","attribute":"EARTH","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN045","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.13"},{"set_name":"Dark Legends","set_code":"DLG1-EN068","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.18"},{"set_name":"Duelist League 2010 participation cards","set_code":"DL09-EN005","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"6.23"},{"set_name":"Geargia Rampage Structure Deck","set_code":"SDGR-EN020","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.99"},{"set_name":"Hobby League 3 participation card A","set_code":"HL03-EN001","set_rarity":"Ultra Parallel Rare","set_rarity_code":"(UPR)","set_price":"9.74"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN232","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"5.69"},{"set_name":"Magic Ruler","set_code":"MRL-079","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.2"},{"set_name":"Magic Ruler","set_code":"MRL-E079","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"6.12"},{"set_name":"Retro Pack","set_code":"RP01-EN067","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.72"},{"set_name":"Speed Duel: Battle City Box","set_code":"SBCB-EN047","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.13"},{"set_name":"Spell Ruler","set_code":"SRL-079","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.56"},{"set_name":"Spell Ruler","set_code":"SRL-EN079","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"9.17"},{"set_name":"Starter Deck: Dawn of the Xyz","set_code":"YS11-EN012","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.12"},{"set_name":"Starter Deck: Xyz Symphony","set_code":"YS12-EN017","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.17"},{"set_name":"Starter Deck: Yugi Evolution","set_code":"SYE-020","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.06"},{"set_name":"Starter Deck: Yuya","set_code":"YS16-EN020","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.09"},{"set_name":"Structure Deck: Invincible Fortress","set_code":"SD7-EN003","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1"},{"set_name":"Tournament Pack 4","set_code":"TP4-011","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.35"}],"card_images":[{"id":97017120,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97017120.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97017120.jpg"},{"id":97017120,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97017120.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97017120.jpg"}],"card_prices":[{"cardmarket_price":"0.07","tcgplayer_price":"0.14","ebay_price":"4.00","amazon_price":"1.49","coolstuffinc_price":"0.39"}]},{"id":81863068,"name":"Hiro's Shadow Scout","type":"Flip Effect Monster","desc":"FLIP: Your opponent draws 3 cards. Both players look at the cards. If there are any Spell Cards among them, discard all those Spell Card(s) to the Graveyard.","atk":650,"def":500,"level":2,"race":"Fiend","attribute":"DARK","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN012","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.24"},{"set_name":"Magic Ruler","set_code":"MRL-024","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.18"},{"set_name":"Magic Ruler","set_code":"MRL-E024","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"5.49"},{"set_name":"Spell Ruler","set_code":"SRL-024","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.46"},{"set_name":"Spell Ruler","set_code":"SRL-EN024","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.47"},{"set_name":"Starter Deck: Pegasus","set_code":"SDP-019","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.22"}],"card_images":[{"id":81863068,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81863068.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81863068.jpg"},{"id":81863068,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81863068.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81863068.jpg"}],"card_prices":[{"cardmarket_price":"0.12","tcgplayer_price":"0.33","ebay_price":"2.99","amazon_price":"0.49","coolstuffinc_price":"0.39"}]},{"id":64047146,"name":"Horn of the Unicorn","type":"Spell Card","desc":"The equipped monster gains 700 ATK and DEF. When this card is sent from the field to the Graveyard: Return it to the top of the Deck.","race":"Equip","card_sets":[{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN134","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.73"},{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN134","set_rarity":"Mosaic Rare","set_rarity_code":"(MSR)","set_price":"1.53"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN069","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.25"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN069","set_rarity":"Starfoil Rare","set_rarity_code":"(SFR)","set_price":"3"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN034","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.26"},{"set_name":"Magic Ruler","set_code":"MRL-054","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.21"},{"set_name":"Magic Ruler","set_code":"MRL-E054","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"14.11"},{"set_name":"Spell Ruler","set_code":"SRL-054","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.95"},{"set_name":"Spell Ruler","set_code":"SRL-EN054","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.95"},{"set_name":"Yugi's Legendary Decks","set_code":"YGLD-ENA29","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.38"}],"card_images":[{"id":64047146,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64047146.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64047146.jpg"},{"id":64047146,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64047146.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64047146.jpg"}],"card_prices":[{"cardmarket_price":"0.12","tcgplayer_price":"0.19","ebay_price":"0.99","amazon_price":"1.44","coolstuffinc_price":"0.39"}]},{"id":62397231,"name":"Hyozanryu","type":"Normal Monster","desc":"A dragon created from a massive diamond that sparkles with blinding light.","atk":2100,"def":2800,"level":7,"race":"Dragon","attribute":"LIGHT","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN041","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"},{"set_name":"Dark Legends","set_code":"DLG1-EN066","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.23"},{"set_name":"Ghosts From the Past","set_code":"GFTP-EN071","set_rarity":"Ultra Rare","set_rarity_code":"(UR)","set_price":"0.97"},{"set_name":"Magic Ruler","set_code":"MRL-075","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.79"},{"set_name":"Magic Ruler","set_code":"MRL-E075","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.52"},{"set_name":"Retro Pack","set_code":"RP01-EN065","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.56"},{"set_name":"Spell Ruler","set_code":"SRL-075","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.89"},{"set_name":"Spell Ruler","set_code":"SRL-EN075","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"0.00"},{"set_name":"Starter Deck: Kaiba Evolution","set_code":"SKE-011","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.28"}],"card_images":[{"id":62397231,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/62397231.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/62397231.jpg"},{"id":62397231,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/62397231.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/62397231.jpg"}],"card_prices":[{"cardmarket_price":"0.10","tcgplayer_price":"0.21","ebay_price":"0.99","amazon_price":"0.59","coolstuffinc_price":"1.99"}]},{"id":23289281,"name":"Karate Man","type":"Effect Monster","desc":"You can double the original ATK of this card once per turn. If you used this effect, destroy this card during the End Phase.","atk":1000,"def":1000,"level":3,"race":"Warrior","attribute":"EARTH","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN049","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"},{"set_name":"Magic Ruler","set_code":"MRL-083","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.03"},{"set_name":"Magic Ruler","set_code":"MRL-E083","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.86"},{"set_name":"Spell Ruler","set_code":"SRL-083","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.36"},{"set_name":"Spell Ruler","set_code":"SRL-EN083","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"0.99"},{"set_name":"Starter Deck: Joey","set_code":"SDJ-013","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.03"},{"set_name":"Tournament Pack 4","set_code":"TP4-013","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.1"}],"card_images":[{"id":23289281,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23289281.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23289281.jpg"},{"id":23289281,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23289281.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23289281.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.19","ebay_price":"15.00","amazon_price":"0.20","coolstuffinc_price":"0.25"}]},{"id":38369349,"name":"Manga Ryu-Ran","type":"Toon Monster","desc":"(This card is always treated as a \"Toon\" card.)\nCannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 2 monsters, while you control \"Toon World\". Cannot attack the turn it is Special Summoned. You must pay 500 LP to declare an attack with this monster. If \"Toon World\" on the field is destroyed, destroy this card. Can attack your opponent directly, unless they control a Toon monster, in which case this card must target a Toon monster for its attacks.","atk":2200,"def":2600,"level":7,"race":"Dragon","attribute":"FIRE","archetype":"Toon","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN038","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"},{"set_name":"Dark Legends","set_code":"DLG1-EN063","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN104","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.35"},{"set_name":"Legendary Duelists: Season 1","set_code":"LDS1-EN053","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.98"},{"set_name":"Magic Ruler","set_code":"MRL-071","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.2"},{"set_name":"Magic Ruler","set_code":"MRL-E071","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"12.69"},{"set_name":"Retro Pack","set_code":"RP01-EN062","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.45"},{"set_name":"Speed Duel Starter Decks: Match of the Millennium","set_code":"SS04-ENB05","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.25"},{"set_name":"Spell Ruler","set_code":"SRL-071","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.4"},{"set_name":"Spell Ruler","set_code":"SRL-EN071","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.99"},{"set_name":"Starter Deck: Pegasus","set_code":"SDP-022","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.11"}],"card_images":[{"id":38369349,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38369349.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38369349.jpg"},{"id":38369349,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38369349.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38369349.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"1.49","coolstuffinc_price":"0.25"}]},{"id":57839750,"name":"Mother Grizzly","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 WATER monster with 1500 or less ATK from your Deck, in face-up Attack Position.","atk":1400,"def":1000,"level":4,"race":"Beast-Warrior","attribute":"WATER","card_sets":[{"set_name":"Champion Pack: Game Four","set_code":"CP04-EN013","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.2"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN053","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.2"},{"set_name":"Dark Legends","set_code":"DLG1-EN074","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.24"},{"set_name":"Duelist League 2 participation cards","set_code":"DL12-EN004","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.18"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN237","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"3.41"},{"set_name":"Magic Ruler","set_code":"MRL-090","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.24"},{"set_name":"Magic Ruler","set_code":"MRL-E090","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"14.79"},{"set_name":"Realm of the Sea Emperor Structure Deck","set_code":"SDRE-EN021","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.13"},{"set_name":"Retro Pack","set_code":"RP01-EN073","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.37"},{"set_name":"Spell Ruler","set_code":"SRL-090","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.28"},{"set_name":"Spell Ruler","set_code":"SRL-EN090","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.39"},{"set_name":"Structure Deck: Fury from the Deep","set_code":"SD4-EN005","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"}],"card_images":[{"id":57839750,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57839750.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57839750.jpg"},{"id":57839750,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57839750.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57839750.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.23","ebay_price":"1.75","amazon_price":"0.49","coolstuffinc_price":"0.49"}]},{"id":83011277,"name":"Mystic Tomato","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the GY: You can Special Summon 1 DARK monster with 1500 or less ATK from your Deck, in face-up Attack Position.","atk":1400,"def":1100,"level":4,"race":"Plant","attribute":"DARK","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN057","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.69"},{"set_name":"Dark Legends","set_code":"DLG1-EN077","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.77"},{"set_name":"Dark Saviors","set_code":"DASA-EN046","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.58"},{"set_name":"Dragons Collide Structure Deck","set_code":"SDDC-EN016","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.64"},{"set_name":"Duel Terminal 6a","set_code":"DT06-EN005","set_rarity":"Duel Terminal Normal Parallel Rare","set_rarity_code":"(DNPR)","set_price":"5.06"},{"set_name":"Duelist League 2010 participation cards","set_code":"DL09-EN006","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"8.53"},{"set_name":"Hobby League 3 participation card E","set_code":"HL03-EN005","set_rarity":"Ultra Parallel Rare","set_rarity_code":"(UPR)","set_price":"16.67"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN239","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"16.25"},{"set_name":"Magic Ruler","set_code":"MRL-094","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.89"},{"set_name":"Magic Ruler","set_code":"MRL-E094","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"8.28"},{"set_name":"Retro Pack","set_code":"RP01-EN076","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.42"},{"set_name":"Spell Ruler","set_code":"SRL-094","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.37"},{"set_name":"Spell Ruler","set_code":"SRL-EN094","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.95"},{"set_name":"Starter Deck: Kaiba Evolution","set_code":"SKE-021","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.87"},{"set_name":"Starter Deck: Yu-Gi-Oh! 5D's","set_code":"5DS1-EN017","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.44"},{"set_name":"Structure Deck: Marik (TCG)","set_code":"SDMA-EN002","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.26"},{"set_name":"Tournament Pack 4","set_code":"TP4-015","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.82"}],"card_images":[{"id":83011277,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011277.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011277.jpg"},{"id":83011277,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011277.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011277.jpg"},{"id":83011278,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011278.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011278.jpg"},{"id":83011278,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011278.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011278.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.22","ebay_price":"0.99","amazon_price":"0.99","coolstuffinc_price":"0.99"}]},{"id":22567609,"name":"Nimble Momonga","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: Gain 1000 Life Points, then you can Special Summon any number of \"Nimble Momongas\" from your Deck in face-down Defense Position.","atk":1000,"def":100,"level":2,"race":"Beast","attribute":"EARTH","archetype":"Nimble","card_sets":[{"set_name":"Champion Pack: Game Two","set_code":"CP02-EN002","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"108.79"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN051","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.92"},{"set_name":"Dark Legends","set_code":"DLG1-EN072","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.74"},{"set_name":"Duel Terminal 5a","set_code":"DT05-EN008","set_rarity":"Duel Terminal Normal Parallel Rare","set_rarity_code":"(DNPR)","set_price":"5.26"},{"set_name":"Duelist League Demo 2010","set_code":"DLDI-EN002","set_rarity":"Common","set_rarity_code":"(C)","set_price":"67.81"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN235","set_rarity":"Common","set_rarity_code":"(C)","set_price":"3.05"},{"set_name":"Magic Ruler","set_code":"MRL-086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.83"},{"set_name":"Magic Ruler","set_code":"MRL-E086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"9.86"},{"set_name":"Retro Pack","set_code":"RP01-EN071","set_rarity":"Common","set_rarity_code":"(C)","set_price":"5"},{"set_name":"Spell Ruler","set_code":"SRL-086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.61"},{"set_name":"Spell Ruler","set_code":"SRL-EN086","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.83"},{"set_name":"Tournament Pack 4","set_code":"TP4-014","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.74"}],"card_images":[{"id":22567609,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22567609.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22567609.jpg"},{"id":22567609,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22567609.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22567609.jpg"}],"card_prices":[{"cardmarket_price":"0.81","tcgplayer_price":"0.82","ebay_price":"179.99","amazon_price":"0.01","coolstuffinc_price":"1.49"}]},{"id":55144522,"name":"Pot of Greed","type":"Spell Card","desc":"Draw 2 cards.","race":"Normal","archetype":"Greed","card_sets":[{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN129","set_rarity":"Mosaic Rare","set_rarity_code":"(MSR)","set_price":"9.05"},{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN129","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"8.29"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN034","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.53"},{"set_name":"Battle Pack: Epic Dawn","set_code":"BP01-EN034","set_rarity":"Starfoil Rare","set_rarity_code":"(SFR)","set_price":"5.48"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN134","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"78.55"},{"set_name":"Duelist Pack: Kaiba","set_code":"DPKB-EN029","set_rarity":"Ultimate Rare","set_rarity_code":"(UtR)","set_price":"163.88"},{"set_name":"Legend of Blue Eyes White Dragon","set_code":"LOB-119","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"5.65"},{"set_name":"Legend of Blue Eyes White Dragon","set_code":"LOB-EN119","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"0.00"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN059","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"36.56"},{"set_name":"Legendary Collection 4: Joey's World Mega Pack","set_code":"LCJW-EN061","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"24.48"},{"set_name":"Magic Ruler","set_code":"MRL-E129","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"33.15"},{"set_name":"Starter Deck: Yugi Evolution","set_code":"SYE-040","set_rarity":"Common","set_rarity_code":"(C)","set_price":"5.91"},{"set_name":"Structure Deck: Blaze of Destruction","set_code":"SD3-EN019","set_rarity":"Common","set_rarity_code":"(C)","set_price":"6.77"},{"set_name":"Structure Deck: Dragon's Roar","set_code":"SD1-EN015","set_rarity":"Common","set_rarity_code":"(C)","set_price":"6.33"},{"set_name":"Structure Deck: Fury from the Deep","set_code":"SD4-EN018","set_rarity":"Common","set_rarity_code":"(C)","set_price":"6.43"},{"set_name":"Structure Deck: Zombie Madness","set_code":"SD2-EN017","set_rarity":"Common","set_rarity_code":"(C)","set_price":"6.24"},{"set_name":"Tournament Pack: 3rd Season","set_code":"TP3-014","set_rarity":"Common","set_rarity_code":"(C)","set_price":"8.87"},{"set_name":"Yugi's Legendary Decks","set_code":"YGLD-ENB26","set_rarity":"Common","set_rarity_code":"(C)","set_price":"5.11"}],"banlist_info":{"ban_tcg":"Banned","ban_ocg":"Banned","ban_goat":"Limited"},"card_images":[{"id":55144522,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/55144522.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/55144522.jpg"}],"card_prices":[{"cardmarket_price":"1.81","tcgplayer_price":"2.57","ebay_price":"5.75","amazon_price":"7.79","coolstuffinc_price":"6.99"}]},{"id":70046172,"name":"Rush Recklessly","type":"Spell Card","desc":"Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.","race":"Quick-Play","card_sets":[{"set_name":"2-Player Starter Deck: Yuya & Declan","set_code":"YS15-ENY14","set_rarity":"Common","set_rarity_code":"(C)","set_price":"4.03"},{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN133","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.12"},{"set_name":"Battle Pack 2: War of the Giants","set_code":"BP02-EN133","set_rarity":"Mosaic Rare","set_rarity_code":"(MSR)","set_price":"1.13"},{"set_name":"Battle Pack 3: Monster League","set_code":"BP03-EN134","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.11"},{"set_name":"Battle Pack 3: Monster League","set_code":"BP03-EN134","set_rarity":"Shatterfoil Rare","set_rarity_code":"(SHR)","set_price":"1.1"},{"set_name":"Champion Pack: Game Two","set_code":"CP02-EN013","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.37"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN027","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.09"},{"set_name":"Dark Legion Starter Deck","set_code":"YS15-ENL18","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.06"},{"set_name":"Duel Terminal 3","set_code":"DT03-EN041","set_rarity":"Duel Terminal Normal Parallel Rare","set_rarity_code":"(DNPR)","set_price":"2.44"},{"set_name":"Magic Ruler","set_code":"MRL-043","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.07"},{"set_name":"Magic Ruler","set_code":"MRL-E043","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"7.55"},{"set_name":"Saber Force Starter Deck","set_code":"YS15-ENF17","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.15"},{"set_name":"Spell Ruler","set_code":"SRL-043","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.16"},{"set_name":"Spell Ruler","set_code":"SRL-EN043","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"3.95"},{"set_name":"Starter Deck: Jaden Yuki","set_code":"YSDJ-EN021","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.15"},{"set_name":"Starter Deck: Kaiba Evolution","set_code":"SKE-036","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.97"},{"set_name":"Starter Deck: Kaiba Reloaded","set_code":"YSKR-EN031","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.09"},{"set_name":"Starter Deck: Pegasus","set_code":"SDP-033","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.98"},{"set_name":"Starter Deck: Syrus Truesdale","set_code":"YSDS-EN022","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.15"},{"set_name":"Starter Deck: Yu-Gi-Oh! 5D's","set_code":"5DS1-EN025","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.01"},{"set_name":"Starter Deck: Yu-Gi-Oh! 5D's 2009","set_code":"5DS2-EN022","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.11"},{"set_name":"Tournament Pack 4","set_code":"TP4-010","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.27"}],"card_images":[{"id":70046172,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70046172.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70046172.jpg"},{"id":70046172,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70046172.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70046172.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.10","ebay_price":"1.95","amazon_price":"0.25","coolstuffinc_price":"0.25"}]},{"id":23401839,"name":"Senju of the Thousand Hands","type":"Effect Monster","desc":"When this card is Normal or Flip Summoned: You can add 1 Ritual Monster from your Deck to your hand.","atk":1400,"def":1000,"level":4,"race":"Fairy","attribute":"LIGHT","card_sets":[{"set_name":"Astral Pack Seven","set_code":"AP07-EN016","set_rarity":"Common","set_rarity_code":"(C)","set_price":"3.4"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN046","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.04"},{"set_name":"Dark Legends","set_code":"DLG1-EN069","set_rarity":"Common","set_rarity_code":"(C)","set_price":"3.51"},{"set_name":"Duel Terminal 5b","set_code":"DT05-EN051","set_rarity":"Duel Terminal Normal Parallel Rare","set_rarity_code":"(DNPR)","set_price":"10.67"},{"set_name":"Magic Ruler","set_code":"MRL-080","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.94"},{"set_name":"Magic Ruler","set_code":"MRL-E080","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"17.06"},{"set_name":"Retro Pack","set_code":"RP01-EN068","set_rarity":"Common","set_rarity_code":"(C)","set_price":"4.43"},{"set_name":"Speed Duel Starter Decks: Match of the Millennium","set_code":"SS04-ENA11","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.33"},{"set_name":"Speed Duel: Arena of Lost Souls","set_code":"SBLS-EN017","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"6.3"},{"set_name":"Spell Ruler","set_code":"SRL-080","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.2"},{"set_name":"Spell Ruler","set_code":"SRL-EN080","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"4.41"},{"set_name":"Tournament Pack 4","set_code":"TP4-012","set_rarity":"Common","set_rarity_code":"(C)","set_price":"4.26"}],"card_images":[{"id":23401839,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401839.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401839.jpg"},{"id":23401839,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401839.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401839.jpg"},{"id":23401840,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401840.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401840.jpg"},{"id":23401840,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401840.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401840.jpg"}],"card_prices":[{"cardmarket_price":"0.52","tcgplayer_price":"0.80","ebay_price":"5.45","amazon_price":"6.74","coolstuffinc_price":"5.99"}]},{"id":95956346,"name":"Shining Angel","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 LIGHT monster with 1500 or less ATK from your Deck, in face-up Attack Position.","atk":1400,"def":800,"level":4,"race":"Fairy","attribute":"LIGHT","card_sets":[{"set_name":"Cyber Dragon Revolution Structure Deck","set_code":"SDCR-EN018","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.14"},{"set_name":"Dark Beginning 1","set_code":"DB1-EN052","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.52"},{"set_name":"Dark Legends","set_code":"DLG1-EN073","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.34"},{"set_name":"Duelist League 13 participation cards","set_code":"DL13-EN002","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.83"},{"set_name":"Hobby League 6 participation card F","set_code":"HL06-EN006","set_rarity":"Ultra Parallel Rare","set_rarity_code":"(UPR)","set_price":"23.81"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN236","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"5.63"},{"set_name":"Lost Sanctuary Structure Deck","set_code":"SDLS-EN015","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.16"},{"set_name":"Magic Ruler","set_code":"MRL-088","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.41"},{"set_name":"Magic Ruler","set_code":"MRL-E088","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"6.24"},{"set_name":"Retro Pack","set_code":"RP01-EN072","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.72"},{"set_name":"Saga of Blue-Eyes White Dragon Structure Deck","set_code":"SDBE-EN018","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.11"},{"set_name":"Spell Ruler","set_code":"SRL-088","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.92"},{"set_name":"Spell Ruler","set_code":"SRL-EN088","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.99"},{"set_name":"Starter Deck: Dawn of the Xyz","set_code":"YS11-EN013","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.96"},{"set_name":"Starter Deck: Xyz Symphony","set_code":"YS12-EN018","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.15"}],"card_images":[{"id":95956346,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95956346.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95956346.jpg"},{"id":95956346,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95956346.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95956346.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.19","ebay_price":"0.99","amazon_price":"4.99","coolstuffinc_price":"0.49"}]},{"id":60806437,"name":"UFO Turtle","type":"Effect Monster","desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 FIRE monster with 1500 or less ATK from your Deck, in face-up Attack Position.","atk":1400,"def":1200,"level":4,"race":"Machine","attribute":"FIRE","card_sets":[{"set_name":"Dark Beginning 1","set_code":"DB1-EN047","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.2"},{"set_name":"Dark Legends","set_code":"DLG1-EN070","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.07"},{"set_name":"Duelist League 3 participation cards","set_code":"DL12-EN002","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"2.29"},{"set_name":"Legendary Collection 3: Yugi's World Mega Pack","set_code":"LCYW-EN233","set_rarity":"Secret Rare","set_rarity_code":"(ScR)","set_price":"1.42"},{"set_name":"Magic Ruler","set_code":"MRL-081","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.01"},{"set_name":"Magic Ruler","set_code":"MRL-E081","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"13.4"},{"set_name":"Onslaught of the Fire Kings Structure Deck","set_code":"SDOK-EN021","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.06"},{"set_name":"Retro Pack","set_code":"RP01-EN069","set_rarity":"Common","set_rarity_code":"(C)","set_price":"2.73"},{"set_name":"Spell Ruler","set_code":"SRL-081","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"1.33"},{"set_name":"Spell Ruler","set_code":"SRL-EN081","set_rarity":"Rare","set_rarity_code":"(R)","set_price":"0.99"},{"set_name":"Starter Deck: Yu-Gi-Oh! 5D's","set_code":"5DS1-EN016","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.03"},{"set_name":"Structure Deck: Blaze of Destruction","set_code":"SD3-EN004","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.98"}],"card_images":[{"id":60806437,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/60806437.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/60806437.jpg"},{"id":60806437,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/60806437.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/60806437.jpg"}],"card_prices":[{"cardmarket_price":"0.10","tcgplayer_price":"0.12","ebay_price":"1.89","amazon_price":"0.54","coolstuffinc_price":"0.25"}]}]}
+{
+   "data":[
+      {
+         "id":95174353,
+         "name":"Ameba",
+         "type":"Effect Monster",
+         "desc":"When the control of this face-up card on the field shifts to your opponent, inflict 2000 points of damage to your opponent's Life Points. This effect can only be used once as long as this card remains face-up on the field.",
+         "atk":300,
+         "def":350,
+         "level":1,
+         "race":"Aqua",
+         "attribute":"WATER",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN008",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-010",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.19"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E010",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.59"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-010",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.21"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN010",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.97"
+            }
+         ],
+         "card_images":[
+            {
+               "id":95174353,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95174353.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95174353.jpg"
+            },
+            {
+               "id":95174353,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95174353.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95174353.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.40",
+               "ebay_price":"4.99",
+               "amazon_price":"1.14",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":34124316,
+         "name":"Cyber Jar",
+         "type":"Flip Effect Monster",
+         "desc":"FLIP: Destroy all monsters on the field, then both players reveal the top 5 cards from their Decks, then Special Summon all revealed Level 4 or lower monsters in face-up Attack Position or face-down Defense Position, also add any remaining cards to their hand. (If either player has less than 5 cards in their Deck, reveal as many as possible.)",
+         "atk":900,
+         "def":900,
+         "level":3,
+         "race":"Rock",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN007",
+               "set_rarity":"Mosaic Rare",
+               "set_rarity_code":"(MSR)",
+               "set_price":"6.85"
+            },
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN007",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"5.53"
+            },
+            {
+               "set_name":"Battle Pack: Epic Dawn",
+               "set_code":"BP01-EN002",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"5.91"
+            },
+            {
+               "set_name":"Battle Pack: Epic Dawn",
+               "set_code":"BP01-EN002",
+               "set_rarity":"Starfoil Rare",
+               "set_rarity_code":"(SFR)",
+               "set_price":"4.95"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN043",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.21"
+            },
+            {
+               "set_name":"Duelist Pack: Kaiba",
+               "set_code":"DPKB-EN010",
+               "set_rarity":"Ultimate Rare",
+               "set_rarity_code":"(UtR)",
+               "set_price":"50.66"
+            },
+            {
+               "set_name":"Hobby League 2 participation card A",
+               "set_code":"HL2-EN001",
+               "set_rarity":"Ultra Parallel Rare",
+               "set_rarity_code":"(UPR)",
+               "set_price":"24.58"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-077",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.62"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E077",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"17.9"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-077",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"5.59"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN077",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"9.19"
+            }
+         ],
+         "banlist_info":{
+            "ban_tcg":"Banned",
+            "ban_ocg":"Banned",
+            "ban_goat":"Limited"
+         },
+         "card_images":[
+            {
+               "id":34124316,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/34124316.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/34124316.jpg"
+            },
+            {
+               "id":34124316,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/34124316.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/34124316.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"1.32",
+               "tcgplayer_price":"2.71",
+               "ebay_price":"4.99",
+               "amazon_price":"15.50",
+               "coolstuffinc_price":"3.99"
+            }
+         ]
+      },
+      {
+         "id":84834865,
+         "name":"Flying Kamakiri #1",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 WIND monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+         "atk":1400,
+         "def":900,
+         "level":4,
+         "race":"Insect",
+         "attribute":"WIND",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN054",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.14"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN075",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.17"
+            },
+            {
+               "set_name":"Dragunity Legion Structure Deck",
+               "set_code":"SDDL-EN015",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.17"
+            },
+            {
+               "set_name":"Duelist League 13 participation cards",
+               "set_code":"DL13-EN003",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.1"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN238",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"1.4"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-091",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E091",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.71"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN074",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.32"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-091",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.3"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN091",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.98"
+            },
+            {
+               "set_name":"Structure Deck: Lord of the Storm",
+               "set_code":"SD8-EN006",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.11"
+            }
+         ],
+         "card_images":[
+            {
+               "id":84834865,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84834865.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84834865.jpg"
+            },
+            {
+               "id":84834865,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84834865.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84834865.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.20",
+               "ebay_price":"0.99",
+               "amazon_price":"2.40",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":95178994,
+         "name":"Giant Germ",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: Inflict 500 damage to your opponent, then you can Special Summon any number of \"Giant Germs\" from your Deck in face-up Attack Position.",
+         "atk":1000,
+         "def":100,
+         "level":2,
+         "race":"Fiend",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Champion Pack: Game Five",
+               "set_code":"CP05-EN002",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"134.44"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN050",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"3.03"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN071",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.3"
+            },
+            {
+               "set_name":"Duelist League 3 participation cards",
+               "set_code":"DL12-EN003",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"9.19"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN234",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.82"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-085",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.88"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E085",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"13.05"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN070",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"4.51"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-085",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.61"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN085",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.95"
+            }
+         ],
+         "card_images":[
+            {
+               "id":95178994,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95178994.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95178994.jpg"
+            },
+            {
+               "id":95178994,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95178994.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95178994.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.40",
+               "tcgplayer_price":"0.70",
+               "ebay_price":"5.00",
+               "amazon_price":"0.69",
+               "coolstuffinc_price":"1.99"
+            }
+         ]
+      },
+      {
+         "id":97017120,
+         "name":"Giant Rat",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 EARTH monster with 1500 or less ATK from your Deck, in Attack Position.",
+         "atk":1400,
+         "def":1450,
+         "level":4,
+         "race":"Beast",
+         "attribute":"EARTH",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN045",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN068",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.18"
+            },
+            {
+               "set_name":"Duelist League 2010 participation cards",
+               "set_code":"DL09-EN005",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"6.23"
+            },
+            {
+               "set_name":"Geargia Rampage Structure Deck",
+               "set_code":"SDGR-EN020",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.99"
+            },
+            {
+               "set_name":"Hobby League 3 participation card A",
+               "set_code":"HL03-EN001",
+               "set_rarity":"Ultra Parallel Rare",
+               "set_rarity_code":"(UPR)",
+               "set_price":"9.74"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN232",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"5.69"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-079",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E079",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"6.12"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN067",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.72"
+            },
+            {
+               "set_name":"Speed Duel: Battle City Box",
+               "set_code":"SBCB-EN047",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-079",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.56"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN079",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"9.17"
+            },
+            {
+               "set_name":"Starter Deck: Dawn of the Xyz",
+               "set_code":"YS11-EN012",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.12"
+            },
+            {
+               "set_name":"Starter Deck: Xyz Symphony",
+               "set_code":"YS12-EN017",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.17"
+            },
+            {
+               "set_name":"Starter Deck: Yugi Evolution",
+               "set_code":"SYE-020",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.06"
+            },
+            {
+               "set_name":"Starter Deck: Yuya",
+               "set_code":"YS16-EN020",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.09"
+            },
+            {
+               "set_name":"Structure Deck: Invincible Fortress",
+               "set_code":"SD7-EN003",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-011",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.35"
+            }
+         ],
+         "card_images":[
+            {
+               "id":97017120,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97017120.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97017120.jpg"
+            },
+            {
+               "id":97017120,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97017120.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97017120.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.07",
+               "tcgplayer_price":"0.14",
+               "ebay_price":"4.00",
+               "amazon_price":"1.49",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":81863068,
+         "name":"Hiro's Shadow Scout",
+         "type":"Flip Effect Monster",
+         "desc":"FLIP: Your opponent draws 3 cards. Both players look at the cards. If there are any Spell Cards among them, discard all those Spell Card(s) to the Graveyard.",
+         "atk":650,
+         "def":500,
+         "level":2,
+         "race":"Fiend",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN012",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.24"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-024",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.18"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E024",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"5.49"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-024",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.46"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN024",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.47"
+            },
+            {
+               "set_name":"Starter Deck: Pegasus",
+               "set_code":"SDP-019",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.22"
+            }
+         ],
+         "card_images":[
+            {
+               "id":81863068,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81863068.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81863068.jpg"
+            },
+            {
+               "id":81863068,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81863068.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81863068.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.12",
+               "tcgplayer_price":"0.33",
+               "ebay_price":"2.99",
+               "amazon_price":"0.49",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":64047146,
+         "name":"Horn of the Unicorn",
+         "type":"Spell Card",
+         "desc":"The equipped monster gains 700 ATK and DEF. When this card is sent from the field to the Graveyard: Return it to the top of the Deck.",
+         "race":"Equip",
+         "card_sets":[
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN134",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.73"
+            },
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN134",
+               "set_rarity":"Mosaic Rare",
+               "set_rarity_code":"(MSR)",
+               "set_price":"1.53"
+            },
+            {
+               "set_name":"Battle Pack: Epic Dawn",
+               "set_code":"BP01-EN069",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.25"
+            },
+            {
+               "set_name":"Battle Pack: Epic Dawn",
+               "set_code":"BP01-EN069",
+               "set_rarity":"Starfoil Rare",
+               "set_rarity_code":"(SFR)",
+               "set_price":"3"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN034",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.26"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-054",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.21"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E054",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"14.11"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-054",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.95"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN054",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.95"
+            },
+            {
+               "set_name":"Yugi's Legendary Decks",
+               "set_code":"YGLD-ENA29",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.38"
+            }
+         ],
+         "card_images":[
+            {
+               "id":64047146,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64047146.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64047146.jpg"
+            },
+            {
+               "id":64047146,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64047146.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64047146.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.12",
+               "tcgplayer_price":"0.19",
+               "ebay_price":"0.99",
+               "amazon_price":"1.44",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":62397231,
+         "name":"Hyozanryu",
+         "type":"Normal Monster",
+         "desc":"A dragon created from a massive diamond that sparkles with blinding light.",
+         "atk":2100,
+         "def":2800,
+         "level":7,
+         "race":"Dragon",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN041",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN066",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.23"
+            },
+            {
+               "set_name":"Ghosts From the Past",
+               "set_code":"GFTP-EN071",
+               "set_rarity":"Ultra Rare",
+               "set_rarity_code":"(UR)",
+               "set_price":"0.97"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-075",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.79"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E075",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.52"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN065",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.56"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-075",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.89"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN075",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"0.00"
+            },
+            {
+               "set_name":"Starter Deck: Kaiba Evolution",
+               "set_code":"SKE-011",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.28"
+            }
+         ],
+         "card_images":[
+            {
+               "id":62397231,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/62397231.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/62397231.jpg"
+            },
+            {
+               "id":62397231,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/62397231.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/62397231.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.10",
+               "tcgplayer_price":"0.21",
+               "ebay_price":"0.99",
+               "amazon_price":"0.59",
+               "coolstuffinc_price":"1.99"
+            }
+         ]
+      },
+      {
+         "id":23289281,
+         "name":"Karate Man",
+         "type":"Effect Monster",
+         "desc":"You can double the original ATK of this card once per turn. If you used this effect, destroy this card during the End Phase.",
+         "atk":1000,
+         "def":1000,
+         "level":3,
+         "race":"Warrior",
+         "attribute":"EARTH",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN049",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-083",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.03"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E083",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.86"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-083",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.36"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN083",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"0.99"
+            },
+            {
+               "set_name":"Starter Deck: Joey",
+               "set_code":"SDJ-013",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.03"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-013",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.1"
+            }
+         ],
+         "card_images":[
+            {
+               "id":23289281,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23289281.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23289281.jpg"
+            },
+            {
+               "id":23289281,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23289281.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23289281.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.19",
+               "ebay_price":"15.00",
+               "amazon_price":"0.20",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":38369349,
+         "name":"Manga Ryu-Ran",
+         "type":"Toon Monster",
+         "desc":"(This card is always treated as a \"Toon\" card.)\nCannot be Normal Summoned/Set. Must first be Special Summoned (from your hand) by Tributing 2 monsters, while you control \"Toon World\". Cannot attack the turn it is Special Summoned. You must pay 500 LP to declare an attack with this monster. If \"Toon World\" on the field is destroyed, destroy this card. Can attack your opponent directly, unless they control a Toon monster, in which case this card must target a Toon monster for its attacks.",
+         "atk":2200,
+         "def":2600,
+         "level":7,
+         "race":"Dragon",
+         "attribute":"FIRE",
+         "archetype":"Toon",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN038",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN063",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN104",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.35"
+            },
+            {
+               "set_name":"Legendary Duelists: Season 1",
+               "set_code":"LDS1-EN053",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.98"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-071",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E071",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"12.69"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN062",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.45"
+            },
+            {
+               "set_name":"Speed Duel Starter Decks: Match of the Millennium",
+               "set_code":"SS04-ENB05",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.25"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-071",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.4"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN071",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.99"
+            },
+            {
+               "set_name":"Starter Deck: Pegasus",
+               "set_code":"SDP-022",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.11"
+            }
+         ],
+         "card_images":[
+            {
+               "id":38369349,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38369349.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38369349.jpg"
+            },
+            {
+               "id":38369349,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38369349.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38369349.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"1.49",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":57839750,
+         "name":"Mother Grizzly",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 WATER monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+         "atk":1400,
+         "def":1000,
+         "level":4,
+         "race":"Beast-Warrior",
+         "attribute":"WATER",
+         "card_sets":[
+            {
+               "set_name":"Champion Pack: Game Four",
+               "set_code":"CP04-EN013",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN053",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN074",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.24"
+            },
+            {
+               "set_name":"Duelist League 2 participation cards",
+               "set_code":"DL12-EN004",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.18"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN237",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"3.41"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-090",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.24"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E090",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"14.79"
+            },
+            {
+               "set_name":"Realm of the Sea Emperor Structure Deck",
+               "set_code":"SDRE-EN021",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN073",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.37"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-090",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.28"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN090",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.39"
+            },
+            {
+               "set_name":"Structure Deck: Fury from the Deep",
+               "set_code":"SD4-EN005",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            }
+         ],
+         "card_images":[
+            {
+               "id":57839750,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57839750.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57839750.jpg"
+            },
+            {
+               "id":57839750,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57839750.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57839750.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.23",
+               "ebay_price":"1.75",
+               "amazon_price":"0.49",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":83011277,
+         "name":"Mystic Tomato",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the GY: You can Special Summon 1 DARK monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+         "atk":1400,
+         "def":1100,
+         "level":4,
+         "race":"Plant",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN057",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.69"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN077",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.77"
+            },
+            {
+               "set_name":"Dark Saviors",
+               "set_code":"DASA-EN046",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.58"
+            },
+            {
+               "set_name":"Dragons Collide Structure Deck",
+               "set_code":"SDDC-EN016",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.64"
+            },
+            {
+               "set_name":"Duel Terminal 6a",
+               "set_code":"DT06-EN005",
+               "set_rarity":"Duel Terminal Normal Parallel Rare",
+               "set_rarity_code":"(DNPR)",
+               "set_price":"5.06"
+            },
+            {
+               "set_name":"Duelist League 2010 participation cards",
+               "set_code":"DL09-EN006",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"8.53"
+            },
+            {
+               "set_name":"Hobby League 3 participation card E",
+               "set_code":"HL03-EN005",
+               "set_rarity":"Ultra Parallel Rare",
+               "set_rarity_code":"(UPR)",
+               "set_price":"16.67"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN239",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"16.25"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-094",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.89"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E094",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"8.28"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN076",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.42"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-094",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.37"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN094",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.95"
+            },
+            {
+               "set_name":"Starter Deck: Kaiba Evolution",
+               "set_code":"SKE-021",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.87"
+            },
+            {
+               "set_name":"Starter Deck: Yu-Gi-Oh! 5D's",
+               "set_code":"5DS1-EN017",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.44"
+            },
+            {
+               "set_name":"Structure Deck: Marik (TCG)",
+               "set_code":"SDMA-EN002",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.26"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-015",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.82"
+            }
+         ],
+         "card_images":[
+            {
+               "id":83011277,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011277.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011277.jpg"
+            },
+            {
+               "id":83011277,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011277.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011277.jpg"
+            },
+            {
+               "id":83011278,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011278.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011278.jpg"
+            },
+            {
+               "id":83011278,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83011278.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83011278.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.22",
+               "ebay_price":"0.99",
+               "amazon_price":"0.99",
+               "coolstuffinc_price":"0.99"
+            }
+         ]
+      },
+      {
+         "id":22567609,
+         "name":"Nimble Momonga",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: Gain 1000 Life Points, then you can Special Summon any number of \"Nimble Momongas\" from your Deck in face-down Defense Position.",
+         "atk":1000,
+         "def":100,
+         "level":2,
+         "race":"Beast",
+         "attribute":"EARTH",
+         "archetype":"Nimble",
+         "card_sets":[
+            {
+               "set_name":"Champion Pack: Game Two",
+               "set_code":"CP02-EN002",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"108.79"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN051",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.92"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN072",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.74"
+            },
+            {
+               "set_name":"Duel Terminal 5a",
+               "set_code":"DT05-EN008",
+               "set_rarity":"Duel Terminal Normal Parallel Rare",
+               "set_rarity_code":"(DNPR)",
+               "set_price":"5.26"
+            },
+            {
+               "set_name":"Duelist League Demo 2010",
+               "set_code":"DLDI-EN002",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"67.81"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN235",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"3.05"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-086",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.83"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E086",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"9.86"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN071",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"5"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-086",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.61"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN086",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.83"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-014",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.74"
+            }
+         ],
+         "card_images":[
+            {
+               "id":22567609,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22567609.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22567609.jpg"
+            },
+            {
+               "id":22567609,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22567609.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22567609.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.81",
+               "tcgplayer_price":"0.82",
+               "ebay_price":"179.99",
+               "amazon_price":"0.01",
+               "coolstuffinc_price":"1.49"
+            }
+         ]
+      },
+      {
+         "id":70046172,
+         "name":"Rush Recklessly",
+         "type":"Spell Card",
+         "desc":"Target 1 face-up monster on the field; it gains 700 ATK until the end of this turn.",
+         "race":"Quick-Play",
+         "card_sets":[
+            {
+               "set_name":"2-Player Starter Deck: Yuya & Declan",
+               "set_code":"YS15-ENY14",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"4.03"
+            },
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN133",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.12"
+            },
+            {
+               "set_name":"Battle Pack 2: War of the Giants",
+               "set_code":"BP02-EN133",
+               "set_rarity":"Mosaic Rare",
+               "set_rarity_code":"(MSR)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Battle Pack 3: Monster League",
+               "set_code":"BP03-EN134",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.11"
+            },
+            {
+               "set_name":"Battle Pack 3: Monster League",
+               "set_code":"BP03-EN134",
+               "set_rarity":"Shatterfoil Rare",
+               "set_rarity_code":"(SHR)",
+               "set_price":"1.1"
+            },
+            {
+               "set_name":"Champion Pack: Game Two",
+               "set_code":"CP02-EN013",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.37"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN027",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.09"
+            },
+            {
+               "set_name":"Dark Legion Starter Deck",
+               "set_code":"YS15-ENL18",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.06"
+            },
+            {
+               "set_name":"Duel Terminal 3",
+               "set_code":"DT03-EN041",
+               "set_rarity":"Duel Terminal Normal Parallel Rare",
+               "set_rarity_code":"(DNPR)",
+               "set_price":"2.44"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-043",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.07"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E043",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"7.55"
+            },
+            {
+               "set_name":"Saber Force Starter Deck",
+               "set_code":"YS15-ENF17",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.15"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-043",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN043",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"3.95"
+            },
+            {
+               "set_name":"Starter Deck: Jaden Yuki",
+               "set_code":"YSDJ-EN021",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.15"
+            },
+            {
+               "set_name":"Starter Deck: Kaiba Evolution",
+               "set_code":"SKE-036",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.97"
+            },
+            {
+               "set_name":"Starter Deck: Kaiba Reloaded",
+               "set_code":"YSKR-EN031",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.09"
+            },
+            {
+               "set_name":"Starter Deck: Pegasus",
+               "set_code":"SDP-033",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.98"
+            },
+            {
+               "set_name":"Starter Deck: Syrus Truesdale",
+               "set_code":"YSDS-EN022",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.15"
+            },
+            {
+               "set_name":"Starter Deck: Yu-Gi-Oh! 5D's",
+               "set_code":"5DS1-EN025",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.01"
+            },
+            {
+               "set_name":"Starter Deck: Yu-Gi-Oh! 5D's 2009",
+               "set_code":"5DS2-EN022",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.11"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-010",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.27"
+            }
+         ],
+         "card_images":[
+            {
+               "id":70046172,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70046172.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70046172.jpg"
+            },
+            {
+               "id":70046172,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70046172.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70046172.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"1.95",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":23401839,
+         "name":"Senju of the Thousand Hands",
+         "type":"Effect Monster",
+         "desc":"When this card is Normal or Flip Summoned: You can add 1 Ritual Monster from your Deck to your hand.",
+         "atk":1400,
+         "def":1000,
+         "level":4,
+         "race":"Fairy",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Astral Pack Seven",
+               "set_code":"AP07-EN016",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"3.4"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN046",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.04"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN069",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"3.51"
+            },
+            {
+               "set_name":"Duel Terminal 5b",
+               "set_code":"DT05-EN051",
+               "set_rarity":"Duel Terminal Normal Parallel Rare",
+               "set_rarity_code":"(DNPR)",
+               "set_price":"10.67"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-080",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.94"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E080",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"17.06"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN068",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"4.43"
+            },
+            {
+               "set_name":"Speed Duel Starter Decks: Match of the Millennium",
+               "set_code":"SS04-ENA11",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.33"
+            },
+            {
+               "set_name":"Speed Duel: Arena of Lost Souls",
+               "set_code":"SBLS-EN017",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"6.3"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-080",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.2"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN080",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"4.41"
+            },
+            {
+               "set_name":"Tournament Pack 4",
+               "set_code":"TP4-012",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"4.26"
+            }
+         ],
+         "card_images":[
+            {
+               "id":23401839,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401839.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401839.jpg"
+            },
+            {
+               "id":23401839,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401839.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401839.jpg"
+            },
+            {
+               "id":23401840,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401840.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401840.jpg"
+            },
+            {
+               "id":23401840,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/23401840.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/23401840.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.52",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"5.45",
+               "amazon_price":"6.74",
+               "coolstuffinc_price":"5.99"
+            }
+         ]
+      },
+      {
+         "id":95956346,
+         "name":"Shining Angel",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 LIGHT monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+         "atk":1400,
+         "def":800,
+         "level":4,
+         "race":"Fairy",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Cyber Dragon Revolution Structure Deck",
+               "set_code":"SDCR-EN018",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.14"
+            },
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN052",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.52"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN073",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.34"
+            },
+            {
+               "set_name":"Duelist League 13 participation cards",
+               "set_code":"DL13-EN002",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.83"
+            },
+            {
+               "set_name":"Hobby League 6 participation card F",
+               "set_code":"HL06-EN006",
+               "set_rarity":"Ultra Parallel Rare",
+               "set_rarity_code":"(UPR)",
+               "set_price":"23.81"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN236",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"5.63"
+            },
+            {
+               "set_name":"Lost Sanctuary Structure Deck",
+               "set_code":"SDLS-EN015",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.16"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-088",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.41"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E088",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"6.24"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN072",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.72"
+            },
+            {
+               "set_name":"Saga of Blue-Eyes White Dragon Structure Deck",
+               "set_code":"SDBE-EN018",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.11"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-088",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.92"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN088",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.99"
+            },
+            {
+               "set_name":"Starter Deck: Dawn of the Xyz",
+               "set_code":"YS11-EN013",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.96"
+            },
+            {
+               "set_name":"Starter Deck: Xyz Symphony",
+               "set_code":"YS12-EN018",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.15"
+            }
+         ],
+         "card_images":[
+            {
+               "id":95956346,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95956346.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95956346.jpg"
+            },
+            {
+               "id":95956346,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/95956346.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/95956346.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.19",
+               "ebay_price":"0.99",
+               "amazon_price":"4.99",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":60806437,
+         "name":"UFO Turtle",
+         "type":"Effect Monster",
+         "desc":"When this card is destroyed by battle and sent to the Graveyard: You can Special Summon 1 FIRE monster with 1500 or less ATK from your Deck, in face-up Attack Position.",
+         "atk":1400,
+         "def":1200,
+         "level":4,
+         "race":"Machine",
+         "attribute":"FIRE",
+         "card_sets":[
+            {
+               "set_name":"Dark Beginning 1",
+               "set_code":"DB1-EN047",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.2"
+            },
+            {
+               "set_name":"Dark Legends",
+               "set_code":"DLG1-EN070",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.07"
+            },
+            {
+               "set_name":"Duelist League 3 participation cards",
+               "set_code":"DL12-EN002",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"2.29"
+            },
+            {
+               "set_name":"Legendary Collection 3: Yugi's World Mega Pack",
+               "set_code":"LCYW-EN233",
+               "set_rarity":"Secret Rare",
+               "set_rarity_code":"(ScR)",
+               "set_price":"1.42"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-081",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.01"
+            },
+            {
+               "set_name":"Magic Ruler",
+               "set_code":"MRL-E081",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"13.4"
+            },
+            {
+               "set_name":"Onslaught of the Fire Kings Structure Deck",
+               "set_code":"SDOK-EN021",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.06"
+            },
+            {
+               "set_name":"Retro Pack",
+               "set_code":"RP01-EN069",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"2.73"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-081",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"1.33"
+            },
+            {
+               "set_name":"Spell Ruler",
+               "set_code":"SRL-EN081",
+               "set_rarity":"Rare",
+               "set_rarity_code":"(R)",
+               "set_price":"0.99"
+            },
+            {
+               "set_name":"Starter Deck: Yu-Gi-Oh! 5D's",
+               "set_code":"5DS1-EN016",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.03"
+            },
+            {
+               "set_name":"Structure Deck: Blaze of Destruction",
+               "set_code":"SD3-EN004",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.98"
+            }
+         ],
+         "card_images":[
+            {
+               "id":60806437,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/60806437.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/60806437.jpg"
+            },
+            {
+               "id":60806437,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/60806437.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/60806437.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.10",
+               "tcgplayer_price":"0.12",
+               "ebay_price":"1.89",
+               "amazon_price":"0.54",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      }
+   ]
+}
