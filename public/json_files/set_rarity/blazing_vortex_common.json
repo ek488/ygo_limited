@@ -1,1 +1,1921 @@
-{"data":[{"id":43739056,"name":"Amanokujaki","type":"Tuner Monster","desc":"You cannot activate the effects of other Special Summoned monsters with the same Attribute as this card. Once per turn, during this card's owner's Main Phase (Quick Effect): You can give control of this card to your opponent, then you can change this card's Attribute to any Attribute until the end of the next turn.","atk":1000,"def":1000,"level":3,"race":"Fiend","attribute":"LIGHT","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN033","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.83"}],"card_images":[{"id":43739056,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/43739056.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/43739056.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.07","ebay_price":"0.99","amazon_price":"0.50","coolstuffinc_price":"0.49"}]},{"id":82255872,"name":"Ancient Warriors Saga - Chivalrous Path","type":"Trap Card","desc":"If an \"Ancient Warriors\" monster(s) would be destroyed by battle, you can send this card to the GY instead. You can only use each of the following effects of \"Ancient Warriors Saga - Chivalrous Path\" once per turn. If your opponent Special Summons a monster(s) (except during the Damage Step): You can Special Summon 1 \"Ancient Warriors Dragoon Token\" (Beast-Warrior/WIND/Level 1/ATK 500/DEF 500). When a card or effect is activated that targets an \"Ancient Warriors\" monster(s) on the field: You can banish this card from your GY; negate the activation.","race":"Continuous","archetype":"Ancient Warriors","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN074","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.93"}],"card_images":[{"id":82255872,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/82255872.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/82255872.jpg"}],"card_prices":[{"cardmarket_price":"0.10","tcgplayer_price":"0.14","ebay_price":"0.99","amazon_price":"0.99","coolstuffinc_price":"0.25"}]},{"id":21438286,"name":"Archfiend's Staff of Despair","type":"Spell Card","desc":"Equip only to a monster you control. During your Main Phase: You can make all monsters your opponent currently controls lose ATK equal to half the equipped monster's ATK, until the end of this turn (even if this card leaves the field). If this card is sent to the GY while equipped to a monster: You can pay 1000 LP; return this card to your hand. You can only use each effect of \"Archfiend's Staff of Despair\" once per turn.","race":"Equip","archetype":"Archfiend","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN063","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.82"}],"card_images":[{"id":21438286,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/21438286.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/21438286.jpg"}],"card_prices":[{"cardmarket_price":"0.04","tcgplayer_price":"0.11","ebay_price":"1.00","amazon_price":"3.49","coolstuffinc_price":"0.25"}]},{"id":61606250,"name":"Armed Dragon Blitz","type":"Spell Card","desc":"Target 1 \"Armed Dragon\" monster you control; take 1 monster with the same name from your Deck or GY, and either add it to your hand or Special Summon it, ignoring its Summoning conditions, but the Special Summoned monster cannot attack directly. You can only activate 1 \"Armed Dragon Blitz\" per turn. You cannot Special Summon monsters the turn you activate this card, except Dragon monsters.","race":"Normal","archetype":"Armed Dragon","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN052","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":61606250,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61606250.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61606250.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.18","ebay_price":"1.00","amazon_price":"74.99","coolstuffinc_price":"0.25"}]},{"id":97091969,"name":"Armed Dragon Lightning","type":"Spell Card","desc":"If an \"Armed Dragon\" monster(s) you control would be destroyed by a card effect, you can send this card to the GY instead. You can target 1 \"Armed Dragon\" monster you control, then activate 1 of these effects;\r\n\u25cf It gains ATK equal to its Level x 100.\r\n\u25cf Add 1 \"Armed Dragon\" monster from your GY to your hand with a Level less than or equal to that monster.\r\nYou can only use this effect of \"Armed Dragon Lightning\" once per turn.","race":"Continuous","archetype":"Armed Dragon","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN053","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.81"}],"card_images":[{"id":97091969,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97091969.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97091969.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.17","ebay_price":"1.00","amazon_price":"74.99","coolstuffinc_price":"0.25"}]},{"id":57030525,"name":"Armed Dragon Thunder LV3","type":"Effect Monster","desc":"This card's name becomes \"Armed Dragon LV3\" while on the field or in the GY. You can only use each of the following effects of \"Armed Dragon Thunder LV3\" once per turn.\r\n\u25cf You can send 1 monster from your hand to the GY; send this card from the field to the GY, and if you do, Special Summon 1 Level 5 or lower \"Armed Dragon\" monster from your hand or Deck.\r\n\u25cf If this card is sent to the GY to activate a Dragon monster's effect: You can draw 1 card.","atk":1200,"def":900,"level":3,"race":"Dragon","attribute":"WIND","archetype":"Armed Dragon","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN004","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0"},{"set_name":"Blazing Vortex","set_code":"BLVO-EN004","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.32"}],"card_images":[{"id":57030525,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57030525.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57030525.jpg"}],"card_prices":[{"cardmarket_price":"0.23","tcgplayer_price":"0.68","ebay_price":"0.99","amazon_price":"0.65","coolstuffinc_price":"0.99"}]},{"id":21546416,"name":"Armed Dragon Thunder LV5","type":"Effect Monster","desc":"This card's name becomes \"Armed Dragon LV5\" while on the field or in the GY. You can only use each of the following effects of \"Armed Dragon Thunder LV5\" once per turn.\r\n\u25cf You can send 1 monster from your hand to the GY; send this card from the field to the GY, and if you do, Special Summon 1 Level 7 or lower \"Armed Dragon\" monster from your hand or Deck.\r\n\u25cf If this card is sent to the GY to activate a Dragon monster's effect: You can add 1 Level 5 or higher WIND Dragon monster from your Deck to your hand.","atk":2400,"def":1700,"level":5,"race":"Dragon","attribute":"WIND","archetype":"Armed Dragon","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN003","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0"},{"set_name":"Blazing Vortex","set_code":"BLVO-EN003","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.15"}],"card_images":[{"id":21546416,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/21546416.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/21546416.jpg"}],"card_prices":[{"cardmarket_price":"0.23","tcgplayer_price":"0.45","ebay_price":"1.49","amazon_price":"0.74","coolstuffinc_price":"0.99"}]},{"id":57605303,"name":"Armed Dragon Thunderbolt","type":"Trap Card","desc":"Target 1 \"Armed Dragon\" monster you control; it gains 1000 ATK for each \"Armed Dragon\" monster in your GY with a different name and an equal or lower Level than that monster, but it cannot inflict battle damage to your opponent this turn. You can banish this card from your GY, then target 1 \"Armed Dragon\" Spell in your GY; add it to your hand. You can only use 1 \"Armed Dragon Thunderbolt\" effect per turn, and only once that turn.","race":"Normal","archetype":"Armed Dragon","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN067","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0"},{"set_name":"Blazing Vortex","set_code":"BLVO-EN067","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"0.99"}],"card_images":[{"id":57605303,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57605303.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57605303.jpg"}],"card_prices":[{"cardmarket_price":"0.17","tcgplayer_price":"0.25","ebay_price":"1.25","amazon_price":"74.99","coolstuffinc_price":"0.99"}]},{"id":58827995,"name":"Armor Dragon Ritual","type":"Spell Card","desc":"This card is used to Ritual Summon \"Knight of Armor Dragon\". You must also Tribute monsters from your hand or field whose total Levels equal 4 or more. During your Main Phase, except the turn this card was sent to the GY: You can banish monsters from your hand or face-up field whose total Levels equal 4 or more; banish this card from your GY, and if you do, Special Summon 1 \"Knight of Armor Dragon\" from your GY. You can only use this effect of \"Armor Dragon Ritual\" once per turn.","race":"Ritual","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN064","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.8"}],"card_images":[{"id":58827995,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58827995.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58827995.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.11","ebay_price":"1.95","amazon_price":"385.00","coolstuffinc_price":"0.25"}]},{"id":44221928,"name":"Breath of Acclamation","type":"Spell Card","desc":"This card can be used to Ritual Summon any WIND Ritual Monster. You must also Tribute monsters from your hand or field whose total Levels exactly equal the Level of the Ritual Monster you Ritual Summon.","race":"Ritual","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN086","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.82"}],"card_images":[{"id":44221928,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44221928.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44221928.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.13","ebay_price":"1.95","amazon_price":"1.45","coolstuffinc_price":"0.00"}]},{"id":19301729,"name":"Digital Bug Registrider","type":"Effect Monster","desc":"Cannot be used as Xyz Material for an Xyz Summon, except the Xyz Summon of an Insect monster. When you Normal Summon a Level 3 Insect monster: You can Special Summon this card from your hand, then you can make both this card and that monster Level 5 or 7. If this card is Special Summoned from the hand: You can change the battle position of 1 Insect monster you control. An Xyz Monster that was Summoned using this card on the field as material gains this effect.\r\n\u25cf This card gains 1000 ATK/DEF.","atk":1000,"def":1000,"level":3,"race":"Insect","attribute":"LIGHT","archetype":"Digital Bug","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN023","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":19301729,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19301729.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19301729.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.12","ebay_price":"1.00","amazon_price":"0.50","coolstuffinc_price":"0.25"}]},{"id":56588755,"name":"Dogmatika Genesis","type":"Trap Card","desc":"Target 1 banished Fusion, Synchro, Xyz, or Link Monster, and 1 Effect Monster your opponent controls with the same card type (Fusion, Synchro, Xyz, or Link); return that banished monster to the Extra Deck, and if you do, negate the effects of that opponent's monster. You can only activate 1 \"Dogmatika Genesis\" per turn.","race":"Normal","archetype":"Dogmatika","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN070","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":56588755,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56588755.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56588755.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.11","ebay_price":"1.00","amazon_price":"3.50","coolstuffinc_price":"0.49"}]},{"id":81038234,"name":"Dream Mirror Recap","type":"Trap Card","desc":"If a \"Dream Mirror\" monster you control would be Tributed to activate its own effect, shuffle it into the Deck instead of sending it to the GY. During the Main Phase: You can send this face-up card to the GY; place 1 of your \"Dream Mirror of Joy\" or \"Dream Mirror of Terror\" that is banished or in your GY, face-up in your Field Zone, then you can Special Summon 1 monster from your hand that specifically lists that card you placed in its text.","race":"Continuous","archetype":"Dream Mirror","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN077","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.82"}],"card_images":[{"id":81038234,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81038234.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81038234.jpg"}],"card_prices":[{"cardmarket_price":"0.11","tcgplayer_price":"0.13","ebay_price":"1.00","amazon_price":"29.99","coolstuffinc_price":"0.25"}]},{"id":44644529,"name":"Dual Avatar Ascendance","type":"Trap Card","desc":"Target 1 \"Dual Avatar\" monster you control; destroy it, and if you do, Special Summon 1 \"Dual Avatar\" monster from your Deck or Extra Deck, whose original Level is 1 higher or 1 lower than that monster had on the field. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 \"Dual Avatar\" monster in your GY; add it to your hand. You can only use each effect of \"Dual Avatar Ascendance\" once per turn.","race":"Normal","archetype":"Dual Avatar","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN076","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":44644529,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44644529.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44644529.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.10","ebay_price":"1.10","amazon_price":"0.25","coolstuffinc_price":"0.25"}]},{"id":57630503,"name":"Fabled Marcosia","type":"Effect Monster","desc":"If this card is in your hand: You can discard up to 2 monsters, except \"Fabled Marcosia\", but including another \"Fabled\" monster, and if you do, Special Summon this card. If Summoned this way, this card gains 200 ATK for each monster discarded. If this card is discarded to the GY: Add 1 \"Fabled\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Fabled Marcosia\" once per turn.","atk":1700,"def":0,"level":4,"race":"Fiend","attribute":"LIGHT","archetype":"Fabled","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN018","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.8"}],"card_images":[{"id":57630503,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57630503.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57630503.jpg"}],"card_prices":[{"cardmarket_price":"0.04","tcgplayer_price":"0.10","ebay_price":"0.99","amazon_price":"1.38","coolstuffinc_price":"0.25"}]},{"id":55766177,"name":"Fabled Treason","type":"Trap Card","desc":"Target 1 \"Fabled\" monster in your GY and 1 face-up card on the field; discard 1 card, and if you do, Special Summon that monster from your GY, and if you do that, destroy that card on the field. You can only activate 1 \"Fabled Treason\" per turn.","race":"Normal","archetype":"Fabled","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN073","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":55766177,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/55766177.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/55766177.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.10","ebay_price":"0.99","amazon_price":"1.17","coolstuffinc_price":"0.25"}]},{"id":44451698,"name":"Fairy Archer Ingunar","type":"Effect Monster","desc":"If this card is Special Summoned by the effect of a Plant monster: You can target 1 Level 6 or higher Plant monster in your GY; Special Summon it in Defense Position, also you cannot Special Summon monsters for the rest of this turn, except Plant monsters. You can only use this effect of \"Fairy Archer Ingunar\" once per turn. Cannot attack the turn it is Special Summoned.","atk":2400,"def":1200,"level":6,"race":"Plant","attribute":"EARTH","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN030","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":44451698,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44451698.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44451698.jpg"}],"card_prices":[{"cardmarket_price":"0.04","tcgplayer_price":"0.11","ebay_price":"1.00","amazon_price":"1.00","coolstuffinc_price":"0.25"}]},{"id":17241941,"name":"Gigathunder Giclops","type":"Pendulum Tuner Effect Monster","desc":"If this card, Special Summoned from the Extra Deck, is used as Synchro Material, banish it. If this card is Normal Summoned: You can change its battle position. You can only use each of the following effects of \"Gigathunder Giclops\" once per turn. If the battle position of this card is changed: You can target 1 face-up Spell/Trap on the field; destroy it. If this card is destroyed in the Pendulum Zone: You can return 1 card from your Pendulum Zone to the hand.","atk":1400,"def":1700,"level":4,"race":"Thunder","attribute":"WIND","scale":5,"card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN032","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.86"}],"card_images":[{"id":17241941,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/17241941.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/17241941.jpg"}],"card_prices":[{"cardmarket_price":"0.03","tcgplayer_price":"0.07","ebay_price":"0.99","amazon_price":"1.95","coolstuffinc_price":"0.49"}]},{"id":79724755,"name":"Guitar Gurnards Duonigis","type":"Effect Monster","desc":"If this card is Special Summoned: You can banish cards from the top of your opponent's Deck equal to the number of WATER monsters you control. You can target 1 Level 4 or lower WATER monster you control; increase its Level by its original Level. You can banish this card from your GY; 1 WATER monster on the field gains 100 ATK for each currently banished monster, until the end of this turn. You can only use each effect of \"Guitar Gurnards Duonigis\" once per turn.","atk":1500,"def":700,"level":3,"race":"Sea Serpent","attribute":"WATER","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN034","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.88"}],"card_images":[{"id":79724755,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/79724755.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/79724755.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.07","ebay_price":"1.00","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":61728808,"name":"Heavymetalfoes Amalgam","type":"Link Monster","desc":"2 \"Metalfoes\" monsters\r\nIf this card is sent from the Monster Zone to the GY by card effect: You can activate 1 of these effects.\r\n\u25cf Target 1 \"Metalfoes\" monster you control; equip this card to it as an Equip Spell that gives it 1000 ATK.\r\n\u25cf Target 1 \"Metalfoes\" card you control; destroy it, and if you do, Special Summon this card.\r\nYou can only use this effect of \"Heavymetalfoes Amalgam\" once per turn.","atk":2000,"race":"Psychic","attribute":"FIRE","archetype":"Metalfoes","linkval":2,"linkmarkers":["Left","Right"],"card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN049","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":61728808,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61728808.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61728808.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.16","ebay_price":"0.99","amazon_price":"39.99","coolstuffinc_price":"0.25"}]},{"id":19362568,"name":"Icy Breeze Refrain","type":"Trap Card","desc":"Activate 1 of the following effects.\r\n\u25cf Target 1 \"Windwitch\" monster in your GY; Special Summon it in Defense Position.\r\n\u25cf When your opponent activates a card or effect in response to your \"Windwitch\" monster's effect activation: Negate that opponent's effect.\r\nYou can only activate 1 \"Icy Breeze Refrain\" per turn.","race":"Normal","archetype":"Windwitch","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN072","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.82"}],"card_images":[{"id":19362568,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19362568.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19362568.jpg"}],"card_prices":[{"cardmarket_price":"0.02","tcgplayer_price":"0.14","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":75901113,"name":"Knight of Armor Dragon","type":"Ritual Effect Monster","desc":"You can Ritual Summon this card with \"Armor Dragon Ritual\". At the start of the Damage Step, if this card battles a monster that was Special Summoned from the Extra Deck: You can shuffle that monster into the Deck. You can Tribute this card; Special Summon 1 Level 5 or higher WIND Dragon monster from your hand or Deck. You can only use each effect of \"Knight of Armor Dragon\" once per turn.","atk":1900,"def":1200,"level":4,"race":"Dragon","attribute":"WIND","archetype":"Paladins of Dragons","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN037","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.9"}],"card_images":[{"id":75901113,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/75901113.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/75901113.jpg"}],"card_prices":[{"cardmarket_price":"0.03","tcgplayer_price":"0.10","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.25"}]},{"id":70916046,"name":"Linear Equation Cannon","type":"Trap Card","desc":"During the Battle Phase: Declare a whole number from 1 to 6; choose 1 Effect Monster your opponent controls. Multiply the Effect Monster's Level x the declared number, then add the number of cards your opponent controls, and check if the result equals the number of cards in your GY.\r\n\u25cf If yes: Send cards from the top of your Deck to the GY, up to the declared number, and if you do, shuffle cards your opponent controls into the Deck, up to the number sent to the GY.\r\n\u25cf If no: You lose LP equal to the declared number x 500.\r\nYou can only activate 1 \"Linear Equation Cannon\" per turn.","race":"Normal","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN080","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.88"}],"card_images":[{"id":70916046,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70916046.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70916046.jpg"}],"card_prices":[{"cardmarket_price":"0.03","tcgplayer_price":"0.08","ebay_price":"1.20","amazon_price":"0.00","coolstuffinc_price":"0.49"}]},{"id":45674286,"name":"Machina Unclaspare","type":"Effect Monster","desc":"If this card is added to your hand, except by drawing it: You can Special Summon it, also you cannot Special Summon for the rest of this turn, except Machine monsters. If this card is Normal or Special Summoned: You can send 1 \"Machina\" monster from your Deck to the GY, except \"Machina Unclaspare\". You can only use each effect of \"Machina Unclaspare\" once per turn.","atk":1800,"def":800,"level":4,"race":"Machine","attribute":"DARK","archetype":"Machina","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN027","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":45674286,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45674286.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45674286.jpg"}],"card_prices":[{"cardmarket_price":"0.12","tcgplayer_price":"0.17","ebay_price":"0.99","amazon_price":"1.39","coolstuffinc_price":"0.25"}]},{"id":56518311,"name":"Metalfoes Vanisher","type":"Pendulum Normal Monster","desc":"You can target 2 face-up cards you control, including a \"Metalfoes\" card; destroy them, and if you do, Special Summon this card from your hand. If this card is Special Summoned by the effect of a \"Metalfoes\" card: You can target 1 monster your opponent controls or in their GY; banish it. You can only use each effect of \"Metalfoes Vanisher\" once per turn.","atk":2900,"def":1900,"level":9,"race":"Psychic","attribute":"FIRE","archetype":"Metalfoes","scale":1,"card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN021","set_rarity":"Common","set_rarity_code":"(C)","set_price":"1.13"},{"set_name":"Blazing Vortex","set_code":"BLVO-EN021","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.01"}],"card_images":[{"id":56518311,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56518311.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56518311.jpg"}],"card_prices":[{"cardmarket_price":"0.14","tcgplayer_price":"0.29","ebay_price":"0.99","amazon_price":"18.69","coolstuffinc_price":"0.79"}]},{"id":18189187,"name":"Neiroy, the Dream Mirror Disciple","type":"Effect Monster","desc":"If a \"Dream Mirror\" monster(s) is on the field: You can Special Summon this card from your hand, then, you can make this card become DARK. If this card is Special Summoned by the effect of a \"Dream Mirror\" monster: Activate this effect; if \"Dream Mirror of Joy\" is on the field, you can return 1 Spell/Trap your opponent controls to the hand, also, after that, if \"Dream Mirror of Terror\" is on the field, draw 1 card, then shuffle 1 card from your hand into the Deck. You can only use each effect of \"Neiroy, the Dream Mirror Disciple\" once per turn.","atk":1000,"def":1000,"level":3,"race":"Fairy","attribute":"LIGHT","archetype":"Dream Mirror","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN026","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.91"}],"card_images":[{"id":18189187,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/18189187.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/18189187.jpg"}],"card_prices":[{"cardmarket_price":"0.11","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"3.50","coolstuffinc_price":"0.25"}]},{"id":42517468,"name":"Ojama Pink","type":"Effect Monster","desc":"If this card is sent from the hand or field to the GY: You can have each player draw 1 card, then each player discards 1 card, then, if you discarded an \"Ojama\" card with this effect, you can choose 1 opponent's unused Monster Zone, and that zone cannot be used until the end of your opponent's turn. You can only use this effect of \"Ojama Pink\" once per turn.","atk":0,"def":1000,"level":2,"race":"Beast","attribute":"LIGHT","archetype":"Ojama","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN036","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.83"}],"card_images":[{"id":42517468,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/42517468.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/42517468.jpg"}],"card_prices":[{"cardmarket_price":"0.07","tcgplayer_price":"0.21","ebay_price":"0.99","amazon_price":"1.37","coolstuffinc_price":"0.25"}]},{"id":58549532,"name":"Parametalfoes Fusion","type":"Spell Card","desc":"Fusion Summon 1 \"Metalfoes\" Fusion Monster from your Extra Deck, using up to 1 monster each from your hand, field, and/or among face-up Pendulum Monsters in your Extra Deck as Fusion Material. You can only activate 1 \"Parametalfoes Fusion\" per turn.","race":"Normal","archetype":"Metalfoes","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN061","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.93"}],"card_images":[{"id":58549532,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58549532.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58549532.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.17","ebay_price":"0.99","amazon_price":"19.99","coolstuffinc_price":"0.25"}]},{"id":10024317,"name":"Parametalfoes Melcaster","type":"Pendulum Normal Monster","desc":"If this card on the field is destroyed by battle or card effect: You can add 1 face-up \"Metalfoes\" Pendulum Monster from your Extra Deck to your hand, except \"Parametalfoes Melcaster\", but you cannot activate it, or cards with its name, to place it in the Pendulum Zones, for the rest of this turn, except by card effect. You can only use this effect of \"Parametalfoes Melcaster\" once per turn.","atk":2000,"def":2500,"level":7,"race":"Psychic","attribute":"FIRE","archetype":"Metalfoes","scale":1,"card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN020","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.93"}],"card_images":[{"id":10024317,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/10024317.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/10024317.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.17","ebay_price":"1.20","amazon_price":"2.79","coolstuffinc_price":"0.39"}]},{"id":6992184,"name":"Pendulum Encore","type":"Trap Card","desc":"During your opponent's Main Phase: You can discard 1 card; immediately after this effect resolves, Pendulum Summon a Pendulum Monster(s), also for the rest of this turn after this card resolves, cards in your Pendulum Zones cannot activate their effects and cannot be destroyed by your card effects, also shuffle them into the Deck during the End Phase. You can only activate 1 \"Pendulum Encore\" per turn.","race":"Normal","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN091","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.78"}],"card_images":[{"id":6992184,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/6992184.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/6992184.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.09","ebay_price":"0.99","amazon_price":"1.46","coolstuffinc_price":"0.00"}]},{"id":9322133,"name":"Psychic Eraser Laser","type":"Spell Card","desc":"Send 1 monster your opponent controls that was Special Summoned from the Extra Deck to the GY, then your opponent gains LP equal to the original ATK or DEF of that monster (whichever is higher). You can only activate 1 \"Psychic Eraser Laser\" per turn.","race":"Normal","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN089","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0"},{"set_name":"Blazing Vortex","set_code":"BLVO-EN089","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.49"}],"card_images":[{"id":9322133,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/9322133.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/9322133.jpg"}],"card_prices":[{"cardmarket_price":"0.86","tcgplayer_price":"0.71","ebay_price":"0.99","amazon_price":"0.98","coolstuffinc_price":"1.49"}]},{"id":70856343,"name":"Radiant Vouirescence","type":"Effect Monster","desc":"When this card is Normal Summoned while your opponent controls a monster: You can discard 1 card; send any number of \"Radiant Vouirescence\" from your Deck to the GY. Once per turn, if this card is in your GY: You can make this card in the GY become DARK until the end of this turn.","atk":1600,"def":800,"level":4,"race":"Dragon","attribute":"LIGHT","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN031","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.81"}],"card_images":[{"id":70856343,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70856343.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70856343.jpg"}],"card_prices":[{"cardmarket_price":"0.03","tcgplayer_price":"0.08","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.49"}]},{"id":8836329,"name":"Raging Storm Dragon - Beaufort IX","type":"Ritual Effect Monster","desc":"You can Ritual Summon this card with \"Breath of Acclamation\". When an opponent's monster declares a direct attack: You can discard this card; negate the attack, and if you do, negate that monster's effects. (Quick Effect): You can target 1 face-up monster your opponent controls; return both that monster and this card to the hand. You can only use each effect of \"Raging Storm Dragon - Beaufort IX\" once per turn.","atk":2800,"def":2800,"level":9,"race":"Dragon","attribute":"WIND","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN082","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.8"}],"card_images":[{"id":8836329,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/8836329.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/8836329.jpg"}],"card_prices":[{"cardmarket_price":"0.00","tcgplayer_price":"0.10","ebay_price":"1.95","amazon_price":"4.96","coolstuffinc_price":"0.00"}]},{"id":79371897,"name":"Reinforcement of the Army's Troops","type":"Spell Card","desc":"When an attack is declared involving your Warrior monster: You can Special Summon 1 Level 4 or lower Warrior monster from your hand. You can only use this effect of \"Reinforcement of the Army's Troops\" once per turn.","race":"Continuous","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN088","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":79371897,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/79371897.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/79371897.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.13","ebay_price":"1.00","amazon_price":"0.29","coolstuffinc_price":"0.25"}]},{"id":58589739,"name":"S-Force Professor DiGamma","type":"Effect Monster","desc":"Each of your opponent's monsters in the same column as one of your \"S-Force\" monsters cannot change its battle position. If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change its battle position. You can only use this effect of \"S-Force Professor DiGamma\" once per turn.","atk":1000,"def":1500,"level":3,"race":"Psychic","attribute":"DARK","archetype":"S-Force","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN012","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":58589739,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58589739.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58589739.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.25"}]},{"id":69761020,"name":"S-Force Showdown","type":"Spell Card","desc":"Activate 1 of the following effects.\r\n\u25cf Special Summon 1 \"S-Force\" monster from your hand in Defense Position.\r\n\u25cf Target 1 \"S-Force\" monster in your GY; add it to your hand.\r\nYou can only activate 1 \"S-Force Showdown\" per turn.","race":"Quick-Play","archetype":"S-Force","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN058","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":69761020,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/69761020.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/69761020.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.17","ebay_price":"1.20","amazon_price":"0.39","coolstuffinc_price":"0.25"}]},{"id":82977464,"name":"S-Force Specimen","type":"Trap Card","desc":"If your opponent controls a monster: Target 1 of your \"S-Force\" monsters that is banished or in your GY; Special Summon it to your field in the same column as an opponent's monster. You can banish this card from your GY, then target 1 \"S-Force\" monster you control; move that target to another of your Main Monster Zones. You can only use 1 \"S-Force Specimen\" effect per turn, and only once that turn.","race":"Normal","archetype":"S-Force","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN071","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":82977464,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/82977464.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/82977464.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":1906812,"name":"Sprind the Irondash Dragon","type":"Fusion Monster","desc":"\"Fallen of Albaz\" + 1 Effect Monster Special Summoned this turn\r\nDuring your Main Phase: You can move this card you control to another of your Main Monster Zones, then you can destroy all other face-up cards in this card's column. During the End Phase, if this card is in the GY because it was sent there this turn: You can add to your hand, or Special Summon, 1 \"Springans\" monster or 1 \"Fallen of Albaz\" from your Deck. You can only use each effect of \"Sprind the Irondash Dragon\" once per turn.","atk":2500,"def":2000,"level":8,"race":"Machine","attribute":"DARK","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN038","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.91"}],"card_images":[{"id":1906812,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/1906812.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/1906812.jpg"}],"card_prices":[{"cardmarket_price":"0.10","tcgplayer_price":"0.11","ebay_price":"0.99","amazon_price":"0.49","coolstuffinc_price":"0.25"}]},{"id":10584050,"name":"Springans Blast!","type":"Trap Card","desc":"If you control a \"Springans\" monster: Choose 1 opponent's Main Monster Zone; if a monster is face-up in that zone, during this turn, it cannot attack directly, also its effects are negated. If no monster is in that zone, it cannot be used this turn. If you control a Fusion Monster that lists \"Fallen of Albaz\" as material, you can choose 2 zones instead. You can only activate 1 \"Springans Blast!\" per turn.","race":"Normal","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN069","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.75"}],"card_images":[{"id":10584050,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/10584050.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/10584050.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.15","ebay_price":"1.00","amazon_price":"0.99","coolstuffinc_price":"0.25"}]},{"id":83203672,"name":"Springans Branga","type":"Effect Monster","desc":"If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can banish this card and 1 \"Springans\" monster with a different name from your GY; add 1 \"Springans\" card from your Deck to your hand. You can only use each effect of \"Springans Branga\" once per turn.","atk":500,"def":2500,"level":8,"race":"Machine","attribute":"FIRE","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN008","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.76"}],"card_images":[{"id":83203672,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83203672.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83203672.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.13","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":83199011,"name":"Springans Call!","type":"Trap Card","desc":"Target 1 \"Springans\" monster or \"Fallen of Albaz\" in your GY; Special Summon it. During the Main Phase, except the turn this card was sent to the GY: You can banish this card and 1 Fusion Monster from your GY, then target 1 \"Springans\" Xyz Monster you control; attach 1 Fusion Monster that lists \"Fallen of Albaz\" as material from your Extra Deck to that monster as material. You can only use each effect of \"Springans Call!\" once per turn.","race":"Normal","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN068","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.8"}],"card_images":[{"id":83199011,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83199011.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83199011.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":29601381,"name":"Springans Captain Sargas","type":"Effect Monster","desc":"If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. During your opponent's turn (Quick Effect): You can detach 1 material from an Xyz Monster you control, then target 1 face-up card on the field; destroy it. You can only use each of the previous effects of \"Springans Captain Sargas\" once per turn. A \"Springans\" Xyz Monster that has this card as material gains this effect.\r\n\u25cf This card gains 500 ATK.","atk":1500,"def":2800,"level":8,"race":"Machine","attribute":"FIRE","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN009","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.81"}],"card_images":[{"id":29601381,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/29601381.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/29601381.jpg"}],"card_prices":[{"cardmarket_price":"0.09","tcgplayer_price":"0.16","ebay_price":"0.99","amazon_price":"0.50","coolstuffinc_price":"0.25"}]},{"id":56818977,"name":"Springans Pedor","type":"Effect Monster","desc":"You can Tribute this card, then target 1 \"Springans\" monster in your GY, except \"Springans Pedor\"; Special Summon it. If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can only use each effect of \"Springans Pedor\" once per turn.","atk":0,"def":2000,"level":4,"race":"Machine","attribute":"FIRE","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN007","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.88"}],"card_images":[{"id":56818977,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56818977.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56818977.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.13","ebay_price":"0.99","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":20424878,"name":"Springans Rockey","type":"Effect Monster","desc":"If this card is Normal or Special Summoned: You can target 1 \"Great Sand Sea - Gold Golgonda\" or 1 \"Springans\" monster in your GY, except \"Springans Rockey\"; add it to your hand. If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can only use each effect of \"Springans Rockey\" once per turn.","atk":1800,"def":800,"level":4,"race":"Machine","attribute":"FIRE","archetype":"Springans","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN006","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.83"}],"card_images":[{"id":20424878,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/20424878.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/20424878.jpg"}],"card_prices":[{"cardmarket_price":"0.07","tcgplayer_price":"0.16","ebay_price":"1.00","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":22555834,"name":"Stairway to a Fabled Realm","type":"Spell Card","desc":"When this card is activated: You can send 1 \"Fabled\" monster from your Deck to the GY. You can target 1 \"Fabled\" monster in your GY; discard 2 cards, and if you do, add that monster to your hand. You can only use this effect of \"Stairway to a Fabled Realm\" once per turn. If your \"Fabled\" monster attacks an opponent's monster and you have less cards in your hand than your opponent, your monster gains ATK equal to the difference in the number of cards x 200, during damage calculation only. You can only activate 1 \"Stairway to a Fabled Realm\" per turn.","race":"Field","archetype":"Fabled","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN060","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.89"}],"card_images":[{"id":22555834,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22555834.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22555834.jpg"}],"card_prices":[{"cardmarket_price":"0.04","tcgplayer_price":"0.09","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.25"}]},{"id":32986898,"name":"Steel Star Regulator","type":"Link Monster","desc":"3 non-Link Monsters\r\nGains ATK equal to the combined original Levels/Ranks of monsters used for its Link Summon x 100. You can target 1 non-Link Monster your opponent controls with ATK less than or equal to this card; destroy it, then if this card was Link Summoned using an Xyz Monster as material, inflict damage to your opponent equal to half the destroyed monster's original ATK. You can only use this effect of \"Steel Star Regulator\" once per turn.","atk":1000,"race":"Machine","attribute":"LIGHT","linkval":3,"linkmarkers":["Top-Left","Bottom-Left","Bottom-Right"],"card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN085","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.78"}],"card_images":[{"id":32986898,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/32986898.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/32986898.jpg"}],"card_prices":[{"cardmarket_price":"0.03","tcgplayer_price":"0.11","ebay_price":"1.10","amazon_price":"0.00","coolstuffinc_price":"0.25"}]},{"id":35817848,"name":"Synchro Transmission","type":"Trap Card","desc":"During the Main Phase: Immediately after this effect resolves, Synchro Summon 1 Synchro Monster using monsters you control as material. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 Synchro Monster in your GY; return it to the Extra Deck, then draw 1 card. You can only use each effect of \"Synchro Transmission\" once per turn.","race":"Normal","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN090","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.88"}],"card_images":[{"id":35817848,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/35817848.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/35817848.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.11","ebay_price":"0.99","amazon_price":"4.45","coolstuffinc_price":"0.25"}]},{"id":83039608,"name":"The Fabled Abanc","type":"Tuner Monster","desc":"If this card is in your GY: You can discard 1 \"Fabled\" monster, and if you do, Special Summon this card, but banish it when it leaves the field. You can only use this effect of \"The Fabled Abanc\" once per turn.","atk":1000,"def":600,"level":2,"race":"Beast","attribute":"LIGHT","archetype":"Fabled","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN019","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.9"}],"card_images":[{"id":83039608,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83039608.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83039608.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.11","ebay_price":"1.00","amazon_price":"0.50","coolstuffinc_price":"0.25"}]},{"id":20216608,"name":"Tilted Try","type":"Spell Card","desc":"When you draw for your normal draw in your Draw Phase: You can reveal 1 of those cards; place it on the bottom of the Deck, and if you do, draw 1 card. When you draw by a card effect: You can reveal 1 of those cards; send this card to the GY, and if you do, place that card on the bottom of the Deck, and if you do that, draw 1 card.","race":"Field","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN066","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.79"}],"card_images":[{"id":20216608,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/20216608.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/20216608.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.13","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.49"}]},{"id":96378317,"name":"Tri-Brigade Rendezvous","type":"Spell Card","desc":"Target any number of linked Beast, Beast-Warrior, and/or Winged Beast monsters you control; they gain 700 ATK until the end of this turn. If a linked Beast, Beast-Warrior, and/or Winged Beast monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only use each effect of \"Tri-Brigade Rendezvous\" once per turn.","race":"Quick-Play","archetype":"Tri-Brigade","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN056","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.95"}],"card_images":[{"id":96378317,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/96378317.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/96378317.jpg"}],"card_prices":[{"cardmarket_price":"0.10","tcgplayer_price":"0.23","ebay_price":"0.99","amazon_price":"24.99","coolstuffinc_price":"0.25"}]},{"id":18249921,"name":"Virtual World Gate - Xuanwu","type":"Trap Card","desc":"During the Battle Phase, if you control another \"Virtual World Gate\" card: You can target 1 face-up monster on the field; change its battle position. During your Main Phase: You can banish this card from your GY, then target 1 \"Virtual World\" monster in your GY; Special Summon it, but negate its effects, then send 1 card from your hand to the GY. You can only use each effect of \"Virtual World Gate - Xuanwu\" once per turn. You can only activate 1 \"Virtual World Gate - Xuanwu\" per turn.","race":"Continuous","archetype":"Virtual World","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN075","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.98"}],"card_images":[{"id":18249921,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/18249921.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/18249921.jpg"}],"card_prices":[{"cardmarket_price":"0.11","tcgplayer_price":"0.23","ebay_price":"0.99","amazon_price":"11.23","coolstuffinc_price":"0.39"}]},{"id":71331215,"name":"War Rock Ordeal","type":"Spell Card","desc":"You can only control 1 \"War Rock Ordeal\". When this card is activated: Place 3 counters on it. When your \"War Rock\" monster destroys an opponent's monster by battle and sends it to their GY: You can remove 1 counter from this card, and if you do, draw 1 card. If the last counter has been removed by this effect, send this card to the GY.","race":"Continuous","archetype":"War Rock","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN098","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.9"}],"card_images":[{"id":71331215,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/71331215.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/71331215.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.17","ebay_price":"0.99","amazon_price":"1.80","coolstuffinc_price":"0.25"}]},{"id":46169154,"name":"War Rock Orpis","type":"Effect Monster","desc":"If you control no monsters, or all monsters you control are Warrior monsters, you can Normal Summon this card without Tributing. If your EARTH Warrior monster battles, after damage calculation: You can send 1 EARTH Warrior monster from your Deck to the GY, except \"War Rock Orpis\", then all \"War Rock\" monsters you currently control gain 200 ATK until the end of your opponent's turn. You can only use this effect of \"War Rock Orpis\" once per turn.","atk":2100,"def":2100,"level":5,"race":"Warrior","attribute":"EARTH","archetype":"War Rock","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN095","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.92"}],"card_images":[{"id":46169154,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/46169154.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/46169154.jpg"}],"card_prices":[{"cardmarket_price":"0.06","tcgplayer_price":"0.19","ebay_price":"0.99","amazon_price":"2.28","coolstuffinc_price":"0.25"}]},{"id":72554862,"name":"War Rock Skyler","type":"Effect Monster","desc":"Gains 100 ATK for each monster your opponent controls. During a Battle Phase in which your EARTH Warrior monster battles (Quick Effect): You can target 1 Level 5 or lower Warrior monster in your GY; Special Summon it, also all \"War Rock\" monsters you currently control gain 200 ATK until the end of your opponent's turn, also for the rest of this turn, you cannot attack directly with Level 5 or lower monsters. You can only use this effect of \"War Rock Skyler\" once per turn.","atk":2200,"def":2200,"level":6,"race":"Warrior","attribute":"EARTH","archetype":"War Rock","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN096","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.81"}],"card_images":[{"id":72554862,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/72554862.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/72554862.jpg"}],"card_prices":[{"cardmarket_price":"0.05","tcgplayer_price":"0.19","ebay_price":"2.00","amazon_price":"1.49","coolstuffinc_price":"0.25"}]},{"id":84851250,"name":"Windwitch - Blizzard Bell","type":"Tuner Monster","desc":"If you control no monsters, or all monsters you control are \"Windwitch\" monsters, you can Normal Summon this card without Tributing. During your opponent's Main Phase, if you control a \"Windwitch\" monster other than \"Windwitch - Blizzard Bell\" (Quick Effect): You can send this card from your hand or field to the GY; inflict 500 damage to your opponent. You can only use this effect of \"Windwitch - Blizzard Bell\" once per turn.","atk":1800,"def":1800,"level":5,"race":"Spellcaster","attribute":"WIND","archetype":"Windwitch","card_sets":[{"set_name":"Blazing Vortex","set_code":"BLVO-EN016","set_rarity":"Common","set_rarity_code":"(C)","set_price":"0.92"}],"card_images":[{"id":84851250,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84851250.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84851250.jpg"}],"card_prices":[{"cardmarket_price":"0.08","tcgplayer_price":"0.15","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.25"}]}]}
+{
+   "data":[
+      {
+         "id":43739056,
+         "name":"Amanokujaki",
+         "type":"Tuner Monster",
+         "desc":"You cannot activate the effects of other Special Summoned monsters with the same Attribute as this card. Once per turn, during this card's owner's Main Phase (Quick Effect): You can give control of this card to your opponent, then you can change this card's Attribute to any Attribute until the end of the next turn.",
+         "atk":1000,
+         "def":1000,
+         "level":3,
+         "race":"Fiend",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN033",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.83"
+            }
+         ],
+         "card_images":[
+            {
+               "id":43739056,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/43739056.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/43739056.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.07",
+               "ebay_price":"0.99",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":82255872,
+         "name":"Ancient Warriors Saga - Chivalrous Path",
+         "type":"Trap Card",
+         "desc":"If an \"Ancient Warriors\" monster(s) would be destroyed by battle, you can send this card to the GY instead. You can only use each of the following effects of \"Ancient Warriors Saga - Chivalrous Path\" once per turn. If your opponent Special Summons a monster(s) (except during the Damage Step): You can Special Summon 1 \"Ancient Warriors Dragoon Token\" (Beast-Warrior/WIND/Level 1/ATK 500/DEF 500). When a card or effect is activated that targets an \"Ancient Warriors\" monster(s) on the field: You can banish this card from your GY; negate the activation.",
+         "race":"Continuous",
+         "archetype":"Ancient Warriors",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN074",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.93"
+            }
+         ],
+         "card_images":[
+            {
+               "id":82255872,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/82255872.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/82255872.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.10",
+               "tcgplayer_price":"0.14",
+               "ebay_price":"0.99",
+               "amazon_price":"0.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":21438286,
+         "name":"Archfiend's Staff of Despair",
+         "type":"Spell Card",
+         "desc":"Equip only to a monster you control. During your Main Phase: You can make all monsters your opponent currently controls lose ATK equal to half the equipped monster's ATK, until the end of this turn (even if this card leaves the field). If this card is sent to the GY while equipped to a monster: You can pay 1000 LP; return this card to your hand. You can only use each effect of \"Archfiend's Staff of Despair\" once per turn.",
+         "race":"Equip",
+         "archetype":"Archfiend",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN063",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.82"
+            }
+         ],
+         "card_images":[
+            {
+               "id":21438286,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/21438286.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/21438286.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.04",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.00",
+               "amazon_price":"3.49",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":61606250,
+         "name":"Armed Dragon Blitz",
+         "type":"Spell Card",
+         "desc":"Target 1 \"Armed Dragon\" monster you control; take 1 monster with the same name from your Deck or GY, and either add it to your hand or Special Summon it, ignoring its Summoning conditions, but the Special Summoned monster cannot attack directly. You can only activate 1 \"Armed Dragon Blitz\" per turn. You cannot Special Summon monsters the turn you activate this card, except Dragon monsters.",
+         "race":"Normal",
+         "archetype":"Armed Dragon",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN052",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":61606250,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61606250.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61606250.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.18",
+               "ebay_price":"1.00",
+               "amazon_price":"74.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":97091969,
+         "name":"Armed Dragon Lightning",
+         "type":"Spell Card",
+         "desc":"If an \"Armed Dragon\" monster(s) you control would be destroyed by a card effect, you can send this card to the GY instead. You can target 1 \"Armed Dragon\" monster you control, then activate 1 of these effects;\r\n\u25cf It gains ATK equal to its Level x 100.\r\n\u25cf Add 1 \"Armed Dragon\" monster from your GY to your hand with a Level less than or equal to that monster.\r\nYou can only use this effect of \"Armed Dragon Lightning\" once per turn.",
+         "race":"Continuous",
+         "archetype":"Armed Dragon",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN053",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.81"
+            }
+         ],
+         "card_images":[
+            {
+               "id":97091969,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97091969.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97091969.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"1.00",
+               "amazon_price":"74.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":57030525,
+         "name":"Armed Dragon Thunder LV3",
+         "type":"Effect Monster",
+         "desc":"This card's name becomes \"Armed Dragon LV3\" while on the field or in the GY. You can only use each of the following effects of \"Armed Dragon Thunder LV3\" once per turn.\r\n\u25cf You can send 1 monster from your hand to the GY; send this card from the field to the GY, and if you do, Special Summon 1 Level 5 or lower \"Armed Dragon\" monster from your hand or Deck.\r\n\u25cf If this card is sent to the GY to activate a Dragon monster's effect: You can draw 1 card.",
+         "atk":1200,
+         "def":900,
+         "level":3,
+         "race":"Dragon",
+         "attribute":"WIND",
+         "archetype":"Armed Dragon",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN004",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0"
+            },
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN004",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.32"
+            }
+         ],
+         "card_images":[
+            {
+               "id":57030525,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57030525.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57030525.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.23",
+               "tcgplayer_price":"0.68",
+               "ebay_price":"0.99",
+               "amazon_price":"0.65",
+               "coolstuffinc_price":"0.99"
+            }
+         ]
+      },
+      {
+         "id":21546416,
+         "name":"Armed Dragon Thunder LV5",
+         "type":"Effect Monster",
+         "desc":"This card's name becomes \"Armed Dragon LV5\" while on the field or in the GY. You can only use each of the following effects of \"Armed Dragon Thunder LV5\" once per turn.\r\n\u25cf You can send 1 monster from your hand to the GY; send this card from the field to the GY, and if you do, Special Summon 1 Level 7 or lower \"Armed Dragon\" monster from your hand or Deck.\r\n\u25cf If this card is sent to the GY to activate a Dragon monster's effect: You can add 1 Level 5 or higher WIND Dragon monster from your Deck to your hand.",
+         "atk":2400,
+         "def":1700,
+         "level":5,
+         "race":"Dragon",
+         "attribute":"WIND",
+         "archetype":"Armed Dragon",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN003",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0"
+            },
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN003",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.15"
+            }
+         ],
+         "card_images":[
+            {
+               "id":21546416,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/21546416.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/21546416.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.23",
+               "tcgplayer_price":"0.45",
+               "ebay_price":"1.49",
+               "amazon_price":"0.74",
+               "coolstuffinc_price":"0.99"
+            }
+         ]
+      },
+      {
+         "id":57605303,
+         "name":"Armed Dragon Thunderbolt",
+         "type":"Trap Card",
+         "desc":"Target 1 \"Armed Dragon\" monster you control; it gains 1000 ATK for each \"Armed Dragon\" monster in your GY with a different name and an equal or lower Level than that monster, but it cannot inflict battle damage to your opponent this turn. You can banish this card from your GY, then target 1 \"Armed Dragon\" Spell in your GY; add it to your hand. You can only use 1 \"Armed Dragon Thunderbolt\" effect per turn, and only once that turn.",
+         "race":"Normal",
+         "archetype":"Armed Dragon",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN067",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0"
+            },
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN067",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"0.99"
+            }
+         ],
+         "card_images":[
+            {
+               "id":57605303,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57605303.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57605303.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.17",
+               "tcgplayer_price":"0.25",
+               "ebay_price":"1.25",
+               "amazon_price":"74.99",
+               "coolstuffinc_price":"0.99"
+            }
+         ]
+      },
+      {
+         "id":58827995,
+         "name":"Armor Dragon Ritual",
+         "type":"Spell Card",
+         "desc":"This card is used to Ritual Summon \"Knight of Armor Dragon\". You must also Tribute monsters from your hand or field whose total Levels equal 4 or more. During your Main Phase, except the turn this card was sent to the GY: You can banish monsters from your hand or face-up field whose total Levels equal 4 or more; banish this card from your GY, and if you do, Special Summon 1 \"Knight of Armor Dragon\" from your GY. You can only use this effect of \"Armor Dragon Ritual\" once per turn.",
+         "race":"Ritual",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN064",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.8"
+            }
+         ],
+         "card_images":[
+            {
+               "id":58827995,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58827995.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58827995.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.95",
+               "amazon_price":"385.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":44221928,
+         "name":"Breath of Acclamation",
+         "type":"Spell Card",
+         "desc":"This card can be used to Ritual Summon any WIND Ritual Monster. You must also Tribute monsters from your hand or field whose total Levels exactly equal the Level of the Ritual Monster you Ritual Summon.",
+         "race":"Ritual",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN086",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.82"
+            }
+         ],
+         "card_images":[
+            {
+               "id":44221928,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44221928.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44221928.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"1.95",
+               "amazon_price":"1.45",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":19301729,
+         "name":"Digital Bug Registrider",
+         "type":"Effect Monster",
+         "desc":"Cannot be used as Xyz Material for an Xyz Summon, except the Xyz Summon of an Insect monster. When you Normal Summon a Level 3 Insect monster: You can Special Summon this card from your hand, then you can make both this card and that monster Level 5 or 7. If this card is Special Summoned from the hand: You can change the battle position of 1 Insect monster you control. An Xyz Monster that was Summoned using this card on the field as material gains this effect.\r\n\u25cf This card gains 1000 ATK/DEF.",
+         "atk":1000,
+         "def":1000,
+         "level":3,
+         "race":"Insect",
+         "attribute":"LIGHT",
+         "archetype":"Digital Bug",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN023",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":19301729,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19301729.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19301729.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.12",
+               "ebay_price":"1.00",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":56588755,
+         "name":"Dogmatika Genesis",
+         "type":"Trap Card",
+         "desc":"Target 1 banished Fusion, Synchro, Xyz, or Link Monster, and 1 Effect Monster your opponent controls with the same card type (Fusion, Synchro, Xyz, or Link); return that banished monster to the Extra Deck, and if you do, negate the effects of that opponent's monster. You can only activate 1 \"Dogmatika Genesis\" per turn.",
+         "race":"Normal",
+         "archetype":"Dogmatika",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN070",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":56588755,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56588755.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56588755.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.00",
+               "amazon_price":"3.50",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":81038234,
+         "name":"Dream Mirror Recap",
+         "type":"Trap Card",
+         "desc":"If a \"Dream Mirror\" monster you control would be Tributed to activate its own effect, shuffle it into the Deck instead of sending it to the GY. During the Main Phase: You can send this face-up card to the GY; place 1 of your \"Dream Mirror of Joy\" or \"Dream Mirror of Terror\" that is banished or in your GY, face-up in your Field Zone, then you can Special Summon 1 monster from your hand that specifically lists that card you placed in its text.",
+         "race":"Continuous",
+         "archetype":"Dream Mirror",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN077",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.82"
+            }
+         ],
+         "card_images":[
+            {
+               "id":81038234,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/81038234.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/81038234.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.11",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"1.00",
+               "amazon_price":"29.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":44644529,
+         "name":"Dual Avatar Ascendance",
+         "type":"Trap Card",
+         "desc":"Target 1 \"Dual Avatar\" monster you control; destroy it, and if you do, Special Summon 1 \"Dual Avatar\" monster from your Deck or Extra Deck, whose original Level is 1 higher or 1 lower than that monster had on the field. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 \"Dual Avatar\" monster in your GY; add it to your hand. You can only use each effect of \"Dual Avatar Ascendance\" once per turn.",
+         "race":"Normal",
+         "archetype":"Dual Avatar",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN076",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":44644529,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44644529.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44644529.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"1.10",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":57630503,
+         "name":"Fabled Marcosia",
+         "type":"Effect Monster",
+         "desc":"If this card is in your hand: You can discard up to 2 monsters, except \"Fabled Marcosia\", but including another \"Fabled\" monster, and if you do, Special Summon this card. If Summoned this way, this card gains 200 ATK for each monster discarded. If this card is discarded to the GY: Add 1 \"Fabled\" Spell/Trap from your Deck to your hand. You can only use each effect of \"Fabled Marcosia\" once per turn.",
+         "atk":1700,
+         "def":0,
+         "level":4,
+         "race":"Fiend",
+         "attribute":"LIGHT",
+         "archetype":"Fabled",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN018",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.8"
+            }
+         ],
+         "card_images":[
+            {
+               "id":57630503,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/57630503.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/57630503.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.04",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"0.99",
+               "amazon_price":"1.38",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":55766177,
+         "name":"Fabled Treason",
+         "type":"Trap Card",
+         "desc":"Target 1 \"Fabled\" monster in your GY and 1 face-up card on the field; discard 1 card, and if you do, Special Summon that monster from your GY, and if you do that, destroy that card on the field. You can only activate 1 \"Fabled Treason\" per turn.",
+         "race":"Normal",
+         "archetype":"Fabled",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN073",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":55766177,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/55766177.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/55766177.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"0.99",
+               "amazon_price":"1.17",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":44451698,
+         "name":"Fairy Archer Ingunar",
+         "type":"Effect Monster",
+         "desc":"If this card is Special Summoned by the effect of a Plant monster: You can target 1 Level 6 or higher Plant monster in your GY; Special Summon it in Defense Position, also you cannot Special Summon monsters for the rest of this turn, except Plant monsters. You can only use this effect of \"Fairy Archer Ingunar\" once per turn. Cannot attack the turn it is Special Summoned.",
+         "atk":2400,
+         "def":1200,
+         "level":6,
+         "race":"Plant",
+         "attribute":"EARTH",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN030",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":44451698,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44451698.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44451698.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.04",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.00",
+               "amazon_price":"1.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":17241941,
+         "name":"Gigathunder Giclops",
+         "type":"Pendulum Tuner Effect Monster",
+         "desc":"If this card, Special Summoned from the Extra Deck, is used as Synchro Material, banish it. If this card is Normal Summoned: You can change its battle position. You can only use each of the following effects of \"Gigathunder Giclops\" once per turn. If the battle position of this card is changed: You can target 1 face-up Spell/Trap on the field; destroy it. If this card is destroyed in the Pendulum Zone: You can return 1 card from your Pendulum Zone to the hand.",
+         "atk":1400,
+         "def":1700,
+         "level":4,
+         "race":"Thunder",
+         "attribute":"WIND",
+         "scale":5,
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN032",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.86"
+            }
+         ],
+         "card_images":[
+            {
+               "id":17241941,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/17241941.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/17241941.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.03",
+               "tcgplayer_price":"0.07",
+               "ebay_price":"0.99",
+               "amazon_price":"1.95",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":79724755,
+         "name":"Guitar Gurnards Duonigis",
+         "type":"Effect Monster",
+         "desc":"If this card is Special Summoned: You can banish cards from the top of your opponent's Deck equal to the number of WATER monsters you control. You can target 1 Level 4 or lower WATER monster you control; increase its Level by its original Level. You can banish this card from your GY; 1 WATER monster on the field gains 100 ATK for each currently banished monster, until the end of this turn. You can only use each effect of \"Guitar Gurnards Duonigis\" once per turn.",
+         "atk":1500,
+         "def":700,
+         "level":3,
+         "race":"Sea Serpent",
+         "attribute":"WATER",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN034",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.88"
+            }
+         ],
+         "card_images":[
+            {
+               "id":79724755,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/79724755.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/79724755.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.07",
+               "ebay_price":"1.00",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":61728808,
+         "name":"Heavymetalfoes Amalgam",
+         "type":"Link Monster",
+         "desc":"2 \"Metalfoes\" monsters\r\nIf this card is sent from the Monster Zone to the GY by card effect: You can activate 1 of these effects.\r\n\u25cf Target 1 \"Metalfoes\" monster you control; equip this card to it as an Equip Spell that gives it 1000 ATK.\r\n\u25cf Target 1 \"Metalfoes\" card you control; destroy it, and if you do, Special Summon this card.\r\nYou can only use this effect of \"Heavymetalfoes Amalgam\" once per turn.",
+         "atk":2000,
+         "race":"Psychic",
+         "attribute":"FIRE",
+         "archetype":"Metalfoes",
+         "linkval":2,
+         "linkmarkers":[
+            "Left",
+            "Right"
+         ],
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN049",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":61728808,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61728808.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61728808.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.16",
+               "ebay_price":"0.99",
+               "amazon_price":"39.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":19362568,
+         "name":"Icy Breeze Refrain",
+         "type":"Trap Card",
+         "desc":"Activate 1 of the following effects.\r\n\u25cf Target 1 \"Windwitch\" monster in your GY; Special Summon it in Defense Position.\r\n\u25cf When your opponent activates a card or effect in response to your \"Windwitch\" monster's effect activation: Negate that opponent's effect.\r\nYou can only activate 1 \"Icy Breeze Refrain\" per turn.",
+         "race":"Normal",
+         "archetype":"Windwitch",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN072",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.82"
+            }
+         ],
+         "card_images":[
+            {
+               "id":19362568,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19362568.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19362568.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.02",
+               "tcgplayer_price":"0.14",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":75901113,
+         "name":"Knight of Armor Dragon",
+         "type":"Ritual Effect Monster",
+         "desc":"You can Ritual Summon this card with \"Armor Dragon Ritual\". At the start of the Damage Step, if this card battles a monster that was Special Summoned from the Extra Deck: You can shuffle that monster into the Deck. You can Tribute this card; Special Summon 1 Level 5 or higher WIND Dragon monster from your hand or Deck. You can only use each effect of \"Knight of Armor Dragon\" once per turn.",
+         "atk":1900,
+         "def":1200,
+         "level":4,
+         "race":"Dragon",
+         "attribute":"WIND",
+         "archetype":"Paladins of Dragons",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN037",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.9"
+            }
+         ],
+         "card_images":[
+            {
+               "id":75901113,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/75901113.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/75901113.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.03",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":70916046,
+         "name":"Linear Equation Cannon",
+         "type":"Trap Card",
+         "desc":"During the Battle Phase: Declare a whole number from 1 to 6; choose 1 Effect Monster your opponent controls. Multiply the Effect Monster's Level x the declared number, then add the number of cards your opponent controls, and check if the result equals the number of cards in your GY.\r\n\u25cf If yes: Send cards from the top of your Deck to the GY, up to the declared number, and if you do, shuffle cards your opponent controls into the Deck, up to the number sent to the GY.\r\n\u25cf If no: You lose LP equal to the declared number x 500.\r\nYou can only activate 1 \"Linear Equation Cannon\" per turn.",
+         "race":"Normal",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN080",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.88"
+            }
+         ],
+         "card_images":[
+            {
+               "id":70916046,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70916046.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70916046.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.03",
+               "tcgplayer_price":"0.08",
+               "ebay_price":"1.20",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":45674286,
+         "name":"Machina Unclaspare",
+         "type":"Effect Monster",
+         "desc":"If this card is added to your hand, except by drawing it: You can Special Summon it, also you cannot Special Summon for the rest of this turn, except Machine monsters. If this card is Normal or Special Summoned: You can send 1 \"Machina\" monster from your Deck to the GY, except \"Machina Unclaspare\". You can only use each effect of \"Machina Unclaspare\" once per turn.",
+         "atk":1800,
+         "def":800,
+         "level":4,
+         "race":"Machine",
+         "attribute":"DARK",
+         "archetype":"Machina",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN027",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":45674286,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45674286.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45674286.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.12",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"0.99",
+               "amazon_price":"1.39",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":56518311,
+         "name":"Metalfoes Vanisher",
+         "type":"Pendulum Normal Monster",
+         "desc":"You can target 2 face-up cards you control, including a \"Metalfoes\" card; destroy them, and if you do, Special Summon this card from your hand. If this card is Special Summoned by the effect of a \"Metalfoes\" card: You can target 1 monster your opponent controls or in their GY; banish it. You can only use each effect of \"Metalfoes Vanisher\" once per turn.",
+         "atk":2900,
+         "def":1900,
+         "level":9,
+         "race":"Psychic",
+         "attribute":"FIRE",
+         "archetype":"Metalfoes",
+         "scale":1,
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN021",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"1.13"
+            },
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN021",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.01"
+            }
+         ],
+         "card_images":[
+            {
+               "id":56518311,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56518311.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56518311.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.14",
+               "tcgplayer_price":"0.29",
+               "ebay_price":"0.99",
+               "amazon_price":"18.69",
+               "coolstuffinc_price":"0.79"
+            }
+         ]
+      },
+      {
+         "id":18189187,
+         "name":"Neiroy, the Dream Mirror Disciple",
+         "type":"Effect Monster",
+         "desc":"If a \"Dream Mirror\" monster(s) is on the field: You can Special Summon this card from your hand, then, you can make this card become DARK. If this card is Special Summoned by the effect of a \"Dream Mirror\" monster: Activate this effect; if \"Dream Mirror of Joy\" is on the field, you can return 1 Spell/Trap your opponent controls to the hand, also, after that, if \"Dream Mirror of Terror\" is on the field, draw 1 card, then shuffle 1 card from your hand into the Deck. You can only use each effect of \"Neiroy, the Dream Mirror Disciple\" once per turn.",
+         "atk":1000,
+         "def":1000,
+         "level":3,
+         "race":"Fairy",
+         "attribute":"LIGHT",
+         "archetype":"Dream Mirror",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN026",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.91"
+            }
+         ],
+         "card_images":[
+            {
+               "id":18189187,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/18189187.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/18189187.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.11",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"3.50",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":42517468,
+         "name":"Ojama Pink",
+         "type":"Effect Monster",
+         "desc":"If this card is sent from the hand or field to the GY: You can have each player draw 1 card, then each player discards 1 card, then, if you discarded an \"Ojama\" card with this effect, you can choose 1 opponent's unused Monster Zone, and that zone cannot be used until the end of your opponent's turn. You can only use this effect of \"Ojama Pink\" once per turn.",
+         "atk":0,
+         "def":1000,
+         "level":2,
+         "race":"Beast",
+         "attribute":"LIGHT",
+         "archetype":"Ojama",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN036",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.83"
+            }
+         ],
+         "card_images":[
+            {
+               "id":42517468,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/42517468.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/42517468.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.07",
+               "tcgplayer_price":"0.21",
+               "ebay_price":"0.99",
+               "amazon_price":"1.37",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":58549532,
+         "name":"Parametalfoes Fusion",
+         "type":"Spell Card",
+         "desc":"Fusion Summon 1 \"Metalfoes\" Fusion Monster from your Extra Deck, using up to 1 monster each from your hand, field, and/or among face-up Pendulum Monsters in your Extra Deck as Fusion Material. You can only activate 1 \"Parametalfoes Fusion\" per turn.",
+         "race":"Normal",
+         "archetype":"Metalfoes",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN061",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.93"
+            }
+         ],
+         "card_images":[
+            {
+               "id":58549532,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58549532.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58549532.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"0.99",
+               "amazon_price":"19.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":10024317,
+         "name":"Parametalfoes Melcaster",
+         "type":"Pendulum Normal Monster",
+         "desc":"If this card on the field is destroyed by battle or card effect: You can add 1 face-up \"Metalfoes\" Pendulum Monster from your Extra Deck to your hand, except \"Parametalfoes Melcaster\", but you cannot activate it, or cards with its name, to place it in the Pendulum Zones, for the rest of this turn, except by card effect. You can only use this effect of \"Parametalfoes Melcaster\" once per turn.",
+         "atk":2000,
+         "def":2500,
+         "level":7,
+         "race":"Psychic",
+         "attribute":"FIRE",
+         "archetype":"Metalfoes",
+         "scale":1,
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN020",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.93"
+            }
+         ],
+         "card_images":[
+            {
+               "id":10024317,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/10024317.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/10024317.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"1.20",
+               "amazon_price":"2.79",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":6992184,
+         "name":"Pendulum Encore",
+         "type":"Trap Card",
+         "desc":"During your opponent's Main Phase: You can discard 1 card; immediately after this effect resolves, Pendulum Summon a Pendulum Monster(s), also for the rest of this turn after this card resolves, cards in your Pendulum Zones cannot activate their effects and cannot be destroyed by your card effects, also shuffle them into the Deck during the End Phase. You can only activate 1 \"Pendulum Encore\" per turn.",
+         "race":"Normal",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN091",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.78"
+            }
+         ],
+         "card_images":[
+            {
+               "id":6992184,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/6992184.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/6992184.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.09",
+               "ebay_price":"0.99",
+               "amazon_price":"1.46",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":70856343,
+         "name":"Radiant Vouirescence",
+         "type":"Effect Monster",
+         "desc":"When this card is Normal Summoned while your opponent controls a monster: You can discard 1 card; send any number of \"Radiant Vouirescence\" from your Deck to the GY. Once per turn, if this card is in your GY: You can make this card in the GY become DARK until the end of this turn.",
+         "atk":1600,
+         "def":800,
+         "level":4,
+         "race":"Dragon",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN031",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.81"
+            }
+         ],
+         "card_images":[
+            {
+               "id":70856343,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/70856343.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/70856343.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.03",
+               "tcgplayer_price":"0.08",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":8836329,
+         "name":"Raging Storm Dragon - Beaufort IX",
+         "type":"Ritual Effect Monster",
+         "desc":"You can Ritual Summon this card with \"Breath of Acclamation\". When an opponent's monster declares a direct attack: You can discard this card; negate the attack, and if you do, negate that monster's effects. (Quick Effect): You can target 1 face-up monster your opponent controls; return both that monster and this card to the hand. You can only use each effect of \"Raging Storm Dragon - Beaufort IX\" once per turn.",
+         "atk":2800,
+         "def":2800,
+         "level":9,
+         "race":"Dragon",
+         "attribute":"WIND",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN082",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.8"
+            }
+         ],
+         "card_images":[
+            {
+               "id":8836329,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/8836329.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/8836329.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.00",
+               "tcgplayer_price":"0.10",
+               "ebay_price":"1.95",
+               "amazon_price":"4.96",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":79371897,
+         "name":"Reinforcement of the Army's Troops",
+         "type":"Spell Card",
+         "desc":"When an attack is declared involving your Warrior monster: You can Special Summon 1 Level 4 or lower Warrior monster from your hand. You can only use this effect of \"Reinforcement of the Army's Troops\" once per turn.",
+         "race":"Continuous",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN088",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":79371897,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/79371897.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/79371897.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"1.00",
+               "amazon_price":"0.29",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":58589739,
+         "name":"S-Force Professor DiGamma",
+         "type":"Effect Monster",
+         "desc":"Each of your opponent's monsters in the same column as one of your \"S-Force\" monsters cannot change its battle position. If this card is Normal or Special Summoned: You can target 1 face-up monster your opponent controls; change its battle position. You can only use this effect of \"S-Force Professor DiGamma\" once per turn.",
+         "atk":1000,
+         "def":1500,
+         "level":3,
+         "race":"Psychic",
+         "attribute":"DARK",
+         "archetype":"S-Force",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN012",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":58589739,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/58589739.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/58589739.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":69761020,
+         "name":"S-Force Showdown",
+         "type":"Spell Card",
+         "desc":"Activate 1 of the following effects.\r\n\u25cf Special Summon 1 \"S-Force\" monster from your hand in Defense Position.\r\n\u25cf Target 1 \"S-Force\" monster in your GY; add it to your hand.\r\nYou can only activate 1 \"S-Force Showdown\" per turn.",
+         "race":"Quick-Play",
+         "archetype":"S-Force",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN058",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":69761020,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/69761020.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/69761020.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"1.20",
+               "amazon_price":"0.39",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":82977464,
+         "name":"S-Force Specimen",
+         "type":"Trap Card",
+         "desc":"If your opponent controls a monster: Target 1 of your \"S-Force\" monsters that is banished or in your GY; Special Summon it to your field in the same column as an opponent's monster. You can banish this card from your GY, then target 1 \"S-Force\" monster you control; move that target to another of your Main Monster Zones. You can only use 1 \"S-Force Specimen\" effect per turn, and only once that turn.",
+         "race":"Normal",
+         "archetype":"S-Force",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN071",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":82977464,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/82977464.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/82977464.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":1906812,
+         "name":"Sprind the Irondash Dragon",
+         "type":"Fusion Monster",
+         "desc":"\"Fallen of Albaz\" + 1 Effect Monster Special Summoned this turn\r\nDuring your Main Phase: You can move this card you control to another of your Main Monster Zones, then you can destroy all other face-up cards in this card's column. During the End Phase, if this card is in the GY because it was sent there this turn: You can add to your hand, or Special Summon, 1 \"Springans\" monster or 1 \"Fallen of Albaz\" from your Deck. You can only use each effect of \"Sprind the Irondash Dragon\" once per turn.",
+         "atk":2500,
+         "def":2000,
+         "level":8,
+         "race":"Machine",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN038",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.91"
+            }
+         ],
+         "card_images":[
+            {
+               "id":1906812,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/1906812.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/1906812.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.10",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"0.99",
+               "amazon_price":"0.49",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":10584050,
+         "name":"Springans Blast!",
+         "type":"Trap Card",
+         "desc":"If you control a \"Springans\" monster: Choose 1 opponent's Main Monster Zone; if a monster is face-up in that zone, during this turn, it cannot attack directly, also its effects are negated. If no monster is in that zone, it cannot be used this turn. If you control a Fusion Monster that lists \"Fallen of Albaz\" as material, you can choose 2 zones instead. You can only activate 1 \"Springans Blast!\" per turn.",
+         "race":"Normal",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN069",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.75"
+            }
+         ],
+         "card_images":[
+            {
+               "id":10584050,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/10584050.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/10584050.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"1.00",
+               "amazon_price":"0.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":83203672,
+         "name":"Springans Branga",
+         "type":"Effect Monster",
+         "desc":"If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can banish this card and 1 \"Springans\" monster with a different name from your GY; add 1 \"Springans\" card from your Deck to your hand. You can only use each effect of \"Springans Branga\" once per turn.",
+         "atk":500,
+         "def":2500,
+         "level":8,
+         "race":"Machine",
+         "attribute":"FIRE",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN008",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.76"
+            }
+         ],
+         "card_images":[
+            {
+               "id":83203672,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83203672.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83203672.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":83199011,
+         "name":"Springans Call!",
+         "type":"Trap Card",
+         "desc":"Target 1 \"Springans\" monster or \"Fallen of Albaz\" in your GY; Special Summon it. During the Main Phase, except the turn this card was sent to the GY: You can banish this card and 1 Fusion Monster from your GY, then target 1 \"Springans\" Xyz Monster you control; attach 1 Fusion Monster that lists \"Fallen of Albaz\" as material from your Extra Deck to that monster as material. You can only use each effect of \"Springans Call!\" once per turn.",
+         "race":"Normal",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN068",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.8"
+            }
+         ],
+         "card_images":[
+            {
+               "id":83199011,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83199011.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83199011.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":29601381,
+         "name":"Springans Captain Sargas",
+         "type":"Effect Monster",
+         "desc":"If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. During your opponent's turn (Quick Effect): You can detach 1 material from an Xyz Monster you control, then target 1 face-up card on the field; destroy it. You can only use each of the previous effects of \"Springans Captain Sargas\" once per turn. A \"Springans\" Xyz Monster that has this card as material gains this effect.\r\n\u25cf This card gains 500 ATK.",
+         "atk":1500,
+         "def":2800,
+         "level":8,
+         "race":"Machine",
+         "attribute":"FIRE",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN009",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.81"
+            }
+         ],
+         "card_images":[
+            {
+               "id":29601381,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/29601381.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/29601381.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.09",
+               "tcgplayer_price":"0.16",
+               "ebay_price":"0.99",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":56818977,
+         "name":"Springans Pedor",
+         "type":"Effect Monster",
+         "desc":"You can Tribute this card, then target 1 \"Springans\" monster in your GY, except \"Springans Pedor\"; Special Summon it. If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can only use each effect of \"Springans Pedor\" once per turn.",
+         "atk":0,
+         "def":2000,
+         "level":4,
+         "race":"Machine",
+         "attribute":"FIRE",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN007",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.88"
+            }
+         ],
+         "card_images":[
+            {
+               "id":56818977,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/56818977.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/56818977.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"0.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":20424878,
+         "name":"Springans Rockey",
+         "type":"Effect Monster",
+         "desc":"If this card is Normal or Special Summoned: You can target 1 \"Great Sand Sea - Gold Golgonda\" or 1 \"Springans\" monster in your GY, except \"Springans Rockey\"; add it to your hand. If this card is in your hand, field, or GY: You can target 1 \"Springans\" Xyz Monster you control; attach this card to it as material. You can only use each effect of \"Springans Rockey\" once per turn.",
+         "atk":1800,
+         "def":800,
+         "level":4,
+         "race":"Machine",
+         "attribute":"FIRE",
+         "archetype":"Springans",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN006",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.83"
+            }
+         ],
+         "card_images":[
+            {
+               "id":20424878,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/20424878.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/20424878.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.07",
+               "tcgplayer_price":"0.16",
+               "ebay_price":"1.00",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":22555834,
+         "name":"Stairway to a Fabled Realm",
+         "type":"Spell Card",
+         "desc":"When this card is activated: You can send 1 \"Fabled\" monster from your Deck to the GY. You can target 1 \"Fabled\" monster in your GY; discard 2 cards, and if you do, add that monster to your hand. You can only use this effect of \"Stairway to a Fabled Realm\" once per turn. If your \"Fabled\" monster attacks an opponent's monster and you have less cards in your hand than your opponent, your monster gains ATK equal to the difference in the number of cards x 200, during damage calculation only. You can only activate 1 \"Stairway to a Fabled Realm\" per turn.",
+         "race":"Field",
+         "archetype":"Fabled",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN060",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.89"
+            }
+         ],
+         "card_images":[
+            {
+               "id":22555834,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22555834.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22555834.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.04",
+               "tcgplayer_price":"0.09",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":32986898,
+         "name":"Steel Star Regulator",
+         "type":"Link Monster",
+         "desc":"3 non-Link Monsters\r\nGains ATK equal to the combined original Levels/Ranks of monsters used for its Link Summon x 100. You can target 1 non-Link Monster your opponent controls with ATK less than or equal to this card; destroy it, then if this card was Link Summoned using an Xyz Monster as material, inflict damage to your opponent equal to half the destroyed monster's original ATK. You can only use this effect of \"Steel Star Regulator\" once per turn.",
+         "atk":1000,
+         "race":"Machine",
+         "attribute":"LIGHT",
+         "linkval":3,
+         "linkmarkers":[
+            "Top-Left",
+            "Bottom-Left",
+            "Bottom-Right"
+         ],
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN085",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.78"
+            }
+         ],
+         "card_images":[
+            {
+               "id":32986898,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/32986898.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/32986898.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.03",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.10",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":35817848,
+         "name":"Synchro Transmission",
+         "type":"Trap Card",
+         "desc":"During the Main Phase: Immediately after this effect resolves, Synchro Summon 1 Synchro Monster using monsters you control as material. During your Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY, then target 1 Synchro Monster in your GY; return it to the Extra Deck, then draw 1 card. You can only use each effect of \"Synchro Transmission\" once per turn.",
+         "race":"Normal",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN090",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.88"
+            }
+         ],
+         "card_images":[
+            {
+               "id":35817848,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/35817848.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/35817848.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"0.99",
+               "amazon_price":"4.45",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":83039608,
+         "name":"The Fabled Abanc",
+         "type":"Tuner Monster",
+         "desc":"If this card is in your GY: You can discard 1 \"Fabled\" monster, and if you do, Special Summon this card, but banish it when it leaves the field. You can only use this effect of \"The Fabled Abanc\" once per turn.",
+         "atk":1000,
+         "def":600,
+         "level":2,
+         "race":"Beast",
+         "attribute":"LIGHT",
+         "archetype":"Fabled",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN019",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.9"
+            }
+         ],
+         "card_images":[
+            {
+               "id":83039608,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/83039608.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/83039608.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.11",
+               "ebay_price":"1.00",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":20216608,
+         "name":"Tilted Try",
+         "type":"Spell Card",
+         "desc":"When you draw for your normal draw in your Draw Phase: You can reveal 1 of those cards; place it on the bottom of the Deck, and if you do, draw 1 card. When you draw by a card effect: You can reveal 1 of those cards; send this card to the GY, and if you do, place that card on the bottom of the Deck, and if you do that, draw 1 card.",
+         "race":"Field",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN066",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.79"
+            }
+         ],
+         "card_images":[
+            {
+               "id":20216608,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/20216608.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/20216608.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.13",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.49"
+            }
+         ]
+      },
+      {
+         "id":96378317,
+         "name":"Tri-Brigade Rendezvous",
+         "type":"Spell Card",
+         "desc":"Target any number of linked Beast, Beast-Warrior, and/or Winged Beast monsters you control; they gain 700 ATK until the end of this turn. If a linked Beast, Beast-Warrior, and/or Winged Beast monster(s) you control would be destroyed by battle or card effect, you can banish this card from your GY instead. You can only use each effect of \"Tri-Brigade Rendezvous\" once per turn.",
+         "race":"Quick-Play",
+         "archetype":"Tri-Brigade",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN056",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.95"
+            }
+         ],
+         "card_images":[
+            {
+               "id":96378317,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/96378317.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/96378317.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.10",
+               "tcgplayer_price":"0.23",
+               "ebay_price":"0.99",
+               "amazon_price":"24.99",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":18249921,
+         "name":"Virtual World Gate - Xuanwu",
+         "type":"Trap Card",
+         "desc":"During the Battle Phase, if you control another \"Virtual World Gate\" card: You can target 1 face-up monster on the field; change its battle position. During your Main Phase: You can banish this card from your GY, then target 1 \"Virtual World\" monster in your GY; Special Summon it, but negate its effects, then send 1 card from your hand to the GY. You can only use each effect of \"Virtual World Gate - Xuanwu\" once per turn. You can only activate 1 \"Virtual World Gate - Xuanwu\" per turn.",
+         "race":"Continuous",
+         "archetype":"Virtual World",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN075",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.98"
+            }
+         ],
+         "card_images":[
+            {
+               "id":18249921,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/18249921.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/18249921.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.11",
+               "tcgplayer_price":"0.23",
+               "ebay_price":"0.99",
+               "amazon_price":"11.23",
+               "coolstuffinc_price":"0.39"
+            }
+         ]
+      },
+      {
+         "id":71331215,
+         "name":"War Rock Ordeal",
+         "type":"Spell Card",
+         "desc":"You can only control 1 \"War Rock Ordeal\". When this card is activated: Place 3 counters on it. When your \"War Rock\" monster destroys an opponent's monster by battle and sends it to their GY: You can remove 1 counter from this card, and if you do, draw 1 card. If the last counter has been removed by this effect, send this card to the GY.",
+         "race":"Continuous",
+         "archetype":"War Rock",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN098",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.9"
+            }
+         ],
+         "card_images":[
+            {
+               "id":71331215,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/71331215.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/71331215.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.17",
+               "ebay_price":"0.99",
+               "amazon_price":"1.80",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":46169154,
+         "name":"War Rock Orpis",
+         "type":"Effect Monster",
+         "desc":"If you control no monsters, or all monsters you control are Warrior monsters, you can Normal Summon this card without Tributing. If your EARTH Warrior monster battles, after damage calculation: You can send 1 EARTH Warrior monster from your Deck to the GY, except \"War Rock Orpis\", then all \"War Rock\" monsters you currently control gain 200 ATK until the end of your opponent's turn. You can only use this effect of \"War Rock Orpis\" once per turn.",
+         "atk":2100,
+         "def":2100,
+         "level":5,
+         "race":"Warrior",
+         "attribute":"EARTH",
+         "archetype":"War Rock",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN095",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.92"
+            }
+         ],
+         "card_images":[
+            {
+               "id":46169154,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/46169154.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/46169154.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.06",
+               "tcgplayer_price":"0.19",
+               "ebay_price":"0.99",
+               "amazon_price":"2.28",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":72554862,
+         "name":"War Rock Skyler",
+         "type":"Effect Monster",
+         "desc":"Gains 100 ATK for each monster your opponent controls. During a Battle Phase in which your EARTH Warrior monster battles (Quick Effect): You can target 1 Level 5 or lower Warrior monster in your GY; Special Summon it, also all \"War Rock\" monsters you currently control gain 200 ATK until the end of your opponent's turn, also for the rest of this turn, you cannot attack directly with Level 5 or lower monsters. You can only use this effect of \"War Rock Skyler\" once per turn.",
+         "atk":2200,
+         "def":2200,
+         "level":6,
+         "race":"Warrior",
+         "attribute":"EARTH",
+         "archetype":"War Rock",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN096",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.81"
+            }
+         ],
+         "card_images":[
+            {
+               "id":72554862,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/72554862.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/72554862.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.05",
+               "tcgplayer_price":"0.19",
+               "ebay_price":"2.00",
+               "amazon_price":"1.49",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      },
+      {
+         "id":84851250,
+         "name":"Windwitch - Blizzard Bell",
+         "type":"Tuner Monster",
+         "desc":"If you control no monsters, or all monsters you control are \"Windwitch\" monsters, you can Normal Summon this card without Tributing. During your opponent's Main Phase, if you control a \"Windwitch\" monster other than \"Windwitch - Blizzard Bell\" (Quick Effect): You can send this card from your hand or field to the GY; inflict 500 damage to your opponent. You can only use this effect of \"Windwitch - Blizzard Bell\" once per turn.",
+         "atk":1800,
+         "def":1800,
+         "level":5,
+         "race":"Spellcaster",
+         "attribute":"WIND",
+         "archetype":"Windwitch",
+         "card_sets":[
+            {
+               "set_name":"Blazing Vortex",
+               "set_code":"BLVO-EN016",
+               "set_rarity":"Common",
+               "set_rarity_code":"(C)",
+               "set_price":"0.92"
+            }
+         ],
+         "card_images":[
+            {
+               "id":84851250,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/84851250.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/84851250.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.08",
+               "tcgplayer_price":"0.15",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.25"
+            }
+         ]
+      }
+   ]
+}
