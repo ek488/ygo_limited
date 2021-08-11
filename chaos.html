@@ -119,7 +119,10 @@
       var common_setlist = get_setlist(setname, "Common");
       var short_print_setlist = get_setlist(setname, "Short_Print");
       var super_short_print_setlist = get_setlist(setname, "Super_Short_Print");
-      var temp_common_setlist = common_setlist;
+      var temp_common_setlist = null
+      if (common_setlist != null) {
+        temp_common_setlist = common_setlist;
+      }
       if (short_print_setlist != null) {
         temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
       }
@@ -398,7 +401,7 @@
         return pack_cards;
       }
       // 60_card_set
-      else if (r == 80) {
+      else if (pos == 80) {
         // TODO: generalize
         console.log("4 ultra rares, 1 secret rare");
         // 4 Ultra Rares
@@ -410,7 +413,7 @@
         return pack_cards;
       }
       // legendary_duelists
-      else if (r >= 81 && r <= 87) {
+      else if (pos >= 81 && pos <= 87) {
         r = Math.floor(Math.random() * 36) + 1;
         // TODO: generalize
         if (r <= 24) {
