@@ -1,0 +1,34 @@
+{
+   "data":[
+      {
+         "id":44508094,
+         "name":"Stardust Dragon",
+         "type":"Synchro Monster",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN100",
+               "set_rarity":"Starlight Rare",
+               "set_rarity_code":"(StR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":44508094,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/44508094.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/44508094.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      }
+   ]
+}

@@ -1,1 +1,898 @@
-{"data":[{"id":25451383,"name":"Albion the Shrouded Dragon","type":"Effect Monster","desc":"This card's name becomes \"Fallen of Albaz\" while on the field or in the GY. If this card is in your hand or GY: You can send 1 \"Fallen of Albaz\" or 1 \"Branded\" Spell/Trap from your hand or Deck to the GY; apply the following effect, depending on where that card was sent from.\r\n\u25cf Hand: Special Summon this card.\r\n\u25cf Deck: Place this card on the bottom of the Deck, then, if it was placed from the hand, draw 1 card.\r\nYou can only use this effect of \"Albion the Shrouded Dragon\" once per turn.","atk":2500,"def":2000,"level":8,"race":"Dragon","attribute":"DARK","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN008","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.6"}],"card_images":[{"id":25451383,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/25451383.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/25451383.jpg"}],"card_prices":[{"cardmarket_price":"0.35","tcgplayer_price":"0.75","ebay_price":"1.76","amazon_price":"2.88","coolstuffinc_price":"0.00"}]},{"id":22662014,"name":"Amazement Assistant Delia","type":"Effect Monster","desc":"You can reveal 1 \"Attraction\" Trap in your hand; Special Summon this card from your hand. You can send 1 \"Attraction\" Trap from your hand or face-up field to the GY; Set 1 \"Attraction\" Trap directly from your Deck. You can only use each effect of \"Amazement Assistant Delia\" once per turn.","atk":1800,"def":1400,"level":4,"race":"Machine","attribute":"LIGHT","archetype":"Amazement","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN020","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.47"}],"card_images":[{"id":22662014,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22662014.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22662014.jpg"}],"card_prices":[{"cardmarket_price":"0.27","tcgplayer_price":"0.75","ebay_price":"2.19","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":2834264,"name":"Beetrooper Armor Horn","type":"Link Monster","desc":"2 Insect monsters\r\nYou cannot Special Summon monsters, except Insect monsters. You can only use each of the following effects of \"Beetrooper Armor Horn\" once per turn. During your Main Phase, you can: Immediately after this effect resolves, Normal Summon 1 Insect monster. If this card is in your GY: You can banish 3 other Insect monsters from your GY; Special Summon this card, but banish it when it leaves the field.","atk":1000,"race":"Insect","attribute":"EARTH","archetype":"Beetrooper","linkval":2,"linkmarkers":["Bottom","Top"],"card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN088","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.42"}],"card_images":[{"id":2834264,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/2834264.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/2834264.jpg"}],"card_prices":[{"cardmarket_price":"0.34","tcgplayer_price":"0.85","ebay_price":"2.19","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":64213017,"name":"Beetrooper Formation","type":"Spell Card","desc":"You can target 1 \"Beetrooper\" monster in your GY; Special Summon it, but it cannot attack this turn, also you lose LP equal to its original ATK. If a face-up Insect monster(s) you control is destroyed by battle or card effect: You can Special Summon 1 \"Beetrooper Token\" (Insect/EARTH/Level 3/ATK 1000/DEF 1000). You can only use each effect of \"Beetrooper Formation\" once per turn.","race":"Field","archetype":"Beetrooper","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN090","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.44"}],"card_images":[{"id":64213017,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64213017.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64213017.jpg"}],"card_prices":[{"cardmarket_price":"0.33","tcgplayer_price":"0.87","ebay_price":"1.59","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":39041550,"name":"Beetrooper Scale Bomber","type":"Effect Monster","desc":"If an Insect monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand. When a monster your opponent controls activates its effect (Quick Effect): You can Tribute 1 Insect monster; destroy it. You can only use each effect of \"Beetrooper Scale Bomber\" once per turn.","atk":1200,"def":2000,"level":3,"race":"Insect","attribute":"FIRE","archetype":"Beetrooper","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN086","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.43"}],"card_images":[{"id":39041550,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/39041550.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/39041550.jpg"}],"card_prices":[{"cardmarket_price":"0.36","tcgplayer_price":"0.87","ebay_price":"2.19","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":97112505,"name":"Chronomaly Magella Globe","type":"Effect Monster","desc":"You can Tribute this card; Special Summon 1 \"Chronomaly\" monster from your Deck, except \"Chronomaly Magella Globe\". If this card is in your GY, except the turn it was sent there: You can banish 1 \"Chronomaly\" card from your GY, except \"Chronomaly Magella Globe\"; add this card to your hand. You can only use each effect of \"Chronomaly Magella Globe\" once per turn.","atk":1500,"def":300,"level":4,"race":"Machine","attribute":"LIGHT","archetype":"Chronomaly","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN013","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.62"}],"card_images":[{"id":97112505,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97112505.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97112505.jpg"}],"card_prices":[{"cardmarket_price":"0.24","tcgplayer_price":"0.00","ebay_price":"1.99","amazon_price":"0.50","coolstuffinc_price":"0.00"}]},{"id":76937326,"name":"Daigusto Laplampilica","type":"Synchro Monster","desc":"1 Tuner + 1+ non-Tuner \"Gusto\" monsters\r\nYou can only Special Summon \"Daigusto Laplampilica(s)\" once per turn. If this card is Synchro Summoned: You can Special Summon 1 \"Gusto\" monster from your hand and 1 \"Gusto\" monster from your Deck, but negate their effects, then immediately after this effect resolves, Synchro Summon 1 \"Gusto\" Synchro Monster using only those 2 monsters, also you cannot Special Summon monsters for the rest of this turn, except WIND monsters. Your opponent cannot target other \"Gusto\" Synchro Monsters you control with card effects.","atk":1900,"def":2600,"level":6,"race":"Psychic","attribute":"WIND","archetype":"Gusto","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN040","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.88"}],"card_images":[{"id":76937326,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/76937326.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/76937326.jpg"}],"card_prices":[{"cardmarket_price":"0.11","tcgplayer_price":"0.82","ebay_price":"1.97","amazon_price":"0.59","coolstuffinc_price":"0.00"}]},{"id":61269611,"name":"Dinowrestler Iguanodraka","type":"Effect Monster","desc":"You can discard 1 other Dinosaur monster; Special Summon this card from your hand. You can Tribute 1 Dinosaur monster, then target 1 \"Dinowrestler\" monster in your GY with a different original name; Special Summon it in Defense Position. You can only use each effect of \"Dinowrestler Iguanodraka\" once per turn.","atk":2000,"def":0,"level":6,"race":"Dinosaur","attribute":"EARTH","archetype":"Dinowrestler","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN094","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.39"}],"card_images":[{"id":61269611,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61269611.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61269611.jpg"}],"card_prices":[{"cardmarket_price":"0.29","tcgplayer_price":"0.84","ebay_price":"2.39","amazon_price":"0.50","coolstuffinc_price":"0.00"}]},{"id":7925734,"name":"Link Apple","type":"Effect Monster","desc":"You can reveal this card in your hand; banish 1 random face-down card from your Extra Deck, then, if it is a Link Monster, Special Summon this card. Otherwise, discard this card, and if you do, draw 1 card. You can only use this effect of \"Link Apple\" once per turn.","atk":0,"def":0,"level":1,"race":"Cyberse","attribute":"FIRE","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN092","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.34"}],"card_images":[{"id":7925734,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/7925734.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/7925734.jpg"}],"card_prices":[{"cardmarket_price":"0.28","tcgplayer_price":"0.86","ebay_price":"1.99","amazon_price":"0.99","coolstuffinc_price":"0.00"}]},{"id":45655875,"name":"Magikey Beast - Ansyalabolas","type":"Fusion Monster","desc":"1 \"Magikey\" monster + 1 non-Token Normal Monster\r\nIf this card is Fusion Summoned: You can add 1 \"Magikey Maftea\" from your GY to your hand. You can only use this effect of \"Magikey Beast - Ansyalabolas\" once per turn. Once per turn: You can target 1 Attack Position monster your opponent controls with the same Attribute as a Normal Monster or \"Magikey\" monster in your GY; change it to Defense Position, and if you do, it loses 1000 DEF. Banish any monster destroyed by battle with this card.","atk":2200,"def":2000,"level":4,"race":"Beast","attribute":"DARK","archetype":"Magikey","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN036","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.66"}],"card_images":[{"id":45655875,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45655875.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45655875.jpg"}],"card_prices":[{"cardmarket_price":"0.29","tcgplayer_price":"0.73","ebay_price":"2.19","amazon_price":"1.24","coolstuffinc_price":"0.00"}]},{"id":71159974,"name":"Magikey Dragon - Andrabime","type":"Fusion Monster","desc":"1 \"Magikey\" Effect Monster + 1 non-Token Normal Monster\r\nWhen Fusion Summoned, your opponent cannot activate cards or effects. Once per turn: You can target 1 Normal Monster or \"Magikey\" monster in your GY; destroy all monsters your opponent controls with the same Attribute as that monster. Once per turn, if an opponent's monster(s) with the same Attribute as a monster in your GY is destroyed by battle or card effect, and you control this card Fusion Summoned using monsters with 2 or more different Attributes as material: You can draw 1 card.","atk":2800,"def":2000,"level":8,"race":"Dragon","attribute":"WIND","archetype":"Magikey","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN037","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.7"}],"card_images":[{"id":71159974,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/71159974.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/71159974.jpg"}],"card_prices":[{"cardmarket_price":"0.34","tcgplayer_price":"0.78","ebay_price":"1.49","amazon_price":"11.50","coolstuffinc_price":"0.00"}]},{"id":45877457,"name":"Magikey Mechmortar - Garesglasser","type":"Ritual Effect Monster","desc":"You can Ritual Summon this card with \"Magikey Maftea\". Gains 300 ATK for each different Attribute in your GY. You can only use each of the following effects of \"Magikey Mechmortar - Garesglasser\" once per turn. When your opponent activates an effect of a monster with the same Attribute as a monster in your GY, if at least 2 Attributes of monster were used for this card's Ritual Summon (Quick Effect): You can negate the activation, and if you do, destroy that card. If this Ritual Summoned card is sent to the GY: You can add 1 \"Magikey\" monster from your Deck to your hand.","atk":2000,"def":2800,"level":8,"race":"Machine","attribute":"EARTH","archetype":"Magikey","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN033","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.43"}],"card_images":[{"id":45877457,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45877457.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45877457.jpg"}],"card_prices":[{"cardmarket_price":"0.34","tcgplayer_price":"0.78","ebay_price":"1.17","amazon_price":"0.79","coolstuffinc_price":"0.00"}]},{"id":19489718,"name":"Magikey Mechmusket - Batosbuster","type":"Ritual Effect Monster","desc":"You can Ritual Summon this card with \"Magikey Maftea\". If this card is Ritual Summoned: You can add 1 \"Magikey\" card from your Deck to your hand. You can only use this effect of \"Magikey Mechmusket - Batosbuster\" once per turn. Once per turn, when an attack is declared involving this card and an opponent's monster with the same Attribute as a Normal Monster or \"Magikey\" monster in your GY: You can place any number of cards from your hand on the bottom of the Deck, and if you do, negate the effects of that opponent's monster (until the end of this turn), then draw cards equal to the number of cards you placed.","atk":2000,"def":2200,"level":4,"race":"Machine","attribute":"EARTH","archetype":"Magikey","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN032","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.47"}],"card_images":[{"id":19489718,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19489718.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19489718.jpg"}],"card_prices":[{"cardmarket_price":"0.32","tcgplayer_price":"0.79","ebay_price":"3.99","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":98020526,"name":"Majestic Mirage","type":"Trap Card","desc":"If a face-up \"Stardust Dragon(s)\" you control and/or face-up Synchro Monster(s) you control that specifically lists that card in its text leaves the field to activate your card effect, or by your card effect: You can apply 1 of the following effects. You cannot apply that same effect of \"Majestic Mirage\" for the rest of this turn.\r\n\u25cf Special Summon 1 of those monsters.\r\n\u25cf Banish 1 monster your opponent controls or in their GY.\r\n\u25cf Any damage you take this turn is halved.","race":"Continuous","archetype":"Majestic","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN070","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.49"}],"card_images":[{"id":98020526,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/98020526.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/98020526.jpg"}],"card_prices":[{"cardmarket_price":"0.32","tcgplayer_price":"0.93","ebay_price":"0.99","amazon_price":"0.75","coolstuffinc_price":"0.00"}]},{"id":3779493,"name":"Night's End Administrator","type":"Synchro Monster","desc":"\"Night's End Sorcerer\" + 1+ non-Tuner monsters\r\nIf this card is Special Summoned, or if another Spellcaster monster(s) is Special Summoned to your field: You can target 1 card in your opponent's GY; banish it. If this card is destroyed by battle, or if this card in its owner's Monster Zone is destroyed by an opponent's card effect: You can target 1 Level 4 or lower Spellcaster monster in your GY; Special Summon it. You can only use this effect of \"Night's End Administrator\" once per turn.","atk":2300,"def":1400,"level":6,"race":"Spellcaster","attribute":"LIGHT","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN083","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.47"}],"card_images":[{"id":3779493,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/3779493.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/3779493.jpg"}],"card_prices":[{"cardmarket_price":"0.41","tcgplayer_price":"0.84","ebay_price":"0.99","amazon_price":"0.25","coolstuffinc_price":"0.00"}]},{"id":26237713,"name":"Pendulum Treasure","type":"Spell Card","desc":"Add 1 Pendulum Monster from your Deck to your Extra Deck face-up. You can only activate 1 \"Pendulum Treasure\" per turn.","race":"Normal","archetype":"Pendulum","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN068","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.41"}],"card_images":[{"id":26237713,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/26237713.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/26237713.jpg"}],"card_prices":[{"cardmarket_price":"0.34","tcgplayer_price":"0.78","ebay_price":"0.99","amazon_price":"0.74","coolstuffinc_price":"0.00"}]},{"id":86060749,"name":"Stall Turn","type":"Trap Card","desc":"When a Spell/Trap Card, or monster effect, is activated that would negate the Summon of a monster(s) or the activation of a Spell/Trap Card: Banish 3 cards from the top of your Deck face-down; negate the activation, and if you do, shuffle that card into the Deck.","race":"Counter","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN079","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.76"}],"card_images":[{"id":86060749,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/86060749.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/86060749.jpg"}],"card_prices":[{"cardmarket_price":"0.33","tcgplayer_price":"0.77","ebay_price":"2.40","amazon_price":"0.00","coolstuffinc_price":"0.00"}]},{"id":24158464,"name":"Tindangle Jhrelth","type":"Flip Effect Monster","desc":"FLIP: You can take 1 Flip monster from your Deck, except \"Tindangle Jhrelth\", and either add it to your hand or send it to the GY.\nIf this card is in your hand: You can discard 1 other card; send 1 \"Tindangle\" card from your Deck to the GY, except \"Tindangle Jhrelth\", and if you do, Special Summon this card in face-down Defense Position. You can only use each effect of \"Tindangle Jhrelth\" once per turn.","atk":0,"def":1800,"level":3,"race":"Fiend","attribute":"DARK","archetype":"Tindangle","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN095","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.36"}],"card_images":[{"id":24158464,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/24158464.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/24158464.jpg"}],"card_prices":[{"cardmarket_price":"0.24","tcgplayer_price":"0.75","ebay_price":"1.99","amazon_price":"0.25","coolstuffinc_price":"0.00"}]},{"id":38694052,"name":"Voloferniges, the Darkest Dragon Doomrider","type":"XYZ Monster","desc":"2 Level 7 monsters\r\nOnce per turn: You can detach 2 materials from this card, then target 1 face-up card on the field; destroy it, and if it was a monster, you can have 1 face-up monster you control gain ATK equal to the destroyed monster's original Level/Rank x 300, until the end of the next turn. This card cannot attack the turn this effect is activated. This is a Quick Effect if this card has a Dragon monster as material.","atk":2500,"def":2100,"level":7,"race":"Dragon","attribute":"DARK","card_sets":[{"set_name":"Dawn of Majesty","set_code":"DAMA-EN045","set_rarity":"Super Rare","set_rarity_code":"(SR)","set_price":"1.55"}],"card_images":[{"id":38694052,"image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38694052.jpg","image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38694052.jpg"}],"card_prices":[{"cardmarket_price":"0.32","tcgplayer_price":"0.80","ebay_price":"2.15","amazon_price":"39.29","coolstuffinc_price":"0.00"}]}]}
+{
+   "data":[
+      {
+         "id":25451383,
+         "name":"Albion the Shrouded Dragon",
+         "type":"Effect Monster",
+         "desc":"This card's name becomes \"Fallen of Albaz\" while on the field or in the GY. If this card is in your hand or GY: You can send 1 \"Fallen of Albaz\" or 1 \"Branded\" Spell/Trap from your hand or Deck to the GY; apply the following effect, depending on where that card was sent from.\r\n\u25cf Hand: Special Summon this card.\r\n\u25cf Deck: Place this card on the bottom of the Deck, then, if it was placed from the hand, draw 1 card.\r\nYou can only use this effect of \"Albion the Shrouded Dragon\" once per turn.",
+         "atk":2500,
+         "def":2000,
+         "level":8,
+         "race":"Dragon",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN008",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.6"
+            }
+         ],
+         "card_images":[
+            {
+               "id":25451383,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/25451383.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/25451383.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.35",
+               "tcgplayer_price":"0.75",
+               "ebay_price":"1.76",
+               "amazon_price":"2.88",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":22662014,
+         "name":"Amazement Assistant Delia",
+         "type":"Effect Monster",
+         "desc":"You can reveal 1 \"Attraction\" Trap in your hand; Special Summon this card from your hand. You can send 1 \"Attraction\" Trap from your hand or face-up field to the GY; Set 1 \"Attraction\" Trap directly from your Deck. You can only use each effect of \"Amazement Assistant Delia\" once per turn.",
+         "atk":1800,
+         "def":1400,
+         "level":4,
+         "race":"Machine",
+         "attribute":"LIGHT",
+         "archetype":"Amazement",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN020",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.47"
+            }
+         ],
+         "card_images":[
+            {
+               "id":22662014,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/22662014.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/22662014.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.27",
+               "tcgplayer_price":"0.75",
+               "ebay_price":"2.19",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":2834264,
+         "name":"Beetrooper Armor Horn",
+         "type":"Link Monster",
+         "desc":"2 Insect monsters\r\nYou cannot Special Summon monsters, except Insect monsters. You can only use each of the following effects of \"Beetrooper Armor Horn\" once per turn. During your Main Phase, you can: Immediately after this effect resolves, Normal Summon 1 Insect monster. If this card is in your GY: You can banish 3 other Insect monsters from your GY; Special Summon this card, but banish it when it leaves the field.",
+         "atk":1000,
+         "race":"Insect",
+         "attribute":"EARTH",
+         "archetype":"Beetrooper",
+         "linkval":2,
+         "linkmarkers":[
+            "Bottom",
+            "Top"
+         ],
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN088",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.42"
+            }
+         ],
+         "card_images":[
+            {
+               "id":2834264,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/2834264.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/2834264.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.34",
+               "tcgplayer_price":"0.85",
+               "ebay_price":"2.19",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":64213017,
+         "name":"Beetrooper Formation",
+         "type":"Spell Card",
+         "desc":"You can target 1 \"Beetrooper\" monster in your GY; Special Summon it, but it cannot attack this turn, also you lose LP equal to its original ATK. If a face-up Insect monster(s) you control is destroyed by battle or card effect: You can Special Summon 1 \"Beetrooper Token\" (Insect/EARTH/Level 3/ATK 1000/DEF 1000). You can only use each effect of \"Beetrooper Formation\" once per turn.",
+         "race":"Field",
+         "archetype":"Beetrooper",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN090",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.44"
+            }
+         ],
+         "card_images":[
+            {
+               "id":64213017,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/64213017.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/64213017.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.33",
+               "tcgplayer_price":"0.87",
+               "ebay_price":"1.59",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":39041550,
+         "name":"Beetrooper Scale Bomber",
+         "type":"Effect Monster",
+         "desc":"If an Insect monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand. When a monster your opponent controls activates its effect (Quick Effect): You can Tribute 1 Insect monster; destroy it. You can only use each effect of \"Beetrooper Scale Bomber\" once per turn.",
+         "atk":1200,
+         "def":2000,
+         "level":3,
+         "race":"Insect",
+         "attribute":"FIRE",
+         "archetype":"Beetrooper",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN086",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.43"
+            }
+         ],
+         "card_images":[
+            {
+               "id":39041550,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/39041550.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/39041550.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.36",
+               "tcgplayer_price":"0.87",
+               "ebay_price":"2.19",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":97112505,
+         "name":"Chronomaly Magella Globe",
+         "type":"Effect Monster",
+         "desc":"You can Tribute this card; Special Summon 1 \"Chronomaly\" monster from your Deck, except \"Chronomaly Magella Globe\". If this card is in your GY, except the turn it was sent there: You can banish 1 \"Chronomaly\" card from your GY, except \"Chronomaly Magella Globe\"; add this card to your hand. You can only use each effect of \"Chronomaly Magella Globe\" once per turn.",
+         "atk":1500,
+         "def":300,
+         "level":4,
+         "race":"Machine",
+         "attribute":"LIGHT",
+         "archetype":"Chronomaly",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN013",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.62"
+            }
+         ],
+         "card_images":[
+            {
+               "id":97112505,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/97112505.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/97112505.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.24",
+               "tcgplayer_price":"0.00",
+               "ebay_price":"1.99",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":76937326,
+         "name":"Daigusto Laplampilica",
+         "type":"Synchro Monster",
+         "desc":"1 Tuner + 1+ non-Tuner \"Gusto\" monsters\r\nYou can only Special Summon \"Daigusto Laplampilica(s)\" once per turn. If this card is Synchro Summoned: You can Special Summon 1 \"Gusto\" monster from your hand and 1 \"Gusto\" monster from your Deck, but negate their effects, then immediately after this effect resolves, Synchro Summon 1 \"Gusto\" Synchro Monster using only those 2 monsters, also you cannot Special Summon monsters for the rest of this turn, except WIND monsters. Your opponent cannot target other \"Gusto\" Synchro Monsters you control with card effects.",
+         "atk":1900,
+         "def":2600,
+         "level":6,
+         "race":"Psychic",
+         "attribute":"WIND",
+         "archetype":"Gusto",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN040",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.88"
+            }
+         ],
+         "card_images":[
+            {
+               "id":76937326,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/76937326.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/76937326.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.11",
+               "tcgplayer_price":"0.82",
+               "ebay_price":"1.97",
+               "amazon_price":"0.59",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":61269611,
+         "name":"Dinowrestler Iguanodraka",
+         "type":"Effect Monster",
+         "desc":"You can discard 1 other Dinosaur monster; Special Summon this card from your hand. You can Tribute 1 Dinosaur monster, then target 1 \"Dinowrestler\" monster in your GY with a different original name; Special Summon it in Defense Position. You can only use each effect of \"Dinowrestler Iguanodraka\" once per turn.",
+         "atk":2000,
+         "def":0,
+         "level":6,
+         "race":"Dinosaur",
+         "attribute":"EARTH",
+         "archetype":"Dinowrestler",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN094",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.39"
+            }
+         ],
+         "card_images":[
+            {
+               "id":61269611,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/61269611.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/61269611.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.29",
+               "tcgplayer_price":"0.84",
+               "ebay_price":"2.39",
+               "amazon_price":"0.50",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":7925734,
+         "name":"Link Apple",
+         "type":"Effect Monster",
+         "desc":"You can reveal this card in your hand; banish 1 random face-down card from your Extra Deck, then, if it is a Link Monster, Special Summon this card. Otherwise, discard this card, and if you do, draw 1 card. You can only use this effect of \"Link Apple\" once per turn.",
+         "atk":0,
+         "def":0,
+         "level":1,
+         "race":"Cyberse",
+         "attribute":"FIRE",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN092",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.34"
+            }
+         ],
+         "card_images":[
+            {
+               "id":7925734,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/7925734.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/7925734.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.28",
+               "tcgplayer_price":"0.86",
+               "ebay_price":"1.99",
+               "amazon_price":"0.99",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":45655875,
+         "name":"Magikey Beast - Ansyalabolas",
+         "type":"Fusion Monster",
+         "desc":"1 \"Magikey\" monster + 1 non-Token Normal Monster\r\nIf this card is Fusion Summoned: You can add 1 \"Magikey Maftea\" from your GY to your hand. You can only use this effect of \"Magikey Beast - Ansyalabolas\" once per turn. Once per turn: You can target 1 Attack Position monster your opponent controls with the same Attribute as a Normal Monster or \"Magikey\" monster in your GY; change it to Defense Position, and if you do, it loses 1000 DEF. Banish any monster destroyed by battle with this card.",
+         "atk":2200,
+         "def":2000,
+         "level":4,
+         "race":"Beast",
+         "attribute":"DARK",
+         "archetype":"Magikey",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN036",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.66"
+            }
+         ],
+         "card_images":[
+            {
+               "id":45655875,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45655875.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45655875.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.29",
+               "tcgplayer_price":"0.73",
+               "ebay_price":"2.19",
+               "amazon_price":"1.24",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":71159974,
+         "name":"Magikey Dragon - Andrabime",
+         "type":"Fusion Monster",
+         "desc":"1 \"Magikey\" Effect Monster + 1 non-Token Normal Monster\r\nWhen Fusion Summoned, your opponent cannot activate cards or effects. Once per turn: You can target 1 Normal Monster or \"Magikey\" monster in your GY; destroy all monsters your opponent controls with the same Attribute as that monster. Once per turn, if an opponent's monster(s) with the same Attribute as a monster in your GY is destroyed by battle or card effect, and you control this card Fusion Summoned using monsters with 2 or more different Attributes as material: You can draw 1 card.",
+         "atk":2800,
+         "def":2000,
+         "level":8,
+         "race":"Dragon",
+         "attribute":"WIND",
+         "archetype":"Magikey",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN037",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.7"
+            }
+         ],
+         "card_images":[
+            {
+               "id":71159974,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/71159974.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/71159974.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.34",
+               "tcgplayer_price":"0.78",
+               "ebay_price":"1.49",
+               "amazon_price":"11.50",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":45877457,
+         "name":"Magikey Mechmortar - Garesglasser",
+         "type":"Ritual Effect Monster",
+         "desc":"You can Ritual Summon this card with \"Magikey Maftea\". Gains 300 ATK for each different Attribute in your GY. You can only use each of the following effects of \"Magikey Mechmortar - Garesglasser\" once per turn. When your opponent activates an effect of a monster with the same Attribute as a monster in your GY, if at least 2 Attributes of monster were used for this card's Ritual Summon (Quick Effect): You can negate the activation, and if you do, destroy that card. If this Ritual Summoned card is sent to the GY: You can add 1 \"Magikey\" monster from your Deck to your hand.",
+         "atk":2000,
+         "def":2800,
+         "level":8,
+         "race":"Machine",
+         "attribute":"EARTH",
+         "archetype":"Magikey",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN033",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.43"
+            }
+         ],
+         "card_images":[
+            {
+               "id":45877457,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/45877457.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/45877457.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.34",
+               "tcgplayer_price":"0.78",
+               "ebay_price":"1.17",
+               "amazon_price":"0.79",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":19489718,
+         "name":"Magikey Mechmusket - Batosbuster",
+         "type":"Ritual Effect Monster",
+         "desc":"You can Ritual Summon this card with \"Magikey Maftea\". If this card is Ritual Summoned: You can add 1 \"Magikey\" card from your Deck to your hand. You can only use this effect of \"Magikey Mechmusket - Batosbuster\" once per turn. Once per turn, when an attack is declared involving this card and an opponent's monster with the same Attribute as a Normal Monster or \"Magikey\" monster in your GY: You can place any number of cards from your hand on the bottom of the Deck, and if you do, negate the effects of that opponent's monster (until the end of this turn), then draw cards equal to the number of cards you placed.",
+         "atk":2000,
+         "def":2200,
+         "level":4,
+         "race":"Machine",
+         "attribute":"EARTH",
+         "archetype":"Magikey",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN032",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.47"
+            }
+         ],
+         "card_images":[
+            {
+               "id":19489718,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/19489718.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/19489718.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.79",
+               "ebay_price":"3.99",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":98020526,
+         "name":"Majestic Mirage",
+         "type":"Trap Card",
+         "desc":"If a face-up \"Stardust Dragon(s)\" you control and/or face-up Synchro Monster(s) you control that specifically lists that card in its text leaves the field to activate your card effect, or by your card effect: You can apply 1 of the following effects. You cannot apply that same effect of \"Majestic Mirage\" for the rest of this turn.\r\n\u25cf Special Summon 1 of those monsters.\r\n\u25cf Banish 1 monster your opponent controls or in their GY.\r\n\u25cf Any damage you take this turn is halved.",
+         "race":"Continuous",
+         "archetype":"Majestic",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN070",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.49"
+            }
+         ],
+         "card_images":[
+            {
+               "id":98020526,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/98020526.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/98020526.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.93",
+               "ebay_price":"0.99",
+               "amazon_price":"0.75",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":3779493,
+         "name":"Night's End Administrator",
+         "type":"Synchro Monster",
+         "desc":"\"Night's End Sorcerer\" + 1+ non-Tuner monsters\r\nIf this card is Special Summoned, or if another Spellcaster monster(s) is Special Summoned to your field: You can target 1 card in your opponent's GY; banish it. If this card is destroyed by battle, or if this card in its owner's Monster Zone is destroyed by an opponent's card effect: You can target 1 Level 4 or lower Spellcaster monster in your GY; Special Summon it. You can only use this effect of \"Night's End Administrator\" once per turn.",
+         "atk":2300,
+         "def":1400,
+         "level":6,
+         "race":"Spellcaster",
+         "attribute":"LIGHT",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN083",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.47"
+            }
+         ],
+         "card_images":[
+            {
+               "id":3779493,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/3779493.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/3779493.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.41",
+               "tcgplayer_price":"0.84",
+               "ebay_price":"0.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":26237713,
+         "name":"Pendulum Treasure",
+         "type":"Spell Card",
+         "desc":"Add 1 Pendulum Monster from your Deck to your Extra Deck face-up. You can only activate 1 \"Pendulum Treasure\" per turn.",
+         "race":"Normal",
+         "archetype":"Pendulum",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN068",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.41"
+            }
+         ],
+         "card_images":[
+            {
+               "id":26237713,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/26237713.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/26237713.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.34",
+               "tcgplayer_price":"0.78",
+               "ebay_price":"0.99",
+               "amazon_price":"0.74",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":86060749,
+         "name":"Stall Turn",
+         "type":"Trap Card",
+         "desc":"When a Spell/Trap Card, or monster effect, is activated that would negate the Summon of a monster(s) or the activation of a Spell/Trap Card: Banish 3 cards from the top of your Deck face-down; negate the activation, and if you do, shuffle that card into the Deck.",
+         "race":"Counter",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN079",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.76"
+            }
+         ],
+         "card_images":[
+            {
+               "id":86060749,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/86060749.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/86060749.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.33",
+               "tcgplayer_price":"0.77",
+               "ebay_price":"2.40",
+               "amazon_price":"0.00",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":24158464,
+         "name":"Tindangle Jhrelth",
+         "type":"Flip Effect Monster",
+         "desc":"FLIP: You can take 1 Flip monster from your Deck, except \"Tindangle Jhrelth\", and either add it to your hand or send it to the GY.\nIf this card is in your hand: You can discard 1 other card; send 1 \"Tindangle\" card from your Deck to the GY, except \"Tindangle Jhrelth\", and if you do, Special Summon this card in face-down Defense Position. You can only use each effect of \"Tindangle Jhrelth\" once per turn.",
+         "atk":0,
+         "def":1800,
+         "level":3,
+         "race":"Fiend",
+         "attribute":"DARK",
+         "archetype":"Tindangle",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN095",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.36"
+            }
+         ],
+         "card_images":[
+            {
+               "id":24158464,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/24158464.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/24158464.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.24",
+               "tcgplayer_price":"0.75",
+               "ebay_price":"1.99",
+               "amazon_price":"0.25",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":38694052,
+         "name":"Voloferniges, the Darkest Dragon Doomrider",
+         "type":"XYZ Monster",
+         "desc":"2 Level 7 monsters\r\nOnce per turn: You can detach 2 materials from this card, then target 1 face-up card on the field; destroy it, and if it was a monster, you can have 1 face-up monster you control gain ATK equal to the destroyed monster's original Level/Rank x 300, until the end of the next turn. This card cannot attack the turn this effect is activated. This is a Quick Effect if this card has a Dragon monster as material.",
+         "atk":2500,
+         "def":2100,
+         "level":7,
+         "race":"Dragon",
+         "attribute":"DARK",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN045",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.55"
+            }
+         ],
+         "card_images":[
+            {
+               "id":38694052,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/38694052.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/38694052.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },      {
+         "id":90179822,
+         "name":"Despian Comedy",
+         "type":"Effect Monster",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN004",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":90179822,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/90179822.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/90179822.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":50901852,
+         "name":"Gizmek Inaba, the Hopping Hare of Hakuto",
+         "type":"Effect Monster",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN015",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":50901852,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/50901852.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/50901852.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":59789370,
+         "name":"Gizmek Inaba, the Hopping Hare of Hakuto",
+         "type":"Effect Monster",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN018",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":59789370,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/59789370.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/59789370.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":18666161,
+         "name":"Despian Proskenion",
+         "type":"Fusion Monster",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN035",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":18666161,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/18666161.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/18666161.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":36637374,
+         "name":"Branded Opening",
+         "type":"Spell Card",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN054",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":36637374,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/36637374.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/36637374.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":37582948,
+         "name":"Live\u2606Twin Sunny's Snitch",
+         "type":"Spell Card",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN062",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":37582948,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/37582948.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/37582948.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      },
+      {
+         "id":62481203,
+         "name":"Trickstar Festival",
+         "type":"Spell Card",
+         "card_sets":[
+            {
+               "set_name":"Dawn of Majesty",
+               "set_code":"DAMA-EN098",
+               "set_rarity":"Super Rare",
+               "set_rarity_code":"(SR)",
+               "set_price":"1.23"
+            }
+         ],
+         "card_images":[
+            {
+               "id":62481203,
+               "image_url":"https://storage.googleapis.com/ygoprodeck.com/pics/62481203.jpg",
+               "image_url_small":"https://storage.googleapis.com/ygoprodeck.com/pics_small/62481203.jpg"
+            }
+         ],
+         "card_prices":[
+            {
+               "cardmarket_price":"0.32",
+               "tcgplayer_price":"0.80",
+               "ebay_price":"2.15",
+               "amazon_price":"39.29",
+               "coolstuffinc_price":"0.00"
+            }
+         ]
+      }
+   ]
+}
