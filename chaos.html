@@ -45,7 +45,7 @@
 
       // Change the name to match the format of the json filenames"
       var formatted_setname = setname.toLowerCase().replaceAll(' ', '_')
-      .replaceAll("'", "").replaceAll(":", "");
+      .replaceAll("'", "").replaceAll(":", "").replaceAll("-", "").replaceAll("!", "");
 
       try {
         var set_json;
