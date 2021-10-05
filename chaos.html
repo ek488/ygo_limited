@@ -15,7 +15,7 @@
       async: false
     });
 
-    const sets = ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex", "Lightning Overdrive", "Dawn of Majesty", "Pendulum Evolution", "Fists of the Gadgets", "Duel Overload", "2015 Mega-Tin Mega Pack", "Legendary Duelists: White Dragon Abyss", "Legendary Duelists: Magical Hero", "Duelist Pack: Zane Truesdale", "OTS Tournament Pack 1", "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack"];
+    const sets = ["Legend of Blue Eyes White Dragon", "Metal Raiders", "Magic Ruler", "Pharaoh's Servant", "Labyrinth of Nightmare", "Legacy of Darkness", "Pharaonic Guardian", "Magician's Force", "Dark Crisis", "Invasion of Chaos", "Ancient Sanctuary", "Soul of the Duelist", "Rise of Destiny", "Flaming Eternity", "The Lost Millennium", "Cybernetic Revolution", "Elemental Energy", "Shadow of Infinity", "Enemy of Justice", "Power of the Duelist", "Cyberdark Impact", "Strike of Neos", "Force of the Breaker", "Tactical Evolution", "Gladiator's Assault", "Phantom Darkness", "Light of Destruction", "The Duelist Genesis", "Crossroads of Chaos", "Crimson Crisis", "Raging Battle", "Ancient Prophecy", "Stardust Overdrive", "Absolute Powerforce", "The Shining Darkness", "Duelist Revolution", "Starstrike Blast", "Storm of Ragnarok", "Extreme Victory", "Generation Force", "Photon Shockwave", "Order of Chaos", "Galactic Overlord", "Return of the Duelist", "Abyss Rising", "Cosmo Blazer", "Lord of the Tachyon Galaxy", "Judgment of the Light", "Shadow Specters", "Legacy of the Valiant", "Primal Origin", "Duelist Alliance", "The New Challengers", "Secrets of Eternity", "Crossed Souls", "Clash of Rebellions", "Dimension of Chaos", "Breakers of Shadow", "Shining Victories", "The Dark Illusion", "Invasion: Vengeance", "Raging Tempest", "Maximum Crisis", "Code of the Duelist", "Circuit Break", "Extreme Force", "Flames of Destruction", "Cybernetic Horizon", "Soul Fusion", "Savage Strike", "Dark Neostorm", "Rising Rampage", "Chaos Impact", "Ignition Assault", "Eternity Code", "Rise of the Duelist", "Phantom Rage", "Blazing Vortex", "Lightning Overdrive", "Dawn of Majesty", "Pendulum Evolution", "Fists of the Gadgets", "Duel Overload", "2015 Mega-Tin Mega Pack", "Legendary Duelists: White Dragon Abyss", "Legendary Duelists: Magical Hero", "Duelist Pack: Zane Truesdale", "OTS Tournament Pack 1", "Yu-Gi-Oh! The Dark Side of Dimensions Movie Pack", "Draft Complete!"];
     const num_of_sets = sets.length;
     var drafted_cards = new Set();
     var number_drafted = 0;
@@ -556,21 +556,21 @@
       x.setAttribute("src", "public/images/card_images/".concat(id).concat(".jpg"));
       x.setAttribute("alt", id);
       if (cards_in_pack.length <= 10 & is_pack_card) {
-        x.setAttribute("height", 312);
-        x.setAttribute("width", 210);
+        x.setAttribute("height", 301);
+        x.setAttribute("width", "auto");
       }
       else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15 & is_pack_card) {
-        x.setAttribute("height", 253);
-        x.setAttribute("width", 170);
+        x.setAttribute("height", 242);
+        x.setAttribute("width", "auto");
       }
       else if (cards_in_pack.length > 15 & is_pack_card) {
-        x.setAttribute("height", 208);
-        x.setAttribute("width", 140);
+        x.setAttribute("height", 197);
+        x.setAttribute("width", "auto");
       }
       else
       {
         x.setAttribute("height", 156);
-        x.setAttribute("width", 105);
+        x.setAttribute("width", "auto");
       }
       if (is_pack_card) {
         x.setAttribute("class", "pack ".concat(id));
@@ -590,18 +590,18 @@
     function choose_card(id){
       // Remove the border from all cards in the pack.
       for (pack_card_img of document.getElementsByClassName("pack")) {
-        pack_card_img.style.border = "0px";
+        pack_card_img.style.border = "8px solid transparent";
         if (cards_in_pack.length <= 10) {
-          pack_card_img.style.height = "312px";
-          pack_card_img.style.width = "210px";
+          //pack_card_img.style.height = "312px";
+          //pack_card_img.style.width = "210px";
         }
         else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15) {
-          pack_card_img.style.height = "253px";
-          pack_card_img.style.width = "170px";
+          //pack_card_img.style.height = "253px";
+          //pack_card_img.style.width = "170px";
         }
         else if (cards_in_pack.length > 15) {
-          pack_card_img.style.height = "208px";
-          pack_card_img.style.width = "140px";
+          //pack_card_img.style.height = "208px";
+          //pack_card_img.style.width = "140px";
         }
       }
 
@@ -617,16 +617,16 @@
         for (pack_card_img of document.getElementsByClassName(id)) {
           pack_card_img.style.border = "8px solid green";
           if (cards_in_pack.length <= 10) {
-            pack_card_img.style.height = "296px";
-            pack_card_img.style.width = "194px";
+            //pack_card_img.style.height = "296px";
+            //pack_card_img.style.width = "194px";
           }
           else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15) {
-            pack_card_img.style.height = "237px";
-            pack_card_img.style.width = "154px";
+            //pack_card_img.style.height = "237px";
+            //pack_card_img.style.width = "154px";
           }
           else if (cards_in_pack.length > 15) {
-            pack_card_img.style.height = "192px";
-            pack_card_img.style.width = "124px";
+            //pack_card_img.style.height = "192px";
+            //pack_card_img.style.width = "124px";
           }
         }
 
@@ -646,7 +646,7 @@
         // Update number of cards drafted
         number_drafted++;
         document.getElementById("setHeader").innerHTML = sets[number_drafted];
-        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets).concat(")");
+        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
 
         drafted_cards.add(chosen_card);
         chosen_card = null;
@@ -735,7 +735,7 @@
   <div style="text-align: center;">
     <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
   </div>
-  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets)</script>)</h1>
+  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets - 1)</script>)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
@@ -751,7 +751,7 @@
     <li>Or you can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img> Important note: if you have any duplicates, you have to manually add the second and third copies by hand (yes this is annoying, but I don't think it's currently possible to do this automatically.).</li>
   </ul>
   <p>
-    Last updated: 24 September 2021
+    Last updated: 4 October 2021
   </p>
   <!--TODO: Replace with footer partial-->
   <footer>  
