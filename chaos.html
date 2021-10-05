@@ -542,16 +542,7 @@
       }
     }
 
-    function display_card_image(id, is_pack_card=false){
-      //var rarity = document.createElement("P");
-      //rarity.setAttribute("class", "pack");
-      //rarity.innerHTML = "Rare"
-      //var span = document.createElement("SPAN");
-      //span.setAttribute("class", "pack");
-      //span.setAttribute("id", "span".concat(id));
-      //document.body.insertBefore(span, document.getElementById("brk"));
-      //document.getElementById("pack").appendChild(span);
-
+    function display_card_image(id, is_pack_card=false, r=null){
       var x = document.createElement("IMG");
       x.setAttribute("src", "public/images/card_images/".concat(id).concat(".jpg"));
       x.setAttribute("alt", id);
@@ -573,12 +564,20 @@
         x.setAttribute("width", "auto");
       }
       if (is_pack_card) {
+        var rarity = document.createElement("P");
+        rarity.innerHTML = r
+        rarity.setAttribute("class", "rarity");
+
+        var dv = document.createElement("DIV");
+        dv.setAttribute("class", "div");
+        dv.setAttribute("style", "display:inline-block");
+
         x.setAttribute("class", "pack ".concat(id));
-        //x.setAttribute("id", id);
         x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("')"));
-        document.getElementById("pack").appendChild(x);
-        //span.appendChild(rarity);
-        //document.body.insertBefore(x, document.getElementById("break"));
+
+        document.getElementById("pack").appendChild(dv);
+        dv.appendChild(x); //
+        dv.appendChild(rarity);
       }
       else {
         document.body.insertBefore(x, document.getElementById("download_break"));
@@ -590,7 +589,6 @@
     }
 
     // Show a border around the last selected card in the pack.
-    // TODO: have border cover image instead
     function choose_card(id){
       // Remove the border from all cards in the pack.
       for (pack_card_img of document.getElementsByClassName("pack")) {
@@ -630,13 +628,19 @@
         chosen_id = null;
 
         for (pack_card_img of document.getElementsByClassName("pack")) {
-          pack_card_img.setAttribute("hidden", "");
+          pack_card_img.display = "none";
+        }
+        for (rrty of document.getElementsByClassName("rarity")) {
+          rrty.style.display = "none";
+        }
+        for (dv of document.getElementsByClassName("div")) {
+          dv.style.display = "none";
         }
 
         if (number_drafted < num_of_sets) {
           cards_in_pack = get_pack(sets[number_drafted]);
           for (pack_card of cards_in_pack) {
-            display_card_image(pack_card.id, true);
+            display_card_image(pack_card.id, true, pack_card.rarity);
           }
         }
       }
@@ -718,7 +722,7 @@
   <script>
     cards_in_pack = get_pack(sets[number_drafted]);
     for (pack_card of cards_in_pack) {
-      display_card_image(pack_card.id, true);
+      display_card_image(pack_card.id, true, pack_card.rarity);
     }
   </script>
   <h2>To view your drafted cards later:</h2>

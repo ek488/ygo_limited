@@ -59,15 +59,19 @@ nav li {
   font-size: 18px;
 }
 
-.pack {
-    border: 8px solid transparent;
-    margin: 5px;
-    cursor: pointer;
+p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .pack {
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
+    border: 8px solid transparent;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
 }
 
 .pack:hover {
