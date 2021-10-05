@@ -557,7 +557,7 @@
       x.setAttribute("alt", id);
       if (cards_in_pack.length <= 10 & is_pack_card) {
         x.setAttribute("height", 301);
-        x.setAttribute("width", "auto");
+        x.setAttribute("width", 206);
       }
       else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15 & is_pack_card) {
         x.setAttribute("height", 242);
@@ -583,6 +583,10 @@
       else {
         document.body.insertBefore(x, document.getElementById("download_break"));
       }
+      //var y = document.createElement("IMG");
+      //y.setAttribute("src", "public/images/card_images/".concat(id).concat(".jpg"));
+      //y.setAttribute("class", "hover");
+      //y.setAttribute("z-index", 1);
     }
 
     // Show a border around the last selected card in the pack.
@@ -591,18 +595,6 @@
       // Remove the border from all cards in the pack.
       for (pack_card_img of document.getElementsByClassName("pack")) {
         pack_card_img.style.border = "8px solid transparent";
-        if (cards_in_pack.length <= 10) {
-          //pack_card_img.style.height = "312px";
-          //pack_card_img.style.width = "210px";
-        }
-        else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15) {
-          //pack_card_img.style.height = "253px";
-          //pack_card_img.style.width = "170px";
-        }
-        else if (cards_in_pack.length > 15) {
-          //pack_card_img.style.height = "208px";
-          //pack_card_img.style.width = "140px";
-        }
       }
 
       // TODO: remove chosen_id, replace with chosen_card.id
@@ -616,23 +608,7 @@
         }
         for (pack_card_img of document.getElementsByClassName(id)) {
           pack_card_img.style.border = "8px solid green";
-          if (cards_in_pack.length <= 10) {
-            //pack_card_img.style.height = "296px";
-            //pack_card_img.style.width = "194px";
-          }
-          else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15) {
-            //pack_card_img.style.height = "237px";
-            //pack_card_img.style.width = "154px";
-          }
-          else if (cards_in_pack.length > 15) {
-            //pack_card_img.style.height = "192px";
-            //pack_card_img.style.width = "124px";
-          }
         }
-
-        //document.getElementById(id).style.border = "8px solid green";
-        //document.getElementById(id).style.height = "296px";
-        //document.getElementById(id).style.width = "194px";
       }
       else {
         chosen_id = null;
