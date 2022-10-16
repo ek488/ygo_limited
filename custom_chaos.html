@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chaos Draft</title>
+  <link rel="stylesheet" type="text/css" href="public/styles/all.css" media="all"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  </script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    window.onbeforeunload = function() {
+      return true; // Prevents accidental navigation away
+    };
+    $.ajaxSetup({
+      async: false
+    });
+
+    const custom_sets = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Dephts (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)'];
+    const num_of_sets = custom_sets.length;
+    var drafted_cards = new Set();
+    var number_drafted = 0;
+    var chosen_id = null; // The id of the card to be drafted.
+    var chosen_card = null; // The card to be drafted.
+    var cards_in_pack = new Array();
+
+    class YGO_Card {
+      constructor(cardname, id, rarity, set, code, isExtra) {
+        this.cardname = cardname;
+        this.id = id;
+        this.rarity = rarity;
+        this.set = set;
+        this.code = code;
+        this.isExtra = isExtra;
+      }
+      // TODO
+      //get id() {
+        //return this.id;
+      //}
+    }
+
+    // TODO: address tokens
+    function get_setlist(setname, rarity){
+      var setlist = new Array();
+      var total_weight;
+
+      // Change the name to match the format of the json filenames"
+      var formatted_setname = setname.toLowerCase().replaceAll(' ', '_')
+      .replaceAll("'", "").replaceAll(":", "").replaceAll("-", "").replaceAll("!", "");
+
+      try {
+        var set_json;
+        var json_link = "https://ek488.github.io/ygo_limited/public/json_files/set_rarity/"
+        .concat(formatted_setname).concat("_").concat(rarity.toLowerCase())
+        .concat(".json");
+
+        $.getJSON(json_link, function(data) {
+          set_json = data;
+        });
+
+        for (card in set_json.data) {
+          var code;
+          var sjd = set_json.data[card];
+          var isExtra = false;
+          if (sjd.type == "Fusion Monster" || sjd.type == "Synchro Monster" || 
+          sjd.type == "Synchro Tuner Monster" || 
+          sjd.type == "Synchro Pendulum Effect Monster" || 
+          sjd.type == "XYZ Monster" || 
+          sjd.type == "XYZ Pendulum Effect Monster" || 
+          sjd.type == "Link Monster" || 
+          sjd.type == "Pendulum Effect Fusion Monster") {
+            isExtra = true;
+          }
+          for (s in sjd.card_sets) {
+            if (sjd.card_sets[s].set_name == setname) {
+              code = sjd.card_sets[s].set_code;
+            }
+          }
+          var ygo_card = new YGO_Card(sjd.name, sjd.id, 
+          rarity.replaceAll("_", " "), setname, code, isExtra);
+
+          setlist.push(ygo_card);
+        }
+      }
+      // If the set has no cards of this rarity, return null.
+      catch (_) {
+        setlist = null;
+      }
+
+      return setlist;
+    }
+
+    function get_commons(common_setlist, n){
+      var pack_cards = new Array();
+      for (i = 0; i < n; i++) {
+        temp = Math.floor(Math.random() * common_setlist.length);
+        pack_card = common_setlist[temp];
+        // Reroll the card if it's already in the pack.
+        while (pack_cards.includes(pack_card)) {
+          temp = Math.floor(Math.random() * common_setlist.length);
+          pack_card = common_setlist[temp];
+        }
+        pack_cards.push(pack_card);
+      }
+      return pack_cards;
+    }
+
+    function get_rare(setname, rarity){
+      setlist = get_setlist(setname, rarity);
+      return setlist[Math.floor(Math.random() * setlist.length)];
+    }
+
+    function get_pack(setname){
+      var setlist = new Array();
+
+      var pack_cards = [];
+      
+      var pos = custom_sets.indexOf(setname);
+      
+      var common_setlist = get_setlist(setname, "Common");
+      var short_print_setlist = get_setlist(setname, "Short_Print");
+      var super_short_print_setlist = get_setlist(setname, "Super_Short_Print");
+      var temp_common_setlist = null
+      if (common_setlist != null) {
+        temp_common_setlist = common_setlist;
+      }
+      if (short_print_setlist != null) {
+        temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
+      }
+      if (super_short_print_setlist != null) {
+        temp_common_setlist = temp_common_setlist.concat(super_short_print_setlist);
+      }
+
+      // booster_pack_old
+      r = Math.floor(Math.random() * 1380) + 1;
+      // TODO: generalize
+      if (r <= 929) {
+        console.log("8 commons, 1 rare");
+        // 8 Commons
+        pack_cards = get_commons(temp_common_setlist, 8);
+        // 1 Rare
+        pack_cards.push(get_rare(setname, "Rare"));
+      }
+      else if (r >= 930 && r <= 1205) {
+        console.log("7 commons, 1 rare, 1 super rare");
+        // 7 Commons
+        pack_cards = get_commons(temp_common_setlist, 7);
+        // 1 Rare
+        pack_cards.push(get_rare(setname, "Rare"));
+        // 1 Super Rare
+        pack_cards.push(get_rare(setname, "Super_Rare"));
+      }
+      else if (r >= 1206 && r <= 1320) {
+        console.log("7 commons, 1 rare, 1 ultra rare");
+        // 7 Commons
+        pack_cards = get_commons(temp_common_setlist, 7);
+        // 1 Rare
+        pack_cards.push(get_rare(setname, "Rare"));
+        // 1 Ultra Rare
+        pack_cards.push(get_rare(setname, "Ultra_Rare"));
+      }
+      else {
+        console.log("7 commons, 1 rare, 1 secret or ultimate rare");
+        // 7 Commons
+        pack_cards = get_commons(temp_common_setlist, 7);
+        // 1 Rare
+        pack_cards.push(get_rare(setname, "Rare"));
+        // 1 Secret or Ultimate Rare
+        var secret_setlist = get_setlist(setname, "Secret_Rare");
+        var ultimate_setlist = get_setlist(setname, "Ultimate_Rare");
+        var sr_ur_setlist = new Array();
+        if (secret_setlist != null) {
+          sr_ur_setlist = sr_ur_setlist.concat(secret_setlist);
+        }
+        if (ultimate_setlist != null) {
+          sr_ur_setlist = sr_ur_setlist.concat(ultimate_setlist);
+        }
+        var pack_card = sr_ur_setlist[Math.floor(Math.random() * sr_ur_setlist.length)];
+      
+        // Reroll the ultimate rare if it's the same as the rare.
+        while (pack_cards.includes(pack_card)) {
+          temp = Math.floor(Math.random() * sr_ur_setlist.length);
+          pack_card = sr_ur_setlist[temp];
+        }
+        pack_cards.push(pack_card);
+      }
+      return pack_cards;
+    }
+
+    function display_card_image(id, is_pack_card=false, r=null){
+      var x = document.createElement("IMG");
+      x.setAttribute("src", "public/images/custom_card_images/".concat(id).concat(".jpg"));
+      x.setAttribute("alt", id);
+      if (cards_in_pack.length <= 10 & is_pack_card) {
+        x.setAttribute("height", 301);
+        x.setAttribute("width", 206);
+      }
+      else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15 & is_pack_card) {
+        x.setAttribute("height", 242);
+        x.setAttribute("width", "auto");
+      }
+      else if (cards_in_pack.length > 15 & is_pack_card) {
+        x.setAttribute("height", 197);
+        x.setAttribute("width", "auto");
+      }
+      else
+      {
+        x.setAttribute("height", 156);
+        x.setAttribute("width", "auto");
+      }
+      if (is_pack_card) {
+        var rarity = document.createElement("P");
+        rarity.innerHTML = r
+        rarity.setAttribute("class", "rarity");
+
+        var dv = document.createElement("DIV");
+        dv.setAttribute("class", "div");
+        dv.setAttribute("style", "display:inline-block");
+
+        x.setAttribute("class", "pack ".concat(id));
+        x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("')"));
+
+        document.getElementById("pack").appendChild(dv);
+        dv.appendChild(x); //
+        dv.appendChild(rarity);
+      }
+      else {
+        document.body.insertBefore(x, document.getElementById("download_break"));
+      }
+      //var y = document.createElement("IMG");
+      //y.setAttribute("src", "public/images/custom_card_images/".concat(id).concat(".jpg"));
+      //y.setAttribute("class", "hover");
+      //y.setAttribute("z-index", 1);
+    }
+
+    // Show a border around the last selected card in the pack.
+    function choose_card(id){
+      // Remove the border from all cards in the pack.
+      for (pack_card_img of document.getElementsByClassName("pack")) {
+        pack_card_img.style.border = "8px solid transparent";
+      }
+
+      // TODO: remove chosen_id, replace with chosen_card.id
+      // If the clicked card had a border already, don't add a border.
+      if (chosen_id != id) {
+        chosen_id = id;
+        for (card in cards_in_pack) {
+          if (cards_in_pack[card].id == id) {
+            chosen_card = cards_in_pack[card];
+          }
+        }
+        for (pack_card_img of document.getElementsByClassName(id)) {
+          pack_card_img.style.border = "8px solid green";
+        }
+      }
+      else {
+        chosen_id = null;
+        chosen_card = null;
+      } 
+    }
+
+    // TODO: change hidden to display: none
+    function draft(){
+      if (chosen_id != null) {
+        // Update number of cards drafted
+        number_drafted++;
+        document.getElementById("setHeader").innerHTML = sets[number_drafted];
+        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
+
+        drafted_cards.add(chosen_card);
+        chosen_card = null;
+        display_card_image(chosen_id);
+        chosen_id = null;
+
+        for (pack_card_img of document.getElementsByClassName("pack")) {
+          pack_card_img.display = "none";
+        }
+        for (rrty of document.getElementsByClassName("rarity")) {
+          rrty.style.display = "none";
+        }
+        for (dv of document.getElementsByClassName("div")) {
+          dv.style.display = "none";
+        }
+
+        if (number_drafted < num_of_sets) {
+          cards_in_pack = get_pack(sets[number_drafted]);
+          for (pack_card of cards_in_pack) {
+            display_card_image(pack_card.id, true, pack_card.rarity);
+          }
+        }
+      }
+    }
+    
+    function download_ydk(){
+      var deck_cards = Array.from(drafted_cards);
+      var ydk = "#created by ...\n#main"
+      var extra = ""
+
+      for (card in deck_cards) {
+        if (!deck_cards[card].isExtra) {
+          ydk = ydk.concat("\n").concat(deck_cards[card].id);
+        }
+        else {
+          extra = extra.concat("\n").concat(deck_cards[card].id);
+        }
+      }
+      var text = ydk.concat("\n#extra").concat(extra);
+
+      var ydk_download = document.createElement("a");
+      ydk_download.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text))
+      ydk_download.setAttribute('download', "chaos.ydk")
+      ydk_download.style.display = 'none';
+      document.body.appendChild(ydk_download);
+
+      ydk_download.click();
+    }
+
+    function download_csv_collection(){
+      const rows = [
+        ["cardname", "cardq", "cardid", "cardrarity", "cardcondition", "card_edition", "cardset", "cardcode"],
+        //["name2", "city2", "more info"]
+      ];
+      var deck_cards = Array.from(drafted_cards);
+
+      for (card_number in deck_cards){
+        card = deck_cards[card_number];
+        var cardname = card.cardname;
+        // If CARDNAME has a comma, surround CARDNAME with quotation marks
+        if (cardname.includes(",")) {
+          cardname = '"'.concat(cardname).concat('"');
+        }
+        var rarity = card.rarity;
+        if (card.rarity == "Short Print" || card.rarity == "Super Short Print") {
+          rarity = "Common";
+        }
+        rows.push([cardname, "1", card.id, rarity, "M", "Unlimited", card.set, card.code])
+      }
+
+      let csvContent = "";
+      
+      rows.forEach(function(rowArray) {
+        let row = rowArray.join(",");
+        csvContent += row + "\r\n";
+      });
+
+      var encodedUri = encodeURIComponent("\uFEFF" + csvContent);
+      var link = document.createElement("a");
+      link.setAttribute("href", "data:text/csv;charset=utf-8," + encodedUri);
+      link.setAttribute("download", "chaos_collection.csv");
+      document.body.appendChild(link);
+
+      link.click();
+    };
+  </script>
+
+  <h1 id="setHeader"><script>document.write(custom_sets[0])</script></h1>
+  <div id="pack"></div>
+
+  <br id="break"></br>
+  <div style="text-align: center;">
+    <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
+  </div>
+  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets - 1)</script>)</h1>
+  <br id="download_break"></br>
+  <button type="button" onclick="download_ydk()">Download .ydk file</button>
+  <button type="button" onclick="download_csv_collection()">Download .csv file</button>
+  <script>
+    cards_in_pack = get_pack(custom_sets[number_drafted]);
+    for (pack_card of cards_in_pack) {
+      display_card_image(pack_card.id, true, pack_card.rarity);
+    }
+  </script>
+  <h2>To view your drafted cards later:</h2>
+  <ul>
+    <li>You can add your .ydk file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_ydk.png"></img></li>
+    <li>You can also view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro.</li>
+    <li>Note that I would NOT recommend downloading a .csv file currently, unless this is your first draft of the season.</li>
+  </ul>
+  <p>
+    Last updated: 14 October 2022
+  </p>
+  <!--TODO: Replace with footer partial-->
+  <footer>  
+    <nav>
+      <ul>
+        <li><a href="https://discord.gg/kvUF4QfCZ9">Chaos Draft Discord</a></li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
+</html>

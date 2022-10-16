@@ -11,6 +11,9 @@
 
 <body>
   <script type="text/javascript">
+    window.onbeforeunload = function() {
+      return true; // Prevents accidental navigation away
+    };
     $.ajaxSetup({
       async: false
     });
@@ -718,7 +721,7 @@
   <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets - 1)</script>)</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
-  <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
+  <button type="button" onclick="download_csv_collection()">Download .csv file</button>
   <script>
     cards_in_pack = get_pack(sets[number_drafted]);
     for (pack_card of cards_in_pack) {
@@ -727,8 +730,9 @@
   </script>
   <h2>To view your drafted cards later:</h2>
   <ul>
-    <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro.</li>
-    <li>Or you can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img> Important note: if you have any duplicates, you have to manually add the second and third copies by hand (yes this is annoying, but I don't think it's currently possible to do this automatically.).</li>
+    <li>You can add your .ydk file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_ydk.png"></img></li>
+    <li>You can also view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro.</li>
+    <li>Note that I would NOT recommend downloading a .csv file currently, unless this is your first draft of the season.</li>
   </ul>
   <p>
     Last updated: 4 October 2021
@@ -738,7 +742,6 @@
     <nav>
       <ul>
         <li><a href="https://discord.gg/kvUF4QfCZ9">Chaos Draft Discord</a></li>
-        <li><a href="https://github.com/ek488/ygo_limited">GitHub</a></li>
       </ul>
     </nav>
   </footer>
