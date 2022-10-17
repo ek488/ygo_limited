@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Chaos Draft</title>
+  <link rel="icon" type="image/x-icon" href="public/images/phantom_of_chaos.png"/>
   <link rel="stylesheet" type="text/css" href="public/styles/all.css" media="all"/>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
   </script>
@@ -133,17 +134,17 @@
         temp_common_setlist = temp_common_setlist.concat(super_short_print_setlist);
       }
 
-      // booster_pack_old
-      r = Math.floor(Math.random() * 1380) + 1;
+      // custom booster
+      r = Math.floor(Math.random() * 200) + 1;
       // TODO: generalize
-      if (r <= 929) {
+      if (r <= 151) {
         console.log("8 commons, 1 rare");
         // 8 Commons
         pack_cards = get_commons(temp_common_setlist, 8);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
       }
-      else if (r >= 930 && r <= 1205) {
+      else if (r >= 152 && r <= 177) {
         console.log("7 commons, 1 rare, 1 super rare");
         // 7 Commons
         pack_cards = get_commons(temp_common_setlist, 7);
@@ -152,7 +153,7 @@
         // 1 Super Rare
         pack_cards.push(get_rare(setname, "Super_Rare"));
       }
-      else if (r >= 1206 && r <= 1320) {
+      else if (r >= 178 && r <= 194) {
         console.log("7 commons, 1 rare, 1 ultra rare");
         // 7 Commons
         pack_cards = get_commons(temp_common_setlist, 7);
@@ -336,13 +337,12 @@
         // Make a random cardcode to make it extremely unlikely to have duplicate cardcodes
         const characterArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
         cardcode = ""
-        for (let i = 0; i < 4; i++) {
-          cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)]
-        }
+
+        // Four random characters
+        cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
         cardcode = cardcode + '-'
-        for (let i = 0; i < 6; i++) {
-          cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)]
-        }
+        // Six random characters
+        cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
 
         rows.push([cardname, "1", card.id, rarity, "M", "Unlimited", cardset, cardcode])
       }
@@ -383,8 +383,8 @@
   </script>
   <h2>To view your drafted cards later:</h2>
   <ul>
-    <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro.</li>
-    <li>Or you can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img> Important note: if you have any duplicates, you have to manually add the second and third copies by hand (yes this is annoying, but I don't think it's currently possible to do this automatically.).</li>  </ul>
+    <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro. Important note: do NOT import your .ydk file to your YGOPRODeck collection, as it will overwrite any duplicate cards you drafted.</li>
+    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img></li>  </ul>
   <p>
     Last updated: 16 October 2022
   </p>
