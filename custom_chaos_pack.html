@@ -11,7 +11,8 @@
 </head>
 
 <style>
-  p.outro {text-align: left;}
+  button#draftButton {visibility: hidden;}
+  p.intro {text-align: left;}
 </style>
 
 <body>
@@ -24,6 +25,8 @@
     });
 
     const custom_sets = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Dephts (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)', "Draft Complete!"];
+    formatted_sets = custom_sets.slice(0, -1)
+    formatted_sets = formatted_sets.sort()
     const num_of_sets = custom_sets.length;
     var drafted_cards = new Set();
     var number_drafted = 0;
@@ -31,6 +34,9 @@
     var chosen_name = null;
     var chosen_card = null; // The card to be drafted.
     var cards_in_pack = new Array();
+    var setnum = 0;
+    var selected_set = null;
+    var pack_open = false; // Is a pack already open?
 
     class YGO_Card {
       constructor(cardname, id, rarity, set, code, isExtra) {
@@ -218,8 +224,10 @@
         console.log(escaped_name)
 
         x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("', '").concat(escaped_name).concat("')"));
-
+        
+        //document.body.insertBefore(dv, document.getElementById("break"));
         document.getElementById("pack").appendChild(dv);
+
         dv.appendChild(x);
         dv.appendChild(rarity);
       }
@@ -262,10 +270,11 @@
     // TODO: change hidden to display: none
     function draft(){
       if (chosen_id != null) {
-        // Update number of cards drafted
-        number_drafted++;
-        document.getElementById("setHeader").innerHTML = custom_sets[number_drafted];
-        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
+        document.getElementById("setHeader").style.visibility = "hidden";
+        document.getElementById("draftButton").style.visibility = "hidden";
+
+        //document.getElementById("setHeader").innerHTML = custom_sets[number_drafted];
+        //document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
 
         drafted_cards.add(chosen_card);
         display_card_image(chosen_id, chosen_name);
@@ -282,13 +291,7 @@
         for (dv of document.getElementsByClassName("div")) {
           dv.style.display = "none";
         }
-
-        if (number_drafted < num_of_sets) {
-          cards_in_pack = get_pack(custom_sets[number_drafted]);
-          for (pack_card of cards_in_pack) {
-            display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
-          }
-        }
+        pack_open = false;
       }
     }
     
@@ -366,33 +369,85 @@
 
       link.click();
     };
+
+    function display_set_radio(setname, setnum){
+      var input = document.createElement("INPUT");
+      input.setAttribute("name", "set");
+      input.setAttribute("type", "radio");
+      input.setAttribute("class", "radio")
+      input.setAttribute("id", setname);
+      var label = document.createElement("LABEL");
+      label.setAttribute("for", setname);
+      label.innerHTML = setname;
+      var brk = document.createElement("BR");
+      document.getElementById("radiosForm").appendChild(input);
+      document.getElementById("radiosForm").appendChild(label);
+      document.getElementById("radiosForm").appendChild(brk);
+    };
+
+    function open_pack(){
+      if (!pack_open) {
+        pack_open = true;
+        radios = document.getElementsByClassName("radio");
+        document.getElementById("setHeader").style.visibility = "visible";
+        for(var radio in radios) {
+          if (radios[radio].checked == true) {
+            document.getElementById("setHeader").innerHTML = formatted_sets[radio];
+            console.log(selected_set)
+            var x = document.createElement("H1");
+            x.innerHTML=formatted_sets[radio];
+            //document.getElementById("pack").appendChild(x);
+            //document.body.insertBefore(x, document.getElementById("break"));
+            cards_in_pack = get_pack(formatted_sets[radio]);
+            for (pack_card of cards_in_pack) {
+              display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
+            }
+            document.getElementById("draftButton").style.visibility = "visible";
+          }
+        }
+      }
+    }
   </script>
 
-  <h1 id="setHeader"><script>document.write(custom_sets[0])</script></h1>
+  <h1>Single Pack Draft</h1>
+  <p class="intro">Choose a set to draft, then click "Open Selected Set".</p>
+  <p class="intro">Random set wheel: <a href="https://tinyurl.com/bpsda35b">https://tinyurl.com/bpsda35b</a></p>
+  <p class="intro">Setlists: <a href="https://docs.google.com/spreadsheets/d/1kGX_W_aO9-OqlZ7Bye2oNd-nkjrxIN-Jb6z5j83FabE/">https://docs.google.com/spreadsheets/d/1kGX_W_aO9-OqlZ7Bye2oNd-nkjrxIN-Jb6z5j83FabE/</a></p>
+  <form id="radiosForm">
+    <script>
+      // Every pack except "Draft Complete!"
+      for (var formatted_set in formatted_sets) {
+        display_set_radio(formatted_sets[formatted_set], formatted_set);
+      }
+    </script>
+    <br/>
+  </form>
+
+  <button type="button" onclick="open_pack()">Open Selected Set</button>
+  <h1 id="setHeader"></h1>
+
   <div id="pack"></div>
 
   <br id="break"></br>
   <div style="text-align: center;">
     <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
   </div>
-  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets - 1)</script>)</h1>
+  <h1 id="deckHeader">Drafted Cards</h1>
   <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
-  <script>
+  <!--<script>
     cards_in_pack = get_pack(custom_sets[number_drafted]);
     for (pack_card of cards_in_pack) {
       display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
     }
-  </script>
+  </script>-->
   <h2>To view your drafted cards later:</h2>
   <ul>
     <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro. Important note: do NOT import your .ydk file to your YGOPRODeck collection, as it will overwrite any duplicate cards you drafted.</li>
     <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png"></img></li>  </ul>
-  <h2>To do your three choice drafts:</h2>
-  <p class="outro">You can go to <a href="https://ygoprodeck.com/pack-sim/">https://ygoprodeck.com/pack-sim/</a> or <a href="custom_chaos_pack.html">https://ek488.github.io/ygo_limited/custom_chaos_pack.html</a>.</p>
   <p>
-    Last updated: 16 October 2022
+    Last updated: 17 October 2022
   </p>
   <!--TODO: Replace with footer partial-->
   <footer>  

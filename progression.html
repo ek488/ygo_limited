@@ -489,7 +489,7 @@
         input.setAttribute("class", "checkbox SEVENS")
       }
       var label = document.createElement("LABEL");
-      label.setAttribute("for", "checkbox");
+      label.setAttribute("for", setname);
       label.innerHTML = setname;
       var brk = document.createElement("BR");
       document.getElementById("checkboxesForm").appendChild(input);
@@ -548,15 +548,17 @@
 
   <h2 id=highestRarity>Only the highest rarity card in each pack is shown.</h2>
   <br id="break"></br>
-  <br id="download_break"></br>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
   <!--TODO: Replace with footer partial-->
   <footer>  
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
         <li><a href="https://discord.gg/kvUF4QfCZ9">Chaos Draft Discord</a></li>
+        <li><a href="chaos.html">Chaos Draft Simulator</a></li>
+        <li><a href="custom_chaos.html">Custom Chaos Draft Simulator</a></li>
+        <li><a href="custom_chaos_pack.html">Custom Chaos Single Pack Draft</a></li>
+        <li><a href="progression.html">Progression Series Simulator</a></li>
       </ul>
     </nav>
   </footer>
