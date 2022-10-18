@@ -44,5 +44,5 @@ Number 56: Gold Rat
 Number 84: Pain Gainer
 Number 80: Rhapsody in Berserk
 Star Staring Starling
-Level Warrior
+Number F0: Utopic Future
 Galaxy Queen's Light

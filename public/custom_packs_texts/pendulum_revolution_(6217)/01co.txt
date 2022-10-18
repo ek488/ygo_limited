@@ -1,5 +1,5 @@
 Battle Ox
-Aqua Madoor
+Magicalibra
 Mad Lobster
 Fossil Tusker
 Queen's Bodyguard
@@ -15,7 +15,7 @@ Chivalry
 Fuhma Wave
 Super Rush Headlong
 Dust Tornado
-Dimension Slice
+Foucault's Cannon
 Dispatchparazzi
 Underclock Taker
 Cynet Regression
@@ -31,7 +31,7 @@ Black Fang Magician
 Odd-Eyes Raging Dragon
 All-Eyes Phantom Dragon
 Black Ptera
-Old Mind
+Sea Dragoons of Draconia
 Performage Damage Juggler
 Amazing Pendulum
 Magician of Hope
