@@ -47,10 +47,8 @@
       //}
     }
 
-    // TODO: address tokens
     function get_setlist(setname, rarity){
       var setlist = new Array();
-      var total_weight;
 
       // Change the name to match the format of the json filenames"
       var formatted_setname = setname.toLowerCase().replaceAll(' ', '_');
@@ -102,7 +100,7 @@
       for (i = 0; i < n; i++) {
         temp = Math.floor(Math.random() * common_setlist.length);
         pack_card = common_setlist[temp];
-        // Reroll the card if it's already in the pack.
+        // Reroll the card if it's already in the pack. TODO: more efficient method
         while (pack_cards.includes(pack_card)) {
           temp = Math.floor(Math.random() * common_setlist.length);
           pack_card = common_setlist[temp];
@@ -118,6 +116,7 @@
     }
 
     function get_pack(setname){
+      const total_weight = 200;
       var setlist = new Array();
 
       var pack_cards = [];
@@ -139,17 +138,15 @@
       }
 
       // custom booster
-      r = Math.floor(Math.random() * 200) + 1;
+      r = Math.floor(Math.random() * total_weight) + 1;
       // TODO: generalize
       if (r <= 151) {
-        console.log("8 commons, 1 rare");
         // 8 Commons
         pack_cards = get_commons(temp_common_setlist, 8);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
       }
       else if (r >= 152 && r <= 177) {
-        console.log("7 commons, 1 rare, 1 super rare");
         // 7 Commons
         pack_cards = get_commons(temp_common_setlist, 7);
         // 1 Rare
@@ -158,7 +155,6 @@
         pack_cards.push(get_rare(setname, "Super_Rare"));
       }
       else if (r >= 178 && r <= 194) {
-        console.log("7 commons, 1 rare, 1 ultra rare");
         // 7 Commons
         pack_cards = get_commons(temp_common_setlist, 7);
         // 1 Rare
@@ -167,7 +163,6 @@
         pack_cards.push(get_rare(setname, "Ultra_Rare"));
       }
       else {
-        console.log("7 commons, 1 rare, 1 secret rare");
         // 7 Commons
         pack_cards = get_commons(temp_common_setlist, 7);
         // 1 Rare
@@ -215,7 +210,6 @@
         
         // Add the escape character before quotation marks so that onclick will function.
         var escaped_name = cardname.replace("'", "\\'")
-        console.log(escaped_name)
 
         x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("', '").concat(escaped_name).concat("')"));
 
