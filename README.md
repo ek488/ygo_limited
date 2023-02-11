@@ -1,6 +1,6 @@
 # ygo_limited
 
-Site for Yu-Gi-Oh! Chaos Drafting. (Plans to implement Cube Drafting, Custom Sets, and Progression Series pulls.)
+Site for Yu-Gi-Oh! Chaos Drafting.
 
 # Credits
 
