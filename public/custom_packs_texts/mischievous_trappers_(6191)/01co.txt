@@ -9,8 +9,8 @@ Ghostrick Fairy
 Ghostrick Lantern
 Ghostrick Shot
 Ghostrick Yuki-onna
-Welcome Labrynth
-Farewelcome Labrynth
+Ghostrick Alucard
+Giant Trap Hole
 Labrynth Barrage
 Dark Mirror Force
 Swarm of Scarabs
@@ -26,7 +26,7 @@ Tindangle Angel
 Tiki Soul
 Tiki Curse
 Shapesister
-Qardan the Great Sage
+Qardan the Clear-Sighted
 Mimesis Elephant
 Traptrix Atrax
 Traptrix Cularia

@@ -11,23 +11,23 @@ Unmasked Dragon
 Danipon
 Howling Insect
 Gokipon
-Therion Discolosseum
+Gladiator Beast's Battle Halberd
 Therion "Empress" Alasia
 Therion "Bull" Ain
 Nemeses Umbrella
 Nemeses Flag
-Koa'ki Meiru Sandman
-Koa'ki Meiru Wall
-Core Transport Unit
-Koa'ki Meiru Crusader
-Koa'ki Meiru Boulder
-Koa'ki Meiru Bergzak
-Koa'ki Meiru Beetle
-Iron Core of Koa'ki Meiru
+Kazejin
+Suijin
+Sanga of the Thunder
+Vanquish Soul - Pluton HG
+Vanquish Soul - Dr. Madlove
+Gold Pride - Captain Carrie
+Shadow Ghoul of the Labyrinth
+Vanquish Soul Dust Devil
 Dogoran, the Mad Flame Kaiju
 Radian, the Multidimensional Kaiju
 Gladiator Beast Noxious
-Test Ape
+Labyrinth Wall
 Gladiator Beast Lanista
 Gladiator Beast's Comeback
 Gladiator Beast Vespasius
@@ -39,7 +39,7 @@ Harr, Generaider Boss of Storms
 Frodi, Generaider Boss of Swords
 Mardel, Generaider Boss of Light
 Beat, Bladesman Fur Hire
-Rex, Cargo Fur Hire
+Rex, Freight Fur Hire
 Filo, Messenger Fur Hire
 Bravo, Fighter Fur Hire
 Dyna, Hero Fur Hire

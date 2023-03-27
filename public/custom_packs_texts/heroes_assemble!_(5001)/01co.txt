@@ -8,7 +8,7 @@ Blindly Loyal Goblin
 Samurai Sword Baron
 Reinforce Truth
 Necro Fusion
-Polymerization
+Hero Blast
 Fusion Sage
 Evil HERO Infernal Prodigy
 Vision HERO Faris
@@ -41,7 +41,7 @@ Phantom Magician
 Dark City
 Destiny Draw
 Destiny Signal
-Destiny HERO - Dark Angel
+D Cubed
 Destiny HERO - Blade Master
 Masked HERO Vapor
 Mask Change II

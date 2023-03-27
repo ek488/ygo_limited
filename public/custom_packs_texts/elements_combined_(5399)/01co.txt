@@ -1,9 +1,9 @@
-Koa'ki Meiru Ice
-Koa'ki Meiru Gravirose
-Koa'ki Meiru Prototype
-Koa'ki Meiru Urnight
-Diamond Core of Koa'ki Meiru
-Iron Core Immediate Disposal
+Gate Guardian of Wind and Water
+Gate Guardian of Water and Thunder
+Gate Guardian of Thunder and Wind
+Vanquish Soul - Heavy Borger
+Vanquish Soul - Razen
+Fengli the Soldrapom
 Gadarla, the Mystery Dust Kaiju
 Kumongous, the Sticky String Kaiju
 Gladiator Proving Ground
@@ -16,7 +16,7 @@ Gladiator Beast Attorix
 Gladiator Beast Andal
 Test Tiger
 Generaider Boss Fight
-Nidhogg, Generaider Boss of Ice
+Kyoutou Waterfront
 Utgarda, Generaider Boss of Delusion
 Loptr, Shadow of the Generaider Bosses
 Donpa, Marksman Fur Hire
@@ -28,8 +28,8 @@ Helmer, Helmsman Fur Hire
 Crusadia Draco
 Crusadia Arboria
 Crusadia Reclusia
-Koa'ki Meiru Overload
-Koa'ki Meiru Guardian
+Gold Pride - Leon
+Vanquish Soul Continue
 Nemeses Keystone
 Therion "Duke" Yul
 Therion "Reaper" Fum

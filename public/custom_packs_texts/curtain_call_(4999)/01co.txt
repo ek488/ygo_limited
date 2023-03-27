@@ -35,7 +35,7 @@ Gendo the Ascetic Monk
 The Thing in the Crater
 Shield Worm
 Sorcerous Spell Wall
-Card of the Soul
+The Transmigration Prophecy
 Harmonic Waves
 Grave Protector
 Prickle Fairy
@@ -45,4 +45,4 @@ Abyss Script - Abysstainment
 Abyss Prop - Wild Wagon
 Abyss Actor - Funky Comedian
 Abyss Actor - Evil Heel
-Pot of Benevolence
+Tornado Bird

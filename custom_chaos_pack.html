@@ -24,10 +24,10 @@
       async: false
     });
 
-    const custom_sets = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Dephts (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)', "Draft Complete!"];
-    formatted_sets = custom_sets.slice(0, -1)
+    const CUSTOM_PACKS = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Dephts (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)', "Draft Complete!"];
+    formatted_sets = CUSTOM_PACKS.slice(0, -1)
     formatted_sets = formatted_sets.sort()
-    const num_of_sets = custom_sets.length;
+    const num_of_sets = CUSTOM_PACKS.length;
     var drafted_cards = new Set();
     var number_drafted = 0;
     var chosen_id = null; // The id of the card to be drafted.
@@ -128,7 +128,7 @@
 
       var pack_cards = [];
       
-      var pos = custom_sets.indexOf(setname);
+      var pos = CUSTOM_PACKS.indexOf(setname);
       
       var common_setlist = get_setlist(setname, "Common");
       var short_print_setlist = get_setlist(setname, "Short_Print");
@@ -273,7 +273,7 @@
         document.getElementById("setHeader").style.visibility = "hidden";
         document.getElementById("draftButton").style.visibility = "hidden";
 
-        //document.getElementById("setHeader").innerHTML = custom_sets[number_drafted];
+        //document.getElementById("setHeader").innerHTML = CUSTOM_PACKS[number_drafted];
         //document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
 
         drafted_cards.add(chosen_card);
@@ -437,7 +437,7 @@
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
   <!--<script>
-    cards_in_pack = get_pack(custom_sets[number_drafted]);
+    cards_in_pack = get_pack(CUSTOM_PACKS[number_drafted]);
     for (pack_card of cards_in_pack) {
       display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
     }

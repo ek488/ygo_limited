@@ -26,23 +26,33 @@
         ["cardname", "cardq", "cardid", "cardrarity", "cardcondition", "card_edition", "cardset", "cardcode"],
       ]; // TODO: is the comma at the end necessary?
     var draftedCards = new Set();
-    var chosenCard = null; // The YGOCard to be drafted.
+    var chosenCard = null; // The most recently selected YGOCard in the pack.
+    // The YGOCards in the most recently opened pack. They are ordered by 
+    // rarity in ascending order.
     var cardsInPack = new Array();
 
     class YGOCard {
-      // TODO: #cardname
+      // TODO: consider private fields
+      // TODO: consider more fields, like isDrafted, isInPack, etc.
+      cardname;
+      // The password printed on the bottom-left corner of the card.
+      id;
+      rarity;
+      set;
+      code;
+      // Whether the card is an Extra Deck Monster, i.e., whether it is a 
+      // Fusion, Synchro, Xyz, or Link Monster
+      isExtra;
       constructor(cardname, id, rarity, set, code, isExtra) {
         this.cardname = cardname; // TODO: Change cardname to cardName
-        // The password printed on the bottom-left corner of the card.
         this.id = id;
         this.rarity = rarity;
         this.set = set;
         this.code = code;
-         // Whether the card is an Extra Deck Monster, i.e., whether it is a 
-         // Fusion, Synchro, Xyz, or Link monster
         this.isExtra = isExtra;
       }
-      // TODO
+      // TODO: getters--no setters for only read access? -- not getters at all 
+      // b/c not field manipulation
       //get cardname() {
       //  return this.cardname;
       //}
@@ -52,7 +62,7 @@
       //}
     }
 
-    // Gives an array of all the cards of a given rarity in a given pack
+    // Give an array of all the cards of a given rarity in a given pack.
     function getSetlist(setname, rarity){
       var setlist = new Array();
 
@@ -121,7 +131,7 @@
     }
 
     // TODO
-    function get_rare(setname, rarity){
+    function getRare(setname, rarity){
       setlist = getSetlist(setname, rarity);
       return setlist[Math.floor(Math.random() * setlist.length)];
     }
@@ -157,32 +167,32 @@
           // 8 Commons
           pack_cards = getCommons(temp_common_setlist, 8);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
         }
         else if (r >= 930 && r <= 1205) { // 0.2
           console.log("7 commons, 1 rare, 1 super rare");
           // 7 Commons
           pack_cards = getCommons(temp_common_setlist, 7);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
           // 1 Super Rare
-          pack_cards.push(get_rare(setname, "Super_Rare"));
+          pack_cards.push(getRare(setname, "Super_Rare"));
         }
         else if (r >= 1206 && r <= 1320) { // ~0.08333
           console.log("7 commons, 1 rare, 1 ultra rare");
           // 7 Commons
           pack_cards = getCommons(temp_common_setlist, 7);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
           // 1 Ultra Rare
-          pack_cards.push(get_rare(setname, "Ultra_Rare"));
+          pack_cards.push(getRare(setname, "Ultra_Rare"));
         }
         else { // ~0.04347
           console.log("7 commons, 1 rare, 1 secret or ultimate rare");
           // 7 Commons
           pack_cards = getCommons(temp_common_setlist, 7);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
           // 1 Secret or Ultimate Rare
           var secret_setlist = getSetlist(setname, "Secret_Rare");
           var ultimate_setlist = getSetlist(setname, "Ultimate_Rare");
@@ -213,16 +223,16 @@
           // 8 Commons
           pack_cards = getCommons(temp_common_setlist, 8);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
         }
         else if (r >= 925 && r <= 1200) {
           console.log("7 commons, 1 rare, 1 super rare");
           // 7 Commons
           pack_cards = getCommons(temp_common_setlist, 7);
           // 1 Rare
-          pack_cards.push(get_rare(setname, "Rare"));
+          pack_cards.push(getRare(setname, "Rare"));
           // 1 Super Rare
-          pack_cards.push(get_rare(setname, "Super_Rare"));
+          pack_cards.push(getRare(setname, "Super_Rare"));
         }
         else if (r >= 1201 && r <= 1315) {
           console.log("7 commons, 1 rare, 1 ultra rare");
@@ -560,7 +570,7 @@
       }
     }
 
-    function display_card_image(card, is_pack_card=false, r=null){
+    function display_card_image(card, isPackCard=false, r=null){
       cardID = card.id
       cardName = card.cardname
       var x = document.createElement("IMG");
@@ -569,15 +579,15 @@
       if (cardName != null) {
         x.setAttribute("title", cardName);
       }
-      if (cardsInPack.length <= 10 & is_pack_card) {
+      if (cardsInPack.length <= 10 & isPackCard) {
         x.setAttribute("height", 301);
         x.setAttribute("width", 206);
       }
-      else if (cardsInPack.length > 10 & cardsInPack.length <= 15 & is_pack_card) {
+      else if (cardsInPack.length > 10 & cardsInPack.length <= 15 & isPackCard) {
         x.setAttribute("height", 242);
         x.setAttribute("width", "auto");
       }
-      else if (cardsInPack.length > 15 & is_pack_card) {
+      else if (cardsInPack.length > 15 & isPackCard) {
         x.setAttribute("height", 197);
         x.setAttribute("width", "auto");
       }
@@ -586,7 +596,7 @@
         x.setAttribute("height", 156);
         x.setAttribute("width", "auto");
       }
-      if (is_pack_card) {
+      if (isPackCard) {
         var rarity = document.createElement("P");
         rarity.innerHTML = r
         rarity.setAttribute("class", "rarity");
@@ -634,7 +644,6 @@
           }
         }
         else {
-          chosenID = null;
           chosenCard = null;
         }
       } catch (_) {
@@ -648,7 +657,6 @@
           pack_card_img.style.border = "8px solid green";
         }
       }
-
     }
 
     // TODO: change hidden to display: none
@@ -684,7 +692,7 @@
       }
     }
     
-    function download_csv_collection(){
+    function downloadCSV(){
       var rows = CSV_HEADERS;
       var deck_cards = Array.from(draftedCards);
 
@@ -704,15 +712,15 @@
           rarity = "Common";
         }
 
-        // Make a random cardcode
-        cardcode = ""
-        // Four random characters
-        cardcode = cardcode + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)]
-        cardcode = cardcode + '-'
-        // Six random characters
-        cardcode = cardcode + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)]
+        // Make a random card code
+        var cardCode = ""
+        // Four random characters before the dash
+        cardCode = cardCode + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)]
+        cardCode = cardCode + '-'
+        // Six random characters after the dash
+        cardCode = cardCode + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)] + characterArray[Math.floor(Math.random() * numOfCharacters)]
 
-        rows.push([cardname, "1", card.id, rarity, "M", "Unlimited", card.set, cardcode])
+        rows.push([cardname, "1", card.id, rarity, "M", "Unlimited", card.set, cardCode])
       }
 
       var csvContent = "";
@@ -779,7 +787,7 @@
 -->
   <br id="download_break">
   <br>
-  <button type="button" onclick="download_csv_collection()">Download .csv file</button>
+  <button type="button" onclick="downloadCSV()">Download .csv file</button>
   <button type="button" onclick="download_ydk()">Download .ydk file</button>
   <script>
     cardsInPack = get_pack(PACKS[draftedCards.size]);
@@ -789,13 +797,13 @@
   </script>
   <h2>To view your drafted cards later:</h2>
   <ul>
-    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png" alt='The location of the "Upload .CSV/.YDK file" is circled.'></li>
+    <li>Important note: YGOPRODeck's Import CSV function is currently bugged--download a .ydk file instead. You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click this circled icon: <img src="public/images/import_csv.png" alt='The location of the "Upload .CSV/.YDK file" is circled.'></li>
     <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro. Important note: do NOT import your .ydk file to your YGOPRODeck collection, as it will overwrite any duplicate cards you drafted.</li>
   </ul>
   <p>
     Last updated: 10 February 2023
   </p>
-  <footer>
+  <footer>  
     <nav>
       <ul>
         <li><a href="https://discord.gg/kvUF4QfCZ9">Chaos Draft Discord</a></li>

@@ -32,7 +32,7 @@ Qliphort Carrier
 Qliphort Disk
 Qlife's End
 Rescue-ACE Impulse
-Rescue-ACE Air Hoister
+Rescue-ACE Air Lifter
 Rescue-ACE Fire Attacker
 Rescue-ACE Hydrant
 Super Quantum Blue Layer

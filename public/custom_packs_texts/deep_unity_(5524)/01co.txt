@@ -27,7 +27,7 @@ Predaplant Byblisp
 Predaplant Darlingtonia Cobra
 Predaplant Chlamydosundew
 Predaplant Pterapenthes
-Predaplant Ambulomelides
+Prohibition
 Predaplant Bufolicula
 Predaplant Sarraceniant
 Dyna Base
@@ -40,7 +40,7 @@ Magicat
 Magical Android
 Tearlaments Havnis
 Tearlaments Merrli
-Tearlaments Reinoheart
+Patissciel Couverture
 Punch-in-the-Box
 Fusion Reserve
 Blockout Curtain
