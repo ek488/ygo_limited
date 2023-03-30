@@ -3,18 +3,13 @@ import os
 #from os import path
 from urllib.request import Request, urlopen
 
-#custom_cardname_set = {"Ballista Squad", "Black Brachios", "Book of Moon", "Breakthrough Skill", "Compulsory Evacuation Device", "Dust Knight", "Fabled Soulkius", "Giant Rat", "Kelbek", "Mecha Phantom Beast Blackfalcon", "Miracle's Wake", "Poseidon Wave", "Raigeki Break", "Tackle Crusader", "Upstart Goblin", "Winged Rhynos"}
-
-error_name_cards = set()
+error_name_cards = set() # Cards that do not share a name with a card in cardinfo.json
 
 def get_ygoprodeck_json(cardname):
     req = Request("https://db.ygoprodeck.com/api/v7/cardinfo.php?name=" + cardname.replace(" ", "%20"), headers={'User-Agent': 'Mozilla/5.0'})
     ygoprodeck_json = json.loads((urlopen(req).read().decode()))
     time.sleep(0.2)
     return ygoprodeck_json
-
-def get_id(cardname):
-    return get_ygoprodeck_json(cardname)["data"][0]["id"]
 
 # For example, "A" Cell Breeding Device is at position 0 in cardinfo.json.
 def get_id_from_json(json, position = 0):
@@ -26,8 +21,14 @@ def get_name_from_json(json, position = 0):
 def get_type_from_json(json, position = 0):
     return json["data"][position]["type"]
 
-def get_image_url(cardname):
-    return get_ygoprodeck_json(cardname)["data"][0]["card_images"][0]["image_url"]
+def get_desc_from_json(json, position = 0):
+    return json["data"][position]["desc"]
+
+def get_tcg_date_from_json(json, position = 0):
+    try:
+        return json["data"][position]["misc_info"][0]["tcg_date"]
+    except:
+        return None
 
 def get_image_url_from_json(json, position = 0):
     print(json["data"][position]["card_images"][0]["image_url"]) #debug
@@ -99,9 +100,15 @@ def write_custom_set_rarity(custom_set_name, filename_rarity):
 
     ygoprodeck_json_data = ygoprodeck_json["data"]
 
-    def get_card_position(card):
+    new_f = open('newcardinfo.json')
+
+    new_ygoprodeck_json = json.load(new_f)
+
+    new_ygoprodeck_json_data = new_ygoprodeck_json["data"]
+
+    def get_card_position(card, json_data):
         counter = 0
-        for card_info in ygoprodeck_json_data:                
+        for card_info in json_data:                
             if card_info["name"] == card or card_info["name"].encode().decode() == card: # encode for Live★Twins, etc.
                 return counter
 
@@ -111,8 +118,10 @@ def write_custom_set_rarity(custom_set_name, filename_rarity):
 
     for custom_set_card in custom_set:
         card_attributes = {}
-        pos = get_card_position(custom_set_card)
-        print(custom_set_card)
+        pos = get_card_position(custom_set_card, ygoprodeck_json_data)
+        new_pos = get_card_position(custom_set_card, new_ygoprodeck_json_data)
+        #print(custom_set_card)
+
         try:
             id = get_id_from_json(ygoprodeck_json, pos)
             card_attributes.update({"id": id})
@@ -121,6 +130,31 @@ def write_custom_set_rarity(custom_set_name, filename_rarity):
             
             # Downloads the image from the id
             image_filename = str(id) + ".jpg"
+
+            if get_desc_from_json(ygoprodeck_json, pos) != get_desc_from_json(new_ygoprodeck_json, new_pos):
+                if (get_tcg_date_from_json(new_ygoprodeck_json, new_pos) != None):
+                    if (int(get_tcg_date_from_json(new_ygoprodeck_json, new_pos)[0:4]) <= 2021): # does this part actually work?
+                        image_url = get_image_url_from_json(new_ygoprodeck_json, new_pos)
+                        time.sleep(2)
+                        #urllib.request.urlretrieve(image_url, "public/images/custom_card_images/" + image_filename)
+                        
+                        headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11',
+                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                        'Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3',
+                        'Accept-Encoding': 'none',
+                        'Accept-Language': 'en-US,en;q=0.8',
+                        'Connection': 'keep-alive'}
+
+                        request_= urllib.request.Request(image_url,None,headers) #The assembled request
+                        response = urllib.request.urlopen(request_)# store the response
+                        #create a new file and write the image
+                        f = open('public/images/custom_card_images/' + image_filename,'wb')
+                        f.write(response.read())
+                        f.close()
+
+                        print(get_name_from_json(new_ygoprodeck_json, new_pos) + "(" + str(id) + ") image downloaded.")
+                        time.sleep(2)
+            
             if not os.path.exists("public/images/custom_card_images/" + image_filename):
                 image_url = get_image_url_from_json(ygoprodeck_json, pos)
                 time.sleep(2)
@@ -176,7 +210,7 @@ for custom_set in custom_sets:
         write_custom_set_rarity(custom_set, rarity)
         pass
 
-with open("cardname_error.txt", "w") as outfile:
+with open("cardname_error.txt", "w", encoding="utf-8") as outfile:
     for card in error_name_cards:
         outfile.write(card)
         outfile.write('\n')

@@ -184,7 +184,22 @@
       return pack_cards;
     }
 
+    // https://stackoverflow.com/a/25467363
+    function getWidthOfText(txt, fontname, fontsize) {
+      if (getWidthOfText.c === undefined) {
+        getWidthOfText.c=document.createElement('canvas');
+        getWidthOfText.ctx=getWidthOfText.c.getContext('2d');
+      }
+      var fontspec = fontsize + ' ' + fontname;
+      if (getWidthOfText.ctx.font !== fontspec) {
+        getWidthOfText.ctx.font = fontspec;
+      }
+      return getWidthOfText.ctx.measureText(txt).width;
+    }    
+
     function display_card_image(id, cardname=null, is_pack_card=false, r=null){
+      cardName = cardname;
+      cardID = id;
       var x = document.createElement("IMG");
       x.setAttribute("src", "public/images/custom_card_images/".concat(id).concat(".jpg"));
       x.setAttribute("alt", id);
@@ -209,26 +224,53 @@
         x.setAttribute("width", "auto");
       }
       if (is_pack_card) {
+        displayedName = cardName;
+
+        while (getWidthOfText(displayedName.concat(" • ").concat(r), "Helvetica", "14px") > 206) {
+          shortenedName = displayedName.substring(0, displayedName.length - 4)
+          displayedName = shortenedName.concat("...") // remove the last character of the name
+        }
+
+        var displayName = document.createElement("P");
+        displayName.innerHTML = displayedName;
+
+        var yugipediaLink = document.createElement("A");
+        var linkText = document.createTextNode(displayedName);
+        yugipediaLink.appendChild(linkText);
+        yugipediaLink.title = cardName.concat(" - Yugipedia - Yu-Gi-Oh! wiki");
+
+        var formattedID = cardID.toString();
+        // Prepends 0's if the length of the ID is shorter than 8
+        if (formattedID.length < 8) {
+          formattedID = "0".repeat(8 - formattedID.length).concat(cardID.toString());
+        }
+
+        yugipediaLink.href = "https://yugipedia.com/wiki/".concat(formattedID);
+        yugipediaLink.target = "_blank" // Opens the link in a new tab
+        yugipediaLink.style.display = "inline-block";
+
         var rarity = document.createElement("P");
-        rarity.innerHTML = r
+        rarity.innerHTML = " • ".concat(r);
         rarity.setAttribute("class", "rarity");
+        rarity.style.display = "inline-block";
+        //rarity.style.position = "static";
+        //rarity.style.left = "50%"
+        //rarity.style.transform = "translateX(15px)";
 
         var dv = document.createElement("DIV");
         dv.setAttribute("class", "div");
-        dv.setAttribute("style", "display:inline-block");
+        dv.style.display = "inline-block";
+        dv.style.textAlign = "center";
 
-        x.setAttribute("class", "pack ".concat(id));
-        
-        // Add the escape character before quotation marks so that onclick will function.
-        var escaped_name = cardname.replace("'", "\\'")
-        console.log(escaped_name)
+        x.setAttribute("class", "pack ".concat(cardID));
+        x.style.display = "block";
 
-        x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("', '").concat(escaped_name).concat("')"));
-        
-        //document.body.insertBefore(dv, document.getElementById("break"));
+        x.setAttribute("onclick", "choose_card('".concat(String(cardID)).concat("', '").concat("')"));
+
         document.getElementById("pack").appendChild(dv);
-
         dv.appendChild(x);
+
+        dv.appendChild(yugipediaLink);
         dv.appendChild(rarity);
       }
       else {
@@ -434,8 +476,8 @@
   </div>
   <h1 id="deckHeader">Drafted Cards</h1>
   <br id="download_break"></br>
-  <button type="button" onclick="download_ydk()">Download .ydk file</button>
-  <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
+  <button type="button" onclick="downloadCSV()">Download .csv file for YGOPRODeck Collection</button>
+  <button type="button" onclick="download_ydk()">Download .ydk file (do NOT import this file to your YGOPRODeck Collection)</button>
   <!--<script>
     cards_in_pack = get_pack(CUSTOM_PACKS[number_drafted]);
     for (pack_card of cards_in_pack) {
@@ -444,7 +486,7 @@
   </script>-->
   <h2>To view your drafted cards later:</h2>
   <ul>
-    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. To import it, go that page and make an account. After that, click "Tools" then click "Upload .CSV/.YDK".</li>
+    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click "Tools" then click "Upload .CSV/.YDK".</li>
     <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro. Important note: do NOT import your .ydk file to your YGOPRODeck collection, as it will overwrite any duplicate cards you drafted.</li>
   </ul>
   <!--TODO: Replace with footer partial-->

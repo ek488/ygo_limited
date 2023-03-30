@@ -4,18 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Chaos Draft</title>
-  <link rel="icon" type="image/x-icon" href="public/images/phantom_of_chaos.png"/>
-  <link rel="stylesheet" type="text/css" href="public/styles/all.css" media="all"/>
+  <link rel="icon" type="image/x-icon" href="public/images/phantom_of_chaos.png">
+  <link rel="stylesheet" type="text/css" href="public/styles/all.css" media="all">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
   </script>
 </head>
 
-<style>
-  p.outro {text-align: left;}
-</style>
-
 <body>
-  <script type="text/javascript">
+  <script>
     window.onbeforeunload = function() {
       return true; // Prevents accidental navigation away
     };
@@ -23,27 +19,46 @@
       async: false
     });
 
-    const custom_sets = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Depths (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)', "Draft Complete!"];
-    const num_of_sets = custom_sets.length;
-    var drafted_cards = new Set();
-    var number_drafted = 0;
-    var chosen_id = null; // The id of the card to be drafted.
-    var chosen_name = null;
-    var chosen_card = null; // The card to be drafted.
-    var cards_in_pack = new Array();
+    // TODO: Remove "Draft Complete!"
+    const PACKS = ['Fiery Encore (4997)','Curtain Call (4999)','Heroes Assemble! (5001)',"Heroes' Clash (5002)",'Clash of the Zefras (5007)',"Zefras' Might (5008)",'Bright Night (5017)','Mythic Constellation (5018)','Words and Numbers (5077)','Utopic Creations (5084)',"@I'm sorry, @I can't do that (5122)",'Digitalive (6160)',"Magistus' Origin (5125)",'Clash of the Institutions (5127)','Autonomous Assembly (5275)','Mindless Determinism (5276)','Armies of the Sky and the Earth (5186)','Heroic Clash (5187)','Sect Gathering (5198)','Miscellaneous Rituals (5201)','Adventurous Journey (5229)','The New Normal (5230)','Outlandish Tales (5257)','Unfamiliar Threats (5258)',"Tinkerer's Workshop (5277)",'Masters of Improvisation (5278)','Accelerated Synchronization (5289)','Storm of Battle (5290)','Icy Kingdoms (5293)','Absolute Zero (5294)','Elemental Force (5335)','Dangerous Variety (5336)','Elements Combined (5399)','Protagonists and Nemeses (5401)','Storm of Darkness (5406)','Birds of the Night (5405)','Dangerous Excavation (5453)','Living Minerals (5454)','Carnivorous Cooperation (5523)','Deep Unity (5524)','Dragon Riders (5528)','Beasts and Tamers (5529)','Dutybound Fighters (5553)',"Mercenaries' Honor (5554)",'Ferocious Dance (5561)','Feral Planet (5562)','Guardians of the Afterlife (5614)','Mesmerizing Undead (5615)','Burning Will (5639)','Molten Devastation (5640)','Danger in the Outer Depths (5649)','Danger in the Inner Dephts (5650)','Plants of the Mythical Forest (5715)','Insects of the Mythical Forest (5717)','Beasts of the Mythical Forest (5718)','Tales and Legends - Prologue (5751)','Tales and Legends - Climax (5752)','Tales and Legends - Epilogue (5753)','Celestial Forces (5762)','Angelic Armies (5763)','Chaos Enforcement (5774)','Infernal Banishment (5775)','Reign of the Underworld (5833)',"Devil's Bargain (5834)",'Cybernetic Support Force (6019)','Automated Sabotage (6020)','Meteoric Explosions (6180)','Jurassic Beasts Evolved (6181)','Wrath from the Heavens (6084)','Sparking Resistance (6085)','Sudden Ambush (6188)','Mischievous Trappers (6191)','Orbital Subjugation (6198)','Mindhacked Timeflow (6199)','Chosen Signs (6201)','Cosmic Particles (6202)','Eternal Rivals (6212)',"Duelists' Kingdoms (6213)","Destinie's Coin Flip (6214)","Life's Gamble (6215)",'Magical Summons (6216)','Pendulum Revolution (6217)', "Draft Complete!"];
+    const NUM_OF_PACKS = PACKS.length;
+    const CSV_HEADERS = [
+        ["cardname", "cardq", "cardid", "cardrarity", "cardcondition", "card_edition", "cardset", "cardcode"],
+      ]; // TODO: is the comma at the end necessary?
+    var draftedCards = new Set();
+    var chosenCard = null; // The most recently selected YGOCard in the pack.
+    // The YGOCards in the most recently opened pack. They are ordered by 
+    // rarity in ascending order.
+    var cardsInPack = new Array();
 
-    class YGO_Card {
+    class YGOCard {
+      // TODO: consider private fields
+      // TODO: consider more fields, like isDrafted, isInPack, etc.
+      cardname;
+      // The password printed on the bottom-left corner of the card.
+      id;
+      rarity;
+      set;
+      code;
+      // Whether the card is an Extra Deck Monster, i.e., whether it is a 
+      // Fusion, Synchro, Xyz, or Link Monster
+      isExtra;
       constructor(cardname, id, rarity, set, code, isExtra) {
-        this.cardname = cardname;
+        this.cardname = cardname; // TODO: Change cardname to cardName
         this.id = id;
         this.rarity = rarity;
         this.set = set;
         this.code = code;
         this.isExtra = isExtra;
       }
-      // TODO
+      // TODO: getters--no setters for only read access? -- not getters at all 
+      // b/c not field manipulation
+      //get cardname() {
+      //  return this.cardname;
+      //}
+
       //get id() {
-        //return this.id;
+      //  return this.id;
       //}
     }
 
@@ -55,36 +70,43 @@
 
       try {
         var set_json;
-        var json_link = "https://ek488.github.io/ygo_limited/public/json_files/custom_set_rarity/"
+        var jsonLink = "https://ek488.github.io/ygo_limited/public/json_files/custom_set_rarity/"
         .concat(formatted_setname).concat("_").concat(rarity.toLowerCase().replaceAll('_', ' '))
         .concat(".json");
 
-        $.getJSON(json_link, function(data) {
+        $.getJSON(jsonLink, function(data) {
           set_json = data;
         });
 
         for (card in set_json.data) {
+          let cardData = set_json.data[card];
+          let cardType = cardData.type;
+
           var code;
-          var sjd = set_json.data[card];
-          var isExtra = false;
-          if (sjd.type == "Fusion Monster" || sjd.type == "Synchro Monster" || 
-          sjd.type == "Synchro Tuner Monster" || 
-          sjd.type == "Synchro Pendulum Effect Monster" || 
-          sjd.type == "XYZ Monster" || 
-          sjd.type == "XYZ Pendulum Effect Monster" || 
-          sjd.type == "Link Monster" || 
-          sjd.type == "Pendulum Effect Fusion Monster") {
-            isExtra = true;
-          }
-          for (s in sjd.card_sets) {
-            if (sjd.card_sets[s].set_name == setname) {
-              code = sjd.card_sets[s].set_code;
+          for (s in cardData.card_sets) {
+            if (cardData.card_sets[s].set_name == setname) {
+              code = cardData.card_sets[s].set_code;
             }
           }
-          var ygo_card = new YGO_Card(sjd.name, sjd.id, 
+
+          let isExtra = cardType == "Fusion Monster" || 
+          cardType == "Synchro Monster" || 
+          cardType == "Synchro Tuner Monster" || 
+          cardType == "Synchro Pendulum Effect Monster" || 
+          cardType == "XYZ Monster" || 
+          cardType == "XYZ Pendulum Effect Monster" || 
+          cardType == "Link Monster" || 
+          cardType == "Pendulum Effect Fusion Monster";
+
+          for (s in cardType.card_sets) {
+            if (cardType.card_sets[s].set_name == setname) {
+              code = cardType.card_sets[s].set_code;
+            }
+          }
+          let ygoCard = new YGOCard(cardData.name, cardData.id, 
           rarity.replaceAll("_", " "), setname, code, isExtra);
 
-          setlist.push(ygo_card);
+          setlist.push(ygoCard);
         }
       }
       // If the set has no cards of this rarity, return null.
@@ -116,47 +138,34 @@
     }
 
     function get_pack(setname){
-      const total_weight = 200;
+      const TOTAL_WEIGHT = 200;
+      const R = Math.floor(Math.random() * TOTAL_WEIGHT) + 1;
+
       var setlist = new Array();
 
       var pack_cards = [];
       
-      var pos = custom_sets.indexOf(setname);
+      var pos = PACKS.indexOf(setname);
       
       var common_setlist = get_setlist(setname, "Common");
-      var short_print_setlist = get_setlist(setname, "Short_Print");
-      var super_short_print_setlist = get_setlist(setname, "Super_Short_Print");
-      var temp_common_setlist = null
-      if (common_setlist != null) {
-        temp_common_setlist = common_setlist;
-      }
-      if (short_print_setlist != null) {
-        temp_common_setlist = temp_common_setlist.concat(short_print_setlist);
-      }
-      if (super_short_print_setlist != null) {
-        temp_common_setlist = temp_common_setlist.concat(super_short_print_setlist);
-      }
 
-      // custom booster
-      r = Math.floor(Math.random() * total_weight) + 1;
-      // TODO: generalize
-      if (r <= 151) {
+      if (R <= 151) {
         // 8 Commons
-        pack_cards = get_commons(temp_common_setlist, 8);
+        pack_cards = get_commons(common_setlist, 8);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
       }
-      else if (r >= 152 && r <= 177) {
+      else if (R >= 152 && R <= 177) {
         // 7 Commons
-        pack_cards = get_commons(temp_common_setlist, 7);
+        pack_cards = get_commons(common_setlist, 7);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
         // 1 Super Rare
         pack_cards.push(get_rare(setname, "Super_Rare"));
       }
-      else if (r >= 178 && r <= 194) {
+      else if (R >= 178 && R <= 194) {
         // 7 Commons
-        pack_cards = get_commons(temp_common_setlist, 7);
+        pack_cards = get_commons(common_setlist, 7);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
         // 1 Ultra Rare
@@ -164,7 +173,7 @@
       }
       else {
         // 7 Commons
-        pack_cards = get_commons(temp_common_setlist, 7);
+        pack_cards = get_commons(common_setlist, 7);
         // 1 Rare
         pack_cards.push(get_rare(setname, "Rare"));
         // 1 Secret Rare
@@ -173,22 +182,37 @@
       return pack_cards;
     }
 
-    function display_card_image(id, cardname=null, is_pack_card=false, r=null){
-      var x = document.createElement("IMG");
-      x.setAttribute("src", "public/images/custom_card_images/".concat(id).concat(".jpg"));
-      x.setAttribute("alt", id);
-      if (cardname != null) {
-        x.setAttribute("title", cardname);
+    // https://stackoverflow.com/a/25467363
+    function getWidthOfText(txt, fontname, fontsize) {
+      if (getWidthOfText.c === undefined) {
+        getWidthOfText.c=document.createElement('canvas');
+        getWidthOfText.ctx=getWidthOfText.c.getContext('2d');
       }
-      if (cards_in_pack.length <= 10 & is_pack_card) {
+      var fontspec = fontsize + ' ' + fontname;
+      if (getWidthOfText.ctx.font !== fontspec) {
+        getWidthOfText.ctx.font = fontspec;
+      }
+      return getWidthOfText.ctx.measureText(txt).width;
+    }
+
+    function display_card_image (card, is_pack_card=false, r=null) {
+      cardID = card.id;
+      cardName = card.cardname;
+      var x = document.createElement("IMG");
+      x.setAttribute("src", "public/images/custom_card_images/".concat(cardID).concat(".jpg"));
+      x.setAttribute("alt", cardID);
+      if (cardName != null) {
+        x.setAttribute("title", cardName);
+      }
+      if (cardsInPack.length <= 10 & is_pack_card) {
         x.setAttribute("height", 301);
         x.setAttribute("width", 206);
       }
-      else if (cards_in_pack.length > 10 & cards_in_pack.length <= 15 & is_pack_card) {
+      else if (cardsInPack.length > 10 & cardsInPack.length <= 15 & is_pack_card) {
         x.setAttribute("height", 242);
         x.setAttribute("width", "auto");
       }
-      else if (cards_in_pack.length > 15 & is_pack_card) {
+      else if (cardsInPack.length > 15 & is_pack_card) {
         x.setAttribute("height", 197);
         x.setAttribute("width", "auto");
       }
@@ -198,23 +222,53 @@
         x.setAttribute("width", "auto");
       }
       if (is_pack_card) {
+        displayedName = cardName;
+
+        while (getWidthOfText(displayedName.concat(" • ").concat(r), "Helvetica", "14px") > 206) {
+          shortenedName = displayedName.substring(0, displayedName.length - 4)
+          displayedName = shortenedName.concat("...") // remove the last character of the name
+        }
+
+        var displayName = document.createElement("P");
+        displayName.innerHTML = displayedName;
+
+        var yugipediaLink = document.createElement("A");
+        var linkText = document.createTextNode(displayedName);
+        yugipediaLink.appendChild(linkText);
+        yugipediaLink.title = cardName.concat(" - Yugipedia - Yu-Gi-Oh! wiki");
+
+        var formattedID = cardID.toString();
+        // Prepends 0's if the length of the ID is shorter than 8
+        if (formattedID.length < 8) {
+          formattedID = "0".repeat(8 - formattedID.length).concat(cardID.toString());
+        }
+
+        yugipediaLink.href = "https://yugipedia.com/wiki/".concat(formattedID);
+        yugipediaLink.target = "_blank" // Opens the link in a new tab
+        yugipediaLink.style.display = "inline-block";
+
         var rarity = document.createElement("P");
-        rarity.innerHTML = r
+        rarity.innerHTML = " • ".concat(r);
         rarity.setAttribute("class", "rarity");
+        rarity.style.display = "inline-block";
+        //rarity.style.position = "static";
+        //rarity.style.left = "50%"
+        //rarity.style.transform = "translateX(15px)";
 
         var dv = document.createElement("DIV");
         dv.setAttribute("class", "div");
-        dv.setAttribute("style", "display:inline-block");
+        dv.style.display = "inline-block";
+        dv.style.textAlign = "center";
 
-        x.setAttribute("class", "pack ".concat(id));
-        
-        // Add the escape character before quotation marks so that onclick will function.
-        var escaped_name = cardname.replace("'", "\\'")
+        x.setAttribute("class", "pack ".concat(cardID));
+        x.style.display = "block";
 
-        x.setAttribute("onclick", "choose_card('".concat(String(id)).concat("', '").concat(escaped_name).concat("')"));
+        x.setAttribute("onclick", "choose_card('".concat(String(cardID)).concat("', '").concat("')"));
 
         document.getElementById("pack").appendChild(dv);
         dv.appendChild(x);
+
+        dv.appendChild(yugipediaLink);
         dv.appendChild(rarity);
       }
       else {
@@ -234,38 +288,49 @@
       }
       chosen_name = name.replace("\\'", "'")
 
-      // TODO: remove chosen_id, replace with chosen_card.id
       // If the clicked card had a border already, don't add a border.
-      if (chosen_id != id) {
-        chosen_id = id;
-        for (card in cards_in_pack) {
-          if (cards_in_pack[card].id == id) {
-            chosen_card = cards_in_pack[card];
+      try {
+        var chosenID = chosenCard.id;
+        if (chosenID != id) {
+          chosenID = id;
+          for (card in cardsInPack) {
+            if (cardsInPack[card].id == id) {
+              chosenCard = cardsInPack[card];
+            }
+          }
+          for (pack_card_img of document.getElementsByClassName(id)) {
+            pack_card_img.style.border = "8px solid green";
+          }
+        }
+        else {
+          chosenCard = null;
+        }
+      } catch (_) {
+        var chosenID = id;    
+        for (card in cardsInPack) {
+          if (cardsInPack[card].id == id) {
+            chosenCard = cardsInPack[card];
           }
         }
         for (pack_card_img of document.getElementsByClassName(id)) {
           pack_card_img.style.border = "8px solid green";
         }
       }
-      else {
-        chosen_id = null;
-        chosen_card = null;
-      }
     }
 
     // TODO: change hidden to display: none
     function draft(){
-      if (chosen_id != null) {
-        // Update number of cards drafted
-        number_drafted++;
-        document.getElementById("setHeader").innerHTML = custom_sets[number_drafted];
-        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(number_drafted.toString()).concat("/").concat(num_of_sets - 1).concat(")");
+      if (chosenCard.id != null) {
+        draftedCards.add(chosenCard);
+        display_card_image(chosenCard);
 
-        drafted_cards.add(chosen_card);
-        display_card_image(chosen_id, chosen_name);
-        chosen_card = null;
-        chosen_id = null;
-        chosen_name = null;
+        numDrafted = draftedCards.size;
+
+        // Update number of cards drafted
+        document.getElementById("setHeader").innerHTML = PACKS[numDrafted]; // Update the set name in the header
+        document.getElementById("deckHeader").innerHTML = "Drafted Cards (".concat(numDrafted.toString()).concat("/").concat(NUM_OF_PACKS - 1).concat(")");
+
+        chosenCard = null;
 
         for (pack_card_img of document.getElementsByClassName("pack")) {
           pack_card_img.display = "none";
@@ -277,17 +342,70 @@
           dv.style.display = "none";
         }
 
-        if (number_drafted < num_of_sets) {
-          cards_in_pack = get_pack(custom_sets[number_drafted]);
-          for (pack_card of cards_in_pack) {
-            display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
+        if (numDrafted < NUM_OF_PACKS) {
+          cardsInPack = get_pack(PACKS[numDrafted]);
+          for (pack_card of cardsInPack) {
+            display_card_image(pack_card, true, pack_card.rarity);
           }
         }
       }
     }
-    
+
+    function downloadCSV(){
+      var rows = CSV_HEADERS;
+      var deck_cards = Array.from(draftedCards);
+
+      // TODO: Change to const?
+      let characterArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+      // TODO: Change to const?
+      let numOfCharacters = characterArray.length;
+
+      for (card_number in deck_cards){
+        card = deck_cards[card_number];
+        var cardname = card.cardname;
+        // If CARDNAME has a comma, surround CARDNAME with quotation marks
+        if (cardname.includes(",")) {
+          cardname = '"'.concat(cardname).concat('"');
+        }
+        var rarity = card.rarity;
+        if (card.rarity == "Short Print" || card.rarity == "Super Short Print") {
+          rarity = "Common";
+        }
+        var cardset = card.set
+        if (cardset.includes(",")) {
+          cardset = '"'.concat(cardset).concat('"');
+        }
+
+        // Make a random cardcode
+        var cardCode = ""
+
+        // Four random characters before the dash
+        cardCode = cardCode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
+        cardCode = cardCode + '-'
+        // Six random characters after the dash
+        cardCode = cardCode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
+
+        rows.push([cardname, "1", rarity, "M", "Unlimited", cardset, cardCode, card.id])
+      }
+
+      var csvContent = "";
+      
+      rows.forEach(function(rowArray) {
+        let row = rowArray.join(",");
+        csvContent += row + "\r\n";
+      });
+
+      var encodedUri = encodeURIComponent("\uFEFF" + csvContent);
+      var link = document.createElement("a");
+      link.setAttribute("href", "data:text/csv;charset=utf-8," + encodedUri);
+      link.setAttribute("download", "chaos_collection.csv");
+      document.body.appendChild(link);
+
+      link.click();
+    }
+
     function download_ydk(){
-      var deck_cards = Array.from(drafted_cards);
+      var deck_cards = Array.from(draftedCards);
       var ydk = "#created by ...\n#main"
       var extra = ""
 
@@ -308,84 +426,35 @@
       document.body.appendChild(ydk_download);
 
       ydk_download.click();
-    }
-
-    function download_csv_collection(){
-      const rows = [
-        ["cardname", "cardq", "cardrarity", "cardcondition", "card_edition", "cardset", "cardcode", "cardid"],
-      ];
-      var deck_cards = Array.from(drafted_cards);
-
-      for (card_number in deck_cards){
-        card = deck_cards[card_number];
-        var cardname = card.cardname;
-        // If CARDNAME has a comma, surround CARDNAME with quotation marks
-        if (cardname.includes(",")) {
-          cardname = '"'.concat(cardname).concat('"');
-        }
-        var rarity = card.rarity;
-        if (card.rarity == "Short Print" || card.rarity == "Super Short Print") {
-          rarity = "Common";
-        }
-        var cardset = card.set
-        if (cardset.includes(",")) {
-          cardset = '"'.concat(cardset).concat('"');
-        }
-
-        // Make a random cardcode to make it extremely unlikely to have duplicate cardcodes
-        const characterArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-        cardcode = ""
-
-        // Four random characters
-        cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
-        cardcode = cardcode + '-'
-        // Six random characters
-        cardcode = cardcode + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)] + characterArray[Math.floor(Math.random() * characterArray.length)]
-
-        rows.push([cardname, "1", rarity, "M", "Unlimited", cardset, cardcode, card.id])
-      }
-
-      let csvContent = "";
-      
-      rows.forEach(function(rowArray) {
-        let row = rowArray.join(",");
-        csvContent += row + "\r\n";
-      });
-
-      var encodedUri = encodeURIComponent("\uFEFF" + csvContent);
-      var link = document.createElement("a");
-      link.setAttribute("href", "data:text/csv;charset=utf-8," + encodedUri);
-      link.setAttribute("download", "chaos_collection.csv");
-      document.body.appendChild(link);
-
-      link.click();
     };
   </script>
 
-  <h1 id="setHeader"><script>document.write(custom_sets[0])</script></h1>
+  <h1 id="setHeader"><script>document.write(PACKS[0])</script></h1>
   <div id="pack"></div>
+  
 
-  <br id="break"></br>
   <div style="text-align: center;">
     <button id="draftButton" type="button" onclick="draft()">Draft Selected Card</button>
   </div>
-  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(num_of_sets - 1)</script>)</h1>
-  <br id="download_break"></br>
-  <button type="button" onclick="download_ydk()">Download .ydk file</button>
-  <button type="button" onclick="download_csv_collection()">Download YGOPRODeck Collection .csv file</button>
+  <h1 id="deckHeader">Drafted Cards (0/<script>document.write(NUM_OF_PACKS - 1)</script>)</h1>
+
+  <br id="download_break">
+  <br>
+  <button type="button" onclick="downloadCSV()">Download .csv file for YGOPRODeck Collection</button>
+  <button type="button" onclick="download_ydk()">Download .ydk file (do NOT import this file to YGOPRODeck)</button>
   <script>
-    cards_in_pack = get_pack(custom_sets[number_drafted]);
-    for (pack_card of cards_in_pack) {
-      display_card_image(pack_card.id, pack_card.cardname, true, pack_card.rarity);
+    cardsInPack = get_pack(PACKS[draftedCards.size]);
+    for (pack_card of cardsInPack) {
+      display_card_image(pack_card, true, pack_card.rarity);
     }
   </script>
   <h2>To view your drafted cards later:</h2>
   <ul>
-    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. To import it, go that page and make an account. After that, click "Tools" then click "Upload .CSV/.YDK".</li>
+    <li>You can add your .csv file to a virtual collection on <a href="https://db.ygoprodeck.com/collection/">https://db.ygoprodeck.com/collection/</a>. To import it, go that page and make an account. After that, click "Tools" then click "Upload .CSV/.YDK".</li>
     <li>You can view your .ydk file on <a href="https://ygoprodeck.com/card-database/deck-prices/">https://ygoprodeck.com/card-database/deck-prices/</a>, <a href="https://yugiohdeck.github.io/">https://yugiohdeck.github.io/</a>, or EDOPro. Important note: do NOT import your .ydk file to your YGOPRODeck collection, as it will overwrite any duplicate cards you drafted.</li>
   </ul>
   <h2>To do your three choice drafts:</h2>
-  <p class="outro">You can go to <a href="https://ygoprodeck.com/pack-sim/">https://ygoprodeck.com/pack-sim/</a> or <a href="custom_chaos_pack.html">https://ek488.github.io/ygo_limited/custom_chaos_pack.html</a>.</p>
+  <p id="outro">You can go to <a href="https://ygoprodeck.com/pack-sim/">https://ygoprodeck.com/pack-sim/</a> or <a href="custom_chaos_pack.html">https://ek488.github.io/ygo_limited/custom_chaos_pack.html</a>.</p>
   <!--TODO: Replace with footer partial-->
   <footer>  
     <nav>

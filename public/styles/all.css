@@ -12,6 +12,7 @@ button {
   font-weight: bold;
   font-size: 9pt;
   outline: none;
+  margin-top: 5px;
 }
 
 button:hover {
@@ -26,23 +27,23 @@ button:active {
 }
 
 header {
-    background-color: #8a7183;
-    padding: 5px 10px 5px 10px;
-  }
+  background-color: #8a7183;
+  padding: 5px 10px 5px 10px;
+}
 
 footer {
-    background-color: #8a7183;
-    padding: 5px 10px 5px 10px;
-  }
+  background-color: #8a7183;
+  padding: 5px 10px 5px 10px;
+}
 
 footer a {
   color: white;
 }
 
 nav li {
-    padding: 20px;
-    display: inline;
-  }
+  padding: 20px;
+  display: inline;
+}
 
 #setHeader {
   text-align: center;
@@ -50,7 +51,7 @@ nav li {
 
 #pack {
   width: 1162px;
-  height: 664px;
+  /*height: 664px;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,10 +60,15 @@ nav li {
   font-size: 18px;
 }
 
+#outro {
+  text-align: left;
+}
+
 p {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
+  white-space: pre; /* Doesn't remove spaces at the beginning for rarities.*/
 }
 
 .pack {
@@ -70,11 +76,11 @@ p {
     margin-right: 5px;
     margin-left: 5px;
     cursor: pointer;
-    -webkit-transition: -webkit-transform 0.3s;
-    transition: transform 0.3s;
+    -webkit-transition: -webkit-transform 0.175s;
+    transition: transform 0.175s;
 }
 
 .pack:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
